@@ -1,0 +1,58 @@
+[
+  {
+    "id": "TM-001",
+    "teamId": "TEAM-001",
+    "personnelId": "PER-002",
+    "createdAt": "2025-01-15T11:15:00",
+    "deleted": true
+  },
+  {
+    "id": "TM-002",
+    "teamId": "TEAM-001",
+    "personnelId": "PER-003",
+    "createdAt": "2025-01-15T11:16:00",
+    "deleted": true
+  },
+  {
+    "id": "TM-003",
+    "teamId": "TEAM-002",
+    "personnelId": "PER-003",
+    "createdAt": "2025-01-15T11:17:00",
+    "deleted": true
+  },
+  {
+    "id": "TM-004",
+    "teamId": "TEAM-003",
+    "personnelId": "PER-004",
+    "createdAt": "2025-01-15T11:18:00",
+    "deleted": true
+  },
+  {
+    "id": "TM-8FC85EBB",
+    "teamId": "TEAM-001",
+    "personnelId": "PER-004",
+    "createdAt": "2026-01-18T05:06:56.793968",
+    "deleted": true
+  },
+  {
+    "id": "TM-A3B21EFE",
+    "teamId": "TEAM-A04E29E7",
+    "personnelId": "PER-001",
+    "createdAt": "2026-01-18T05:36:11.722724",
+    "deleted": true
+  },
+  {
+    "id": "TM-F58D5AAE",
+    "teamId": "TEAM-002",
+    "personnelId": "PER-001",
+    "createdAt": "2026-01-28T01:03:43.191080",
+    "deleted": true
+  },
+  {
+    "id": "TM-5F0F03B2",
+    "teamId": "TEAM-002",
+    "personnelId": "PER-621FCF98",
+    "createdAt": "2026-01-29T16:49:14.064575",
+    "deleted": false
+  }
+]

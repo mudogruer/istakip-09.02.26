@@ -1,0 +1,6 @@
+[
+  { "id": "REQ-901", "requester": "Atölye", "item": "Lake Boya (Beyaz)", "qty": 15, "status": "Onay bekliyor", "neededDate": "2025-12-27" },
+  { "id": "REQ-902", "requester": "Montaj", "item": "Menteşe Soft-Close", "qty": 80, "status": "Onaylandı", "neededDate": "2025-12-25" },
+  { "id": "REQ-903", "requester": "Üretim", "item": "MDF 18mm", "qty": 60, "status": "Reddedildi", "neededDate": "2025-12-24" }
+]
+

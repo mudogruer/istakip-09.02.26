@@ -1,0 +1,77 @@
+[
+  {
+    "id": "CLR-0184248B",
+    "name": "BEYAZ",
+    "code": "3"
+  },
+  {
+    "id": "CLR-A89C76C3",
+    "name": "ANTİKMEŞE",
+    "code": "3143"
+  },
+  {
+    "id": "CLR-78D20CAD",
+    "name": "ANTİKMEŞE",
+    "code": "1143"
+  },
+  {
+    "id": "CLR-3E230E55",
+    "name": "WİNCHESTER",
+    "code": "3109"
+  },
+  {
+    "id": "CLR-688A0C29",
+    "name": "WİNCHESTER",
+    "code": "1109"
+  },
+  {
+    "id": "CLR-06AB52AC",
+    "name": "ALTINMEŞE",
+    "code": "3110"
+  },
+  {
+    "id": "CLR-2DFA60ED",
+    "name": "ALTINMEŞE",
+    "code": "1110"
+  },
+  {
+    "id": "CLR-25FE52CF",
+    "name": "FINDIK",
+    "code": "3154"
+  },
+  {
+    "id": "CLR-8A3714C5",
+    "name": "FINDIK",
+    "code": "1154"
+  },
+  {
+    "id": "CLR-CD0D7FEB",
+    "name": "VİZON",
+    "code": "3454"
+  },
+  {
+    "id": "CLR-75856C2D",
+    "name": "VİZON",
+    "code": "1454"
+  },
+  {
+    "id": "CLR-1355CFD0",
+    "name": "ANTRASİTGRİ",
+    "code": "3072"
+  },
+  {
+    "id": "CLR-E19A91B5",
+    "name": "ANTRASİTGRİ",
+    "code": "1072"
+  },
+  {
+    "id": "CLR-E86B85E9",
+    "name": "KÜLSİYAHI",
+    "code": "3921"
+  },
+  {
+    "id": "CLR-07029CDD",
+    "name": "KÜLSİYAHI",
+    "code": "1921"
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "FOLDER-ISLER",
+    "name": "İş Belgeleri",
+    "icon": "assignment",
+    "color": "#3b82f6",
+    "type": "system",
+    "category": "jobs",
+    "description": "İşlere ait tüm belgeler (ölçü, teknik, sözleşme vb.)",
+    "isSystem": true,
+    "order": 1
+  },
+  {
+    "id": "FOLDER-SIRKET",
+    "name": "Şirket Belgeleri",
+    "icon": "business",
+    "color": "#10b981",
+    "type": "system",
+    "category": "company",
+    "description": "Şirket geneli belgeler",
+    "isSystem": true,
+    "order": 2,
+    "subfolders": [
+      {"id": "FOLDER-ARACLAR", "name": "Araçlar", "icon": "drive_eta", "color": "#f59e0b"},
+      {"id": "FOLDER-MAKINELER", "name": "Makineler", "icon": "precision_manufacturing", "color": "#8b5cf6"},
+      {"id": "FOLDER-OFIS", "name": "Ofis", "icon": "store", "color": "#ec4899"},
+      {"id": "FOLDER-GENEL", "name": "Genel", "icon": "folder", "color": "#6b7280"}
+    ]
+  },
+  {
+    "id": "FOLDER-TEDARIKCILER",
+    "name": "Tedarikçi Belgeleri",
+    "icon": "groups",
+    "color": "#f97316",
+    "type": "system",
+    "category": "suppliers",
+    "description": "Tedarikçilere ait belgeler",
+    "isSystem": true,
+    "order": 3
+  }
+]

@@ -1,0 +1,6 @@
+[
+  { "id": "INV-5501", "customer": "Mert İç Mimarlık", "type": "Fatura", "amount": "₺240,000", "date": "2025-12-22", "status": "Taslak" },
+  { "id": "INV-5502", "customer": "Luna Home", "type": "İrsaliye", "amount": "₺120,000", "date": "2025-12-21", "status": "Kesildi" },
+  { "id": "INV-5503", "customer": "Nova Yapı", "type": "Fatura", "amount": "₺95,000", "date": "2025-12-20", "status": "Gönderildi" }
+]
+

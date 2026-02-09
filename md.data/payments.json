@@ -1,0 +1,6 @@
+[
+  { "id": "PAY-701", "kind": "Tahsilat", "description": "Nova Yapı avans", "amount": "₺50,000", "date": "2025-12-22", "method": "Havale" },
+  { "id": "PAY-702", "kind": "Ödeme", "description": "HingePro aksesuar", "amount": "₺28,600", "date": "2025-12-21", "method": "Kredi Kartı" },
+  { "id": "PAY-703", "kind": "Tahsilat", "description": "Luna Home ara ödeme", "amount": "₺40,000", "date": "2025-12-20", "method": "Nakit" }
+]
+

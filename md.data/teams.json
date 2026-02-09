@@ -1,0 +1,38 @@
+[
+  {
+    "id": "TEAM-001",
+    "ad": "Üretim Ekibi",
+    "aciklama": "PVC pencere ve kapı üretimi ekibi",
+    "aktifMi": true,
+    "createdAt": "2025-01-15T11:00:00",
+    "updatedAt": "2025-01-15T11:00:00",
+    "deleted": false
+  },
+  {
+    "id": "TEAM-002",
+    "ad": "Montaj Ekibi",
+    "aciklama": "Müşteri lokasyonlarında montaj yapan ekip",
+    "aktifMi": true,
+    "createdAt": "2025-01-15T11:05:00",
+    "updatedAt": "2025-01-15T11:05:00",
+    "deleted": false
+  },
+  {
+    "id": "TEAM-003",
+    "ad": "Kalite Kontrol",
+    "aciklama": "Ürün kalite kontrol ekibi",
+    "aktifMi": true,
+    "createdAt": "2025-01-15T11:10:00",
+    "updatedAt": "2025-01-15T11:10:00",
+    "deleted": false
+  },
+  {
+    "id": "TEAM-A04E29E7",
+    "ad": "Ekip 1",
+    "aciklama": "Üretimden sorumlu",
+    "aktifMi": true,
+    "createdAt": "2026-01-18T05:36:01.706840",
+    "updatedAt": "2026-01-18T05:36:01.706840",
+    "deleted": false
+  }
+]

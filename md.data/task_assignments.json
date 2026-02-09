@@ -1,0 +1,102 @@
+[
+  {
+    "id": "TA-001",
+    "taskId": "TSK-204",
+    "assigneeType": "personnel",
+    "assigneeId": "PER-002",
+    "assignedBy": "PER-001",
+    "note": "Aciliyet var",
+    "active": true,
+    "createdAt": "2025-01-16T08:00:00",
+    "deleted": false
+  },
+  {
+    "id": "TA-002",
+    "taskId": "TSK-205",
+    "assigneeType": "team",
+    "assigneeId": "TEAM-002",
+    "assignedBy": "PER-001",
+    "note": "",
+    "active": true,
+    "createdAt": "2025-01-16T09:00:00",
+    "deleted": false
+  },
+  {
+    "id": "TA-003",
+    "taskId": "TSK-206",
+    "assigneeType": "personnel",
+    "assigneeId": "PER-003",
+    "assignedBy": "PER-001",
+    "note": "",
+    "active": true,
+    "createdAt": "2025-01-16T10:00:00",
+    "deleted": false
+  },
+  {
+    "id": "TA-004",
+    "taskId": "TSK-207",
+    "assigneeType": "personnel",
+    "assigneeId": "PER-004",
+    "assignedBy": "PER-001",
+    "note": "Tamamlandı",
+    "active": false,
+    "createdAt": "2025-01-15T14:00:00",
+    "endedAt": "2025-01-21T17:00:00",
+    "deleted": false
+  },
+  {
+    "id": "TA-C98CC731",
+    "taskId": "TSK-204",
+    "assigneeType": "personnel",
+    "assigneeId": "PER-001",
+    "assignedBy": null,
+    "note": "",
+    "active": true,
+    "createdAt": "2026-01-18T05:54:49.395640",
+    "deleted": false
+  },
+  {
+    "id": "TA-FBBEDA73",
+    "taskId": "TSK-206",
+    "assigneeType": "team",
+    "assigneeId": "TEAM-001",
+    "assignedBy": null,
+    "note": "",
+    "active": true,
+    "createdAt": "2026-01-18T05:55:04.331275",
+    "deleted": false
+  },
+  {
+    "id": "TA-4FC15B84",
+    "taskId": "TSK-207",
+    "assigneeType": "team",
+    "assigneeId": "TEAM-002",
+    "assignedBy": null,
+    "note": "",
+    "active": true,
+    "createdAt": "2026-01-18T05:55:11.351253",
+    "deleted": false
+  },
+  {
+    "id": "TA-21E3039C",
+    "taskId": "TSK-207",
+    "assigneeType": "personnel",
+    "assigneeId": "PER-001",
+    "assignedBy": null,
+    "note": "",
+    "active": true,
+    "createdAt": "2026-01-18T05:55:19.642216",
+    "deleted": false
+  },
+  {
+    "id": "TA-BCC5BFC4",
+    "taskId": "TSK-78AA3A93",
+    "assigneeType": "team",
+    "assigneeId": "TEAM-001",
+    "assignedBy": null,
+    "note": "",
+    "active": true,
+    "createdAt": "2026-01-18T05:56:01.679886",
+    "deleted": false
+  }
+]

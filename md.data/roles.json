@@ -1,0 +1,68 @@
+[
+  {
+    "id": "ROL-001",
+    "ad": "admin",
+    "aciklama": "Yönetici - Tüm yetkilere sahip",
+    "permissions": [
+      "*"
+    ],
+    "aktifMi": true,
+    "createdAt": "2025-01-15T09:00:00",
+    "updatedAt": "2025-01-15T09:00:00",
+    "deleted": false
+  },
+  {
+    "id": "ROL-002",
+    "ad": "manager",
+    "aciklama": "Müdür - Görev/personel/ekip yönetimi",
+    "permissions": [
+      "tasks.*",
+      "personnel.*",
+      "teams.*",
+      "tasks.view"
+    ],
+    "aktifMi": true,
+    "createdAt": "2025-01-15T09:05:00",
+    "updatedAt": "2025-01-15T09:05:00",
+    "deleted": false
+  },
+  {
+    "id": "ROL-003",
+    "ad": "user",
+    "aciklama": "Kullanıcı - Kendi görevlerini görür/günceller",
+    "permissions": [
+      "tasks.view.own",
+      "tasks.update.own",
+      "personnel.view.limited"
+    ],
+    "aktifMi": true,
+    "createdAt": "2025-01-15T09:10:00",
+    "updatedAt": "2025-01-15T09:10:00",
+    "deleted": false
+  },
+  {
+    "id": "ROL-4C0C1F25",
+    "ad": "müdür",
+    "aciklama": "",
+    "permissions": [
+      "*",
+      "tasks.*",
+      "personnel.view",
+      "teams.create",
+      "tasks.view",
+      "tasks.create",
+      "tasks.update",
+      "personnel.update",
+      "personnel.create",
+      "teams.update",
+      "teams.view",
+      "teams.*",
+      "personnel.*",
+      "tasks.delete"
+    ],
+    "aktifMi": true,
+    "createdAt": "2026-01-18T06:03:03.032000",
+    "updatedAt": "2026-01-18T06:03:03.032000",
+    "deleted": false
+  }
+]

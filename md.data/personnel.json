@@ -1,0 +1,80 @@
+[
+  {
+    "id": "PER-001",
+    "ad": "Murat",
+    "soyad": "Poyraz",
+    "email": "muratpoyraz@example.com",
+    "telefon": "+90 555 111 2233",
+    "unvan": "Üretim/Montaj Sorumlusu",
+    "aktifMi": true,
+    "rolId": "ROL-003",
+    "createdAt": "2025-01-15T10:00:00",
+    "updatedAt": "2026-02-08T01:25:05.208898",
+    "deleted": false
+  },
+  {
+    "id": "PER-002",
+    "ad": "Evren",
+    "soyad": "Bilgili",
+    "email": "evrenbilgili@example.com",
+    "telefon": "+90 555 222 3344",
+    "unvan": "Proje Müdürü",
+    "aktifMi": true,
+    "rolId": "ROL-002",
+    "createdAt": "2025-01-15T10:05:00",
+    "updatedAt": "2026-02-08T01:24:00.755530",
+    "deleted": false
+  },
+  {
+    "id": "PER-003",
+    "ad": "Mehmet",
+    "soyad": "Demir",
+    "email": "mehmet.demir@example.com",
+    "telefon": "+90 555 333 4455",
+    "unvan": "Montaj Ustası",
+    "aktifMi": false,
+    "rolId": "ROL-003",
+    "createdAt": "2025-01-15T10:10:00",
+    "updatedAt": "2026-02-08T01:25:26.444815",
+    "deleted": true
+  },
+  {
+    "id": "PER-004",
+    "ad": "Zeynep",
+    "soyad": "Şahin",
+    "email": "zeynep.sahin@example.com",
+    "telefon": "+90 555 444 5566",
+    "unvan": "Kalite Kontrol",
+    "aktifMi": false,
+    "rolId": "ROL-003",
+    "createdAt": "2025-01-15T10:15:00",
+    "updatedAt": "2026-01-18T05:08:16.039518",
+    "deleted": false
+  },
+  {
+    "id": "PER-005",
+    "ad": "Can",
+    "soyad": "Arslan",
+    "email": "can.arslan@example.com",
+    "telefon": "+90 555 555 6677",
+    "unvan": "Satış Temsilcisi",
+    "aktifMi": false,
+    "rolId": "ROL-003",
+    "createdAt": "2025-01-15T10:20:00",
+    "updatedAt": "2026-02-08T01:25:17.153238",
+    "deleted": true
+  },
+  {
+    "id": "PER-621FCF98",
+    "ad": "BEKİR",
+    "soyad": "ALTAN",
+    "email": "AA@aa.com",
+    "telefon": "",
+    "unvan": "MONTAJ USTASI",
+    "aktifMi": true,
+    "rolId": "ROL-003",
+    "createdAt": "2026-01-29T16:48:58.044449",
+    "updatedAt": "2026-01-29T16:48:58.044449",
+    "deleted": false
+  }
+]

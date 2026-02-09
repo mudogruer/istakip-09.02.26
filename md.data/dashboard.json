@@ -1,0 +1,38 @@
+{
+  "stats": [
+    { "id": "activeJobs", "label": "Aktif İşler", "value": 24, "change": "↑ 3 bu hafta", "trend": "positive", "icon": "💼", "tone": "primary" },
+    { "id": "completedJobs", "label": "Tamamlanan İşler", "value": 156, "change": "↑ 12 bu ay", "trend": "positive", "icon": "✓", "tone": "success" },
+    { "id": "pendingTasks", "label": "Bekleyen Görevler", "value": 47, "change": "↑ 5 yeni", "trend": "negative", "icon": "⏰", "tone": "warning" },
+    { "id": "criticalStock", "label": "Kritik Stok", "value": 8, "change": "⚠ Dikkat", "trend": "negative", "icon": "📦", "tone": "danger" }
+  ],
+  "activities": [
+    { "id": "act-1", "action": "Yeni iş başlatıldı: \"Ofis Mobilyası\"", "user": "Ahmet Yılmaz", "time": "Bugün, 14:30" },
+    { "id": "act-2", "action": "Stok hareketi: Laminat eklendi", "user": "Ayşe Demir", "time": "Bugün, 13:15" },
+    { "id": "act-3", "action": "İş tamamlandı: \"Mutfak Dolabı\"", "user": "Mehmet Kaya", "time": "Bugün, 11:45" },
+    { "id": "act-4", "action": "Satınalma siparişi oluşturuldu", "user": "Fatma Şahin", "time": "Dün, 16:20" },
+    { "id": "act-5", "action": "Yeni müşteri eklendi", "user": "Can Özkan", "time": "Dün, 15:10" }
+  ],
+  "priorityJobs": [
+    { "id": "JOB-1024", "name": "Yatak Odası Takımı", "status": "Üretimde", "badge": "warning", "dueDate": "25 Ara 2025" },
+    { "id": "JOB-1040", "name": "Ofis Bölme Duvarı", "status": "Keşif", "badge": "primary", "dueDate": "28 Ara 2025" },
+    { "id": "JOB-1031", "name": "Vestiyer Dolabı", "status": "Gecikmiş", "badge": "danger", "dueDate": "20 Ara 2025" },
+    { "id": "JOB-1055", "name": "Mutfak Tezgahı", "status": "Montaj", "badge": "success", "dueDate": "30 Ara 2025" },
+    { "id": "JOB-1062", "name": "Banyo Dolapları", "status": "Üretimde", "badge": "warning", "dueDate": "02 Oca 2026" }
+  ],
+  "weekOverview": [
+    { "label": "Yeni İşler", "value": 3 },
+    { "label": "Tamamlanan", "value": 7 },
+    { "label": "Devam Eden", "value": 14 }
+  ],
+  "paymentStatus": {
+    "pending": "₺45,000",
+    "collected": "₺128,500",
+    "paid": "₺67,200"
+  },
+  "teamStatus": {
+    "workshop": 5,
+    "assembly": 3,
+    "office": 4
+  }
+}
+

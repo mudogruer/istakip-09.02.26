@@ -1,0 +1,125 @@
+[
+  {
+    "id": "CST-11",
+    "name": "Mert İç Mimarlık",
+    "segment": "B2B",
+    "location": "İstanbul",
+    "jobs": 12,
+    "contact": "mert@mimarlik.com",
+    "deleted": true,
+    "accountCode": "C-2024-1001"
+  },
+  {
+    "id": "CST-12",
+    "name": "Nova Yapı",
+    "segment": "B2B",
+    "location": "Ankara",
+    "jobs": 8,
+    "contact": "info@novayapi.com",
+    "accountCode": "C-2024-1002"
+  },
+  {
+    "id": "CST-13",
+    "name": "Luna Home",
+    "segment": "B2C",
+    "location": "İzmir",
+    "jobs": 5,
+    "contact": "destek@lunahome.com",
+    "accountCode": "C-2024-1003"
+  },
+  {
+    "id": "CST-14",
+    "name": "Aria Teknoloji",
+    "segment": "B2B",
+    "location": "Kocaeli",
+    "jobs": 6,
+    "contact": "proje@ariatek.com",
+    "deleted": true,
+    "accountCode": "C-2024-1004"
+  },
+  {
+    "id": "CST-15",
+    "name": "Mira Mimarlık",
+    "segment": "B2B",
+    "location": "Bursa",
+    "jobs": 4,
+    "contact": "hello@miramimarlik.com",
+    "accountCode": "C-2024-1005"
+  },
+  {
+    "id": "CST-CB67C570",
+    "name": "Mudo Tech",
+    "segment": "B2B",
+    "location": "Nevsehir",
+    "jobs": 0,
+    "contact": "mudo@mudotech.dev",
+    "deleted": false,
+    "accountCode": "C-2024-5670"
+  },
+  {
+    "id": "CST-13DC9D1D",
+    "name": "Nevsehir Pimapen",
+    "segment": "B2B",
+    "location": "Nevsehir",
+    "jobs": 0,
+    "contact": "batuhan@bilgili.xyz",
+    "deleted": false,
+    "accountCode": "C-2024-9D1D"
+  },
+  {
+    "id": "CST-7BF96166",
+    "name": "Evren",
+    "segment": "B2B",
+    "location": "kayseri",
+    "jobs": 0,
+    "contact": "evren@bilgili",
+    "deleted": false,
+    "accountCode": "C-2024-6166"
+  },
+  {
+    "id": "CST-CE1CE116",
+    "name": "Hüsnü Amca",
+    "segment": "B2B",
+    "location": "Nevs",
+    "jobs": 0,
+    "contact": "hdeneme@den",
+    "deleted": true,
+    "accountCode": "C-2024-E116"
+  },
+  {
+    "id": "CST-77BC35C2",
+    "name": "batuhan b",
+    "segment": "B2B",
+    "location": "",
+    "jobs": 0,
+    "contact": "",
+    "deleted": false,
+    "accountCode": "C-2024-35C2"
+  },
+  {
+    "id": "CST-BE545023",
+    "name": "hüsnü bilgili",
+    "segment": "B2C",
+    "location": "merkez",
+    "jobs": 0,
+    "contact": "",
+    "phone": "+90 545 925 33 08",
+    "phone2": "+49 153 115 8488",
+    "address": "nar",
+    "deleted": false,
+    "accountCode": "C-2026-8396"
+  },
+  {
+    "id": "CST-421EC49D",
+    "name": "Mustafa Dogruer",
+    "segment": "B2C",
+    "location": "Merkez",
+    "jobs": 0,
+    "contact": "",
+    "phone": "+90 551 598 92 38",
+    "phone2": "",
+    "address": "M Akif Ersoy Mah",
+    "deleted": false,
+    "accountCode": "C-2026-6839"
+  }
+]

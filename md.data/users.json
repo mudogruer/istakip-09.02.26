@@ -1,0 +1,14 @@
+[
+  {
+    "id": "USER-ADMIN",
+    "username": "admin",
+    "passwordHash": "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918",
+    "displayName": "Sistem Yöneticisi",
+    "role": "admin",
+    "personnelId": null,
+    "permissions": [],
+    "aktifMi": true,
+    "createdAt": "2026-02-08T00:00:00",
+    "lastLoginAt": "2026-02-09T01:01:16.211423"
+  }
+]

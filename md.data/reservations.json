@@ -1,0 +1,44 @@
+[
+  {
+    "id": "RSV-E790B824",
+    "jobId": "JOB-B3848683",
+    "itemId": "STK-CA29BA2B",
+    "productCode": "18300",
+    "colorCode": "3",
+    "item": "CARİSMA KASA BEYAZ",
+    "qty": 0.0,
+    "unit": "boy",
+    "createdAt": "2026-01-14T18:13:42.066682",
+    "status": "İptal",
+    "affectedBy": "JOB-13305BCF",
+    "note": "Stok başka iş için kullanıldı (-69.0)"
+  },
+  {
+    "id": "RSV-BDCB8712",
+    "jobId": "JOB-FB062953",
+    "itemId": "STK-CA1326B4",
+    "productCode": "18320",
+    "colorCode": "3",
+    "item": "CARİSMA KAPI",
+    "qty": 0.0,
+    "unit": "boy",
+    "createdAt": "2026-01-12T20:47:40.635865",
+    "status": "İptal",
+    "affectedBy": "JOB-E4588AC1",
+    "note": "Stok başka iş için kullanıldı (-3.0)"
+  },
+  {
+    "id": "RSV-D8EFFF86",
+    "jobId": "JOB-FB062953",
+    "itemId": "STK-CA29BA2B",
+    "productCode": "18300",
+    "colorCode": "3",
+    "item": "CARİSMA KASA BEYAZ",
+    "qty": 0,
+    "unit": "boy",
+    "createdAt": "2026-01-12T20:47:40.635865",
+    "status": "İptal",
+    "affectedBy": "JOB-13305BCF",
+    "note": "Stok başka iş için kullanıldı (-10)"
+  }
+]

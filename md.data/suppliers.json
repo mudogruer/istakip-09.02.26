@@ -1,0 +1,161 @@
+[
+  {
+    "id": "SUP-01",
+    "name": "EGE PROFİL",
+    "type": "manufacturer",
+    "category": "PVC Profil",
+    "jobRoleId": null,
+    "supplyType": "stock",
+    "contact": {
+      "phone": "0332 555 1234",
+      "email": "siparis@anafabrika.com",
+      "address": "Konya OSB 1. Cad. No:15",
+      "contactPerson": "ÇAĞRI"
+    },
+    "leadTimeDays": 7,
+    "rating": 4.8,
+    "notes": "Ana tedarikçi, acil siparişlerde öncelik",
+    "updatedAt": "2026-01-12T18:50:22.025606"
+  },
+  {
+    "id": "SUP-02",
+    "name": "IQ Alüminyum",
+    "type": "manufacturer",
+    "category": "Cam Balkon Profil",
+    "jobRoleId": "ROLE-02",
+    "supplyType": "production",
+    "contact": {
+      "phone": "0212 444 5678",
+      "email": "satis@profilas.com",
+      "address": "İstanbul Dudullu OSB",
+      "contactPerson": "Ali Bey"
+    },
+    "leadTimeDays": 20,
+    "rating": 4.5,
+    "notes": "Cam balkon sistemleri için dış üretim",
+    "updatedAt": "2026-01-16T14:35:25.016147"
+  },
+  {
+    "id": "SUP-03",
+    "name": "NİĞCAM",
+    "type": "manufacturer",
+    "category": "Cam",
+    "jobRoleId": "ROLE-01",
+    "supplyType": "glass",
+    "contact": {
+      "phone": "0232 333 9012",
+      "email": "info@camsan.com",
+      "address": "İzmir Atatürk OSB",
+      "contactPerson": "Hasan Bey"
+    },
+    "leadTimeDays": 5,
+    "rating": 4.6,
+    "notes": "PVC Doğrama için cam tedarikçisi",
+    "updatedAt": "2026-01-16T17:07:37.655487"
+  },
+  {
+    "id": "SUP-03-CB",
+    "name": "NİĞCAM - Cam Balkon",
+    "type": "manufacturer",
+    "category": "Cam",
+    "jobRoleId": "ROLE-02",
+    "supplyType": "glass",
+    "contact": {
+      "phone": "0232 333 9012",
+      "email": "info@camsan.com",
+      "address": "İzmir Atatürk OSB",
+      "contactPerson": "Hasan Bey"
+    },
+    "leadTimeDays": 5,
+    "rating": 4.6,
+    "notes": "Cam Balkon için cam tedarikçisi",
+    "updatedAt": "2026-01-17T12:00:00.000000"
+  },
+  {
+    "id": "SUP-03-ALU",
+    "name": "NİĞCAM - Alüminyum",
+    "type": "manufacturer",
+    "category": "Cam",
+    "jobRoleId": "ROLE-04",
+    "supplyType": "glass",
+    "contact": {
+      "phone": "0232 333 9012",
+      "email": "info@camsan.com",
+      "address": "İzmir Atatürk OSB",
+      "contactPerson": "Hasan Bey"
+    },
+    "leadTimeDays": 5,
+    "rating": 4.6,
+    "notes": "Alüminyum Doğrama için cam tedarikçisi",
+    "updatedAt": "2026-01-17T12:00:00.000000"
+  },
+  {
+    "id": "SUP-04",
+    "name": "Aksesuar Ltd.",
+    "type": "manufacturer",
+    "category": "Aksesuar",
+    "jobRoleId": null,
+    "supplyType": "stock",
+    "contact": {
+      "phone": "0312 222 3456",
+      "email": "siparis@aksesuarltd.com",
+      "address": "Ankara Sincan OSB",
+      "contactPerson": "Veli Bey"
+    },
+    "leadTimeDays": 3,
+    "rating": 4.4,
+    "notes": "Menteşe, kilit, kol"
+  },
+  {
+    "id": "SUP-05",
+    "name": "Konya Bayisi",
+    "type": "dealer",
+    "category": "PVC Profil",
+    "jobRoleId": null,
+    "supplyType": "stock",
+    "contact": {
+      "phone": "0332 666 7890",
+      "email": "info@konyabayisi.com",
+      "address": "Konya Selçuklu",
+      "contactPerson": "Ahmet Bey"
+    },
+    "leadTimeDays": 1,
+    "rating": 4.2,
+    "notes": "Acil ihtiyaçlar için komşu bayi"
+  },
+  {
+    "id": "SUP-06",
+    "name": "Ankara Bayisi",
+    "type": "dealer",
+    "category": "PVC Profil",
+    "jobRoleId": null,
+    "supplyType": "stock",
+    "contact": {
+      "phone": "0312 777 1234",
+      "email": "info@ankarabayisi.com",
+      "address": "Ankara Ostim",
+      "contactPerson": "Mustafa Bey"
+    },
+    "leadTimeDays": 2,
+    "rating": 4.0,
+    "notes": "Ankara bölgesi acil tedarik"
+  },
+  {
+    "id": "SUP-07",
+    "name": "ALU-TÜRKİYE",
+    "type": "manufacturer",
+    "category": "Alüminyum Profil",
+    "jobRoleId": "ROLE-04",
+    "supplyType": "production",
+    "contact": {
+      "phone": "0242 555 1111",
+      "email": "uretim@aluturkiye.com",
+      "address": "Antalya OSB",
+      "contactPerson": "Kerem Bey"
+    },
+    "leadTimeDays": 10,
+    "rating": 4.3,
+    "notes": "Alüminyum doğrama dış üretimi",
+    "updatedAt": "2026-01-17T12:00:00.000000"
+  }
+]

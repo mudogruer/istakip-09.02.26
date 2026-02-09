@@ -1,0 +1,34 @@
+[
+  {
+    "id": "STK-CA1326B4",
+    "productCode": "18320",
+    "colorCode": "3",
+    "name": "CARİSMA KAPI",
+    "colorName": "3",
+    "unit": "boy",
+    "supplierId": "SUP-01",
+    "supplierName": "EGE PROFİL",
+    "onHand": 82.0,
+    "reserved": 0,
+    "critical": 10.0,
+    "unitCost": 0.0,
+    "notes": "",
+    "lastUpdated": "2026-02-03"
+  },
+  {
+    "id": "STK-CA29BA2B",
+    "productCode": "18300",
+    "colorCode": "3",
+    "name": "CARİSMA KASA BEYAZ",
+    "colorName": "3",
+    "unit": "boy",
+    "supplierId": "SUP-01",
+    "supplierName": "EGE PROFİL",
+    "onHand": 80.0,
+    "reserved": 0,
+    "critical": 20.0,
+    "unitCost": 0.0,
+    "notes": "",
+    "lastUpdated": "2026-02-06"
+  }
+]

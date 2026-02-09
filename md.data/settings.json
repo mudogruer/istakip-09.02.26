@@ -1,0 +1,239 @@
+{
+  "general": [
+    {
+      "id": "SET-01",
+      "label": "E-posta bildirimleri",
+      "value": true,
+      "description": "İş ve satınalma hareketlerinde e-posta gönder"
+    },
+    {
+      "id": "SET-02",
+      "label": "SMS bildirimleri",
+      "value": false,
+      "description": "Kritik stok ve gecikmelerde SMS gönder"
+    },
+    {
+      "id": "SET-03",
+      "label": "Otomatik yedekleme",
+      "value": true,
+      "description": "Günlük veri yedeği oluştur"
+    }
+  ],
+  "jobRoles": [
+    {
+      "id": "ROLE-01",
+      "name": "PVC Doğrama",
+      "description": "PVC pencere, kapı sistemleri",
+      "productionType": "internal",
+      "requiresGlass": true,
+      "defaultGlassSupplier": null,
+      "estimatedDays": 5,
+      "active": true,
+      "assemblyStages": [
+        {
+          "id": "STG-PVC-01",
+          "name": "PVC Montaj",
+          "order": 1
+        },
+        {
+          "id": "STG-F37398B7",
+          "name": "Vidalama",
+          "order": 2
+        },
+        {
+          "id": "STG-PVC-02",
+          "name": "Cam Takma",
+          "order": 3
+        },
+        {
+          "id": "STG-PVC-03",
+          "name": "Silikon/Bitirme",
+          "order": 4
+        }
+      ],
+      "defaultSupplier": null,
+      "updatedAt": "2026-02-03T19:17:01.363331"
+    },
+    {
+      "id": "ROLE-02",
+      "name": "Cam Balkon",
+      "description": "Cam balkon sistemleri, katlanır cam",
+      "productionType": "internal",
+      "requiresGlass": true,
+      "defaultGlassSupplier": null,
+      "estimatedDays": 4,
+      "active": true,
+      "assemblyStages": [
+        {
+          "id": "STG-CB-01",
+          "name": "Cam Balkon Montaj",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "id": "ROLE-03",
+      "name": "Sineklik",
+      "description": "Pencere ve kapı sineklikleri",
+      "productionType": "internal",
+      "requiresGlass": false,
+      "defaultGlassSupplier": null,
+      "estimatedDays": 2,
+      "active": true,
+      "assemblyStages": [
+        {
+          "id": "STG-SN-01",
+          "name": "Sineklik Montaj",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "id": "ROLE-04",
+      "name": "Alüminyum Doğrama",
+      "description": "Alüminyum pencere, kapı ve cephe",
+      "productionType": "external",
+      "requiresGlass": true,
+      "defaultSupplier": null,
+      "estimatedDays": 10,
+      "active": true,
+      "assemblyStages": [
+        {
+          "id": "STG-ALU-01",
+          "name": "Alüminyum Montaj",
+          "order": 1
+        },
+        {
+          "id": "STG-ALU-02",
+          "name": "Cam Takma",
+          "order": 2
+        },
+        {
+          "id": "STG-ALU-03",
+          "name": "Silikon/Bitirme",
+          "order": 3
+        }
+      ],
+      "defaultGlassSupplier": null,
+      "updatedAt": "2026-02-03T19:17:12.125464"
+    },
+    {
+      "id": "ROLE-05",
+      "name": "Plise Perde",
+      "description": "Pileli perde sistemleri",
+      "productionType": "external",
+      "requiresGlass": false,
+      "defaultSupplier": null,
+      "estimatedDays": 7,
+      "active": true,
+      "assemblyStages": [
+        {
+          "id": "STG-PL-01",
+          "name": "Plise Perde Montaj",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "id": "ROLE-06",
+      "name": "Panjur",
+      "description": "Otomatik ve manuel panjur sistemleri",
+      "productionType": "external",
+      "requiresGlass": false,
+      "defaultSupplier": null,
+      "estimatedDays": 8,
+      "active": true,
+      "assemblyStages": [
+        {
+          "id": "STG-PJ-01",
+          "name": "Panjur Montaj",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "id": "ROLE-07",
+      "name": "Jaluzi",
+      "description": "Jaluzi perde sistemleri",
+      "productionType": "external",
+      "requiresGlass": false,
+      "defaultSupplier": null,
+      "estimatedDays": 5,
+      "active": true,
+      "assemblyStages": [
+        {
+          "id": "STG-JL-01",
+          "name": "Jaluzi Montaj",
+          "order": 1
+        }
+      ]
+    }
+  ],
+  "glassTypes": [
+    {
+      "id": "GLASS-7A32F34A",
+      "name": "SİNERJİ",
+      "code": "4+16+4 "
+    },
+    {
+      "id": "GLASS-B5B40F56",
+      "name": "KONFOR",
+      "code": "4+16+4"
+    }
+  ],
+  "combinationTypes": [
+    {
+      "id": "COMB-A3AD17DF",
+      "name": "TEMPER",
+      "createdAt": "2026-01-17T10:36:22.687614"
+    },
+    {
+      "id": "COMB-4F265B1D",
+      "name": "TEST",
+      "createdAt": "2026-02-03T19:33:23.743867"
+    },
+    {
+      "id": "COMB-D6B388B9",
+      "name": "4+16+4",
+      "createdAt": "2026-02-03T19:37:41.834974"
+    }
+  ],
+  "issueTypes": [
+    { "id": "broken", "name": "Kırık/Hasar", "icon": "💔", "active": true },
+    { "id": "missing", "name": "Eksik Parça", "icon": "❓", "active": true },
+    { "id": "wrong", "name": "Yanlış Ürün", "icon": "⚠️", "active": true },
+    { "id": "measurement_error", "name": "Ölçü Hatası", "icon": "📏", "active": true },
+    { "id": "color_mismatch", "name": "Renk Uyumsuzluğu", "icon": "🎨", "active": true },
+    { "id": "quality_issue", "name": "Kalite Sorunu", "icon": "⭐", "active": true },
+    { "id": "installation_error", "name": "Montaj Hatası", "icon": "🔧", "active": true },
+    { "id": "late_delivery", "name": "Geç Teslimat", "icon": "⏰", "active": true },
+    { "id": "damage", "name": "Hasar (Diğer)", "icon": "🔨", "active": true },
+    { "id": "other", "name": "Diğer", "icon": "📝", "active": true }
+  ],
+  "faultSources": [
+    { "id": "production", "name": "Üretim (Fabrika)", "active": true },
+    { "id": "supplier", "name": "Tedarikçi", "active": true },
+    { "id": "transport", "name": "Taşıma/Nakliye", "active": true },
+    { "id": "team", "name": "Montaj Ekibi", "active": true },
+    { "id": "measurement", "name": "Ölçü Ekibi", "active": true },
+    { "id": "customer", "name": "Müşteri Kaynaklı", "active": true },
+    { "id": "accident", "name": "Kaza/Beklenmeyen", "active": true }
+  ],
+  "cancelReasons": [
+    { "id": "price_high", "name": "Fiyat Yüksek Bulundu", "active": true },
+    { "id": "competitor", "name": "Rakip Tercih Edildi", "active": true },
+    { "id": "customer_cancel", "name": "Müşteri Vazgeçti", "active": true },
+    { "id": "not_suitable", "name": "Ürün/Hizmet Uygun Değil", "active": true },
+    { "id": "timing", "name": "Zamanlama Uyumsuzluğu", "active": true },
+    { "id": "other", "name": "Diğer", "active": true }
+  ],
+  "delayReasons": [
+    { "id": "supplier_delay", "name": "Tedarikçi Gecikmesi", "active": true },
+    { "id": "production_delay", "name": "Üretim Gecikmesi", "active": true },
+    { "id": "team_unavailable", "name": "Ekip Müsait Değil", "active": true },
+    { "id": "material_missing", "name": "Malzeme Eksik", "active": true },
+    { "id": "weather", "name": "Hava Koşulları", "active": true },
+    { "id": "customer_request", "name": "Müşteri Talebi", "active": true },
+    { "id": "other", "name": "Diğer", "active": true }
+  ]
+}

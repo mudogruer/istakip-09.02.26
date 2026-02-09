@@ -1,0 +1,6 @@
+[
+  { "id": "RPT-01", "title": "Aylık Üretim Özeti", "period": "Aralık 2025", "status": "Hazır", "owner": "Planlama" },
+  { "id": "RPT-02", "title": "Satınalma Harcamaları", "period": "Q4 2025", "status": "Hazır", "owner": "Satınalma" },
+  { "id": "RPT-03", "title": "Stok Devir Hızı", "period": "2025", "status": "Devam ediyor", "owner": "Stok" }
+]
+

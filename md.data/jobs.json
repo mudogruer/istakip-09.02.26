@@ -1,0 +1,3658 @@
+[
+  {
+    "id": "JOB-13711F01",
+    "title": "müş ölçü1",
+    "customerId": "CST-BE545023",
+    "customerName": "hüsnü bilgili",
+    "status": "FIYAT_VERILDI",
+    "startType": "MUSTERI_OLCUSU",
+    "roles": [
+      {
+        "id": "ROLE-01",
+        "name": "PVC Doğrama",
+        "description": "PVC pencere, kapı sistemleri",
+        "productionType": "internal",
+        "requiresGlass": true,
+        "defaultGlassSupplier": null,
+        "estimatedDays": 5,
+        "active": true,
+        "assemblyStages": [
+          {
+            "id": "STG-PVC-01",
+            "name": "PVC Montaj",
+            "order": 1
+          },
+          {
+            "id": "STG-F37398B7",
+            "name": "Vidalama",
+            "order": 2
+          },
+          {
+            "id": "STG-PVC-02",
+            "name": "Cam Takma",
+            "order": 3
+          },
+          {
+            "id": "STG-PVC-03",
+            "name": "Silikon/Bitirme",
+            "order": 4
+          }
+        ],
+        "defaultSupplier": null,
+        "updatedAt": "2026-02-03T19:17:01.363331"
+      }
+    ],
+    "measure": {},
+    "offer": {
+      "lines": [
+        {
+          "role": "PVC Doğrama",
+          "price": 2000
+        }
+      ],
+      "total": 2000.0,
+      "status": "FIYAT_VERILDI",
+      "rolePrices": {
+        "ROLE-01": 2000
+      },
+      "notifiedDate": "2026-02-06T21:00:56.093Z",
+      "agreedDate": null,
+      "negotiationHistory": null
+    },
+    "approval": {},
+    "stock": {},
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "service": {},
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-02-06T21:00:32.060744",
+        "action": "created",
+        "note": "startType=MUSTERI_OLCUSU"
+      },
+      {
+        "at": "2026-02-06T21:00:50.737453",
+        "action": "status.updated",
+        "note": "MUSTERI_OLCUSU_BEKLENIYOR -> FIYATLANDIRMA"
+      },
+      {
+        "at": "2026-02-06T21:00:56.412803",
+        "action": "offer.updated",
+        "note": null
+      }
+    ],
+    "createdAt": "2026-02-06T21:00:32.060744"
+  },
+  {
+    "id": "JOB-252BE5BA",
+    "title": "müş ölçü",
+    "customerId": "CST-BE545023",
+    "customerName": "hüsnü bilgili",
+    "status": "FIYAT_SORGUSU_ONAY",
+    "startType": "MUSTERI_OLCUSU",
+    "roles": [
+      {
+        "id": "ROLE-01",
+        "name": "PVC Doğrama",
+        "description": "PVC pencere, kapı sistemleri",
+        "productionType": "internal",
+        "requiresGlass": true,
+        "defaultGlassSupplier": null,
+        "estimatedDays": 5,
+        "active": true,
+        "assemblyStages": [
+          {
+            "id": "STG-PVC-01",
+            "name": "PVC Montaj",
+            "order": 1
+          },
+          {
+            "id": "STG-F37398B7",
+            "name": "Vidalama",
+            "order": 2
+          },
+          {
+            "id": "STG-PVC-02",
+            "name": "Cam Takma",
+            "order": 3
+          },
+          {
+            "id": "STG-PVC-03",
+            "name": "Silikon/Bitirme",
+            "order": 4
+          }
+        ],
+        "defaultSupplier": null,
+        "updatedAt": "2026-02-03T19:17:01.363331"
+      }
+    ],
+    "measure": {},
+    "offer": {
+      "lines": [
+        {
+          "role": "PVC Doğrama",
+          "price": 10000
+        }
+      ],
+      "total": 10000.0,
+      "status": "FIYAT_VERILDI",
+      "rolePrices": {
+        "ROLE-01": 10000
+      },
+      "notifiedDate": null,
+      "agreedDate": null,
+      "negotiationHistory": null
+    },
+    "approval": {},
+    "stock": {},
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "service": {},
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-02-06T20:25:28.424247",
+        "action": "created",
+        "note": "startType=MUSTERI_OLCUSU"
+      },
+      {
+        "at": "2026-02-06T20:42:24.619951",
+        "action": "status.updated",
+        "note": "MUSTERI_OLCUSU_BEKLENIYOR -> FIYATLANDIRMA"
+      },
+      {
+        "at": "2026-02-06T20:42:40.465333",
+        "action": "offer.updated",
+        "note": null
+      },
+      {
+        "at": "2026-02-06T20:59:36.103176",
+        "action": "status.updated",
+        "note": "FIYAT_VERILDI -> FIYAT_SORGUSU_BEKLIYOR"
+      },
+      {
+        "at": "2026-02-06T20:59:42.848499",
+        "action": "inquiry.approved",
+        "note": "Fiyat sorgusu onaylandı. Teklif onaylandı"
+      }
+    ],
+    "createdAt": "2026-02-06T20:25:28.424247",
+    "inquiry": {
+      "decision": "ONAY",
+      "decidedAt": "2026-02-06T20:59:42.848499",
+      "note": "Teklif onaylandı"
+    }
+  },
+  {
+    "id": "JOB-53070915",
+    "title": "SERV",
+    "customerId": "CST-BE545023",
+    "customerName": "hüsnü bilgili",
+    "status": "SERVIS_RANDEVU_BEKLIYOR",
+    "startType": "SERVIS",
+    "roles": [
+      {
+        "id": "ROLE-03",
+        "name": "Sineklik",
+        "description": "Pencere ve kapı sineklikleri",
+        "productionType": "internal",
+        "requiresGlass": false,
+        "defaultGlassSupplier": null,
+        "estimatedDays": 2,
+        "active": true,
+        "assemblyStages": [
+          {
+            "id": "STG-SN-01",
+            "name": "Sineklik Montaj",
+            "order": 1
+          }
+        ]
+      }
+    ],
+    "measure": {},
+    "offer": {},
+    "approval": {},
+    "stock": {},
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "service": {
+      "note": null,
+      "fixedFee": null,
+      "extraMaterials": [],
+      "completed": false
+    },
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-02-06T12:41:58.671851",
+        "action": "created",
+        "note": "startType=SERVIS"
+      }
+    ],
+    "createdAt": "2026-02-06T12:41:58.671851"
+  },
+  {
+    "id": "JOB-18561AF1",
+    "title": "BBB",
+    "customerId": "CST-BE545023",
+    "customerName": "hüsnü bilgili",
+    "status": "KAPALI",
+    "startType": "MUSTERI_OLCUSU",
+    "roles": [
+      {
+        "id": "ROLE-03",
+        "name": "Sineklik",
+        "description": "Pencere ve kapı sineklikleri",
+        "productionType": "internal",
+        "requiresGlass": false,
+        "defaultGlassSupplier": null,
+        "estimatedDays": 2,
+        "active": true,
+        "assemblyStages": [
+          {
+            "id": "STG-SN-01",
+            "name": "Sineklik Montaj",
+            "order": 1
+          }
+        ]
+      }
+    ],
+    "measure": {},
+    "offer": {
+      "total": 3000,
+      "rolePrices": {
+        "ROLE-03": 3000
+      },
+      "notifiedDate": "2026-02-06",
+      "agreedDate": "2026-02-06T12:36:06.747Z"
+    },
+    "approval": {
+      "paymentPlan": {
+        "cash": {
+          "amount": 3000,
+          "date": "2026-02-06",
+          "status": "pending"
+        },
+        "card": {
+          "amount": 0,
+          "date": "2026-02-06",
+          "status": "pending"
+        },
+        "cheque": {
+          "total": 0,
+          "received": false,
+          "count": 0,
+          "items": [],
+          "status": "pending"
+        },
+        "afterDelivery": {
+          "amount": 0,
+          "note": "",
+          "status": "pending"
+        },
+        "total": 3000
+      },
+      "contractUrl": null,
+      "stockNeeds": []
+    },
+    "stock": {
+      "ready": true,
+      "purchaseNotes": "Üretime alındı",
+      "skipStock": false
+    },
+    "production": {
+      "status": "TESLIME_HAZIR",
+      "note": null
+    },
+    "assembly": {},
+    "finance": {
+      "total": 3000.0,
+      "prePayments": {
+        "cash": 3000.0,
+        "card": 0.0,
+        "cheque": 0.0
+      },
+      "finalPayments": {
+        "cash": 0.0,
+        "card": 0.0,
+        "cheque": 0.0
+      },
+      "discount": null,
+      "closedAt": "2026-02-06T14:43:22.447601"
+    },
+    "service": {},
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-02-06T12:35:10.146571",
+        "action": "created",
+        "note": "startType=MUSTERI_OLCUSU"
+      },
+      {
+        "at": "2026-02-06T12:35:42.578446",
+        "action": "status.updated",
+        "note": "MUSTERI_OLCUSU_BEKLENIYOR -> FIYATLANDIRMA"
+      },
+      {
+        "at": "2026-02-06T12:35:57.511594",
+        "action": "status.updated",
+        "note": "FIYATLANDIRMA -> FIYAT_VERILDI"
+      },
+      {
+        "at": "2026-02-06T12:36:07.079829",
+        "action": "status.updated",
+        "note": "FIYAT_VERILDI -> ANLASMA_YAPILIYOR"
+      },
+      {
+        "at": "2026-02-06T12:57:42.682084",
+        "action": "approval.started",
+        "note": null
+      },
+      {
+        "at": "2026-02-06T12:57:47.771383",
+        "action": "stock.updated",
+        "note": "ready=True, items=0, estimatedDate=None"
+      },
+      {
+        "at": "2026-02-06T12:57:59.214827",
+        "action": "status.updated",
+        "note": "URETIME_HAZIR -> URETIMDE"
+      },
+      {
+        "at": "2026-02-06T13:00:02.447949",
+        "action": "production.updated",
+        "note": "TESLIME_HAZIR - Demonte/Fabrikadan Teslim"
+      },
+      {
+        "at": "2026-02-06T14:42:51.342919",
+        "action": "production.updated",
+        "note": "TESLIME_HAZIR - Demonte/Fabrikadan Teslim"
+      },
+      {
+        "at": "2026-02-06T14:43:14.394666",
+        "action": "status.updated",
+        "note": "TESLIME_HAZIR -> MUHASEBE_BEKLIYOR"
+      },
+      {
+        "at": "2026-02-06T14:43:22.447601",
+        "action": "finance.closed",
+        "note": "balance=0.0"
+      }
+    ],
+    "createdAt": "2026-02-06T12:35:10.146571",
+    "estimatedAssembly": {
+      "date": "2026-02-11",
+      "note": "",
+      "setAt": "2026-02-06T12:57:42.357Z"
+    },
+    "deliveryType": "demonte"
+  },
+  {
+    "id": "JOB-9A114E0A",
+    "title": "AAAA",
+    "customerId": "CST-BE545023",
+    "customerName": "hüsnü bilgili",
+    "status": "OLCU_RANDEVU_BEKLIYOR",
+    "startType": "OLCU",
+    "roles": [
+      {
+        "id": "ROLE-03",
+        "name": "Sineklik",
+        "description": "Pencere ve kapı sineklikleri",
+        "productionType": "internal",
+        "requiresGlass": false,
+        "defaultGlassSupplier": null,
+        "estimatedDays": 2,
+        "active": true,
+        "assemblyStages": [
+          {
+            "id": "STG-SN-01",
+            "name": "Sineklik Montaj",
+            "order": 1
+          }
+        ]
+      }
+    ],
+    "measure": {},
+    "offer": {},
+    "approval": {},
+    "stock": {},
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "service": {},
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-02-06T12:34:52.063776",
+        "action": "created",
+        "note": "startType=OLCU"
+      }
+    ],
+    "createdAt": "2026-02-06T12:34:52.063776"
+  },
+  {
+    "id": "JOB-E2F1CD71",
+    "title": "esk iş ahmet",
+    "customerId": "CST-BE545023",
+    "customerName": "hüsnü bilgili",
+    "status": "KAPALI",
+    "startType": "ARSIV",
+    "roles": [
+      {
+        "id": "ROLE-01",
+        "name": "PVC Doğrama",
+        "description": "PVC pencere, kapı sistemleri",
+        "productionType": "internal",
+        "requiresGlass": true,
+        "defaultGlassSupplier": null,
+        "estimatedDays": 5,
+        "active": true,
+        "assemblyStages": [
+          {
+            "id": "STG-PVC-01",
+            "name": "PVC Montaj",
+            "order": 1
+          },
+          {
+            "id": "STG-F37398B7",
+            "name": "Vidalama",
+            "order": 2
+          },
+          {
+            "id": "STG-PVC-02",
+            "name": "Cam Takma",
+            "order": 3
+          },
+          {
+            "id": "STG-PVC-03",
+            "name": "Silikon/Bitirme",
+            "order": 4
+          }
+        ],
+        "defaultSupplier": null,
+        "updatedAt": "2026-02-03T19:17:01.363331"
+      }
+    ],
+    "measure": {
+      "completed": true
+    },
+    "offer": {
+      "completed": true
+    },
+    "approval": {
+      "started": true,
+      "completed": true,
+      "totalAmount": 0,
+      "paymentPlan": {
+        "type": "archive"
+      },
+      "archiveDate": "2026-01-01"
+    },
+    "stock": {
+      "ready": true,
+      "completed": true
+    },
+    "production": {
+      "status": "completed",
+      "completed": true
+    },
+    "assembly": {
+      "completed": true,
+      "date": "2026-02-02"
+    },
+    "finance": {
+      "closed": true,
+      "total": 0
+    },
+    "service": {},
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-02-06T12:18:08.723799",
+        "action": "archive_created",
+        "note": "Arşiv kaydı oluşturuldu - Tutar: None"
+      }
+    ],
+    "notes": "",
+    "isArchive": true,
+    "archiveDate": "2026-01-01",
+    "archiveCompletedDate": "2026-02-02",
+    "createdAt": "2026-01-01"
+  },
+  {
+    "id": "JOB-286BB275",
+    "title": "montaj deneme 1",
+    "customerId": "CST-BE545023",
+    "customerName": "hüsnü bilgili",
+    "status": "MONTAJA_HAZIR",
+    "startType": "OLCU",
+    "roles": [
+      {
+        "id": "ROLE-01",
+        "name": "PVC Doğrama",
+        "description": "PVC pencere, kapı sistemleri",
+        "productionType": "internal",
+        "requiresGlass": true,
+        "defaultGlassSupplier": null,
+        "estimatedDays": 5,
+        "active": true,
+        "assemblyStages": [
+          {
+            "id": "STG-PVC-01",
+            "name": "PVC Montaj",
+            "order": 1
+          },
+          {
+            "id": "STG-F37398B7",
+            "name": "Vidalama",
+            "order": 2
+          },
+          {
+            "id": "STG-PVC-02",
+            "name": "Cam Takma",
+            "order": 3
+          },
+          {
+            "id": "STG-PVC-03",
+            "name": "Silikon/Bitirme",
+            "order": 4
+          }
+        ],
+        "defaultSupplier": null,
+        "updatedAt": "2026-02-03T19:17:01.363331"
+      }
+    ],
+    "measure": {
+      "measurements": {
+        "note": ""
+      },
+      "appointment": {
+        "date": "2026-02-03T10:00"
+      }
+    },
+    "offer": {
+      "total": 222,
+      "rolePrices": {
+        "ROLE-01": 222
+      },
+      "notifiedDate": "2026-02-03",
+      "agreedDate": "2026-02-03T19:20:33.079Z"
+    },
+    "approval": {
+      "paymentPlan": {
+        "cash": {
+          "amount": 0,
+          "date": "2026-02-03",
+          "status": "pending"
+        },
+        "card": {
+          "amount": 0,
+          "date": "2026-02-03",
+          "status": "pending"
+        },
+        "cheque": {
+          "total": 0,
+          "received": false,
+          "count": 0,
+          "items": [],
+          "status": "pending"
+        },
+        "afterDelivery": {
+          "amount": 222,
+          "note": "",
+          "status": "pending"
+        },
+        "total": 222
+      },
+      "contractUrl": null,
+      "stockNeeds": []
+    },
+    "stock": {
+      "ready": true,
+      "purchaseNotes": "Üretime alındı - Stoktan düşüldü",
+      "skipStock": false,
+      "items": [
+        {
+          "id": "STK-CA1326B4",
+          "name": "CARİSMA KAPI",
+          "productCode": "18320",
+          "colorCode": "3",
+          "qty": 12,
+          "unit": "boy"
+        },
+        {
+          "id": "STK-CA29BA2B",
+          "name": "CARİSMA KASA BEYAZ",
+          "productCode": "18300",
+          "colorCode": "3",
+          "qty": 12,
+          "unit": "boy"
+        }
+      ]
+    },
+    "production": {
+      "status": "MONTAJA_HAZIR",
+      "note": null
+    },
+    "assembly": {},
+    "finance": {},
+    "service": {},
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-02-03T19:20:02.108763",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2026-02-03T19:20:15.294650",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVU_BEKLIYOR -> OLCU_RANDEVULU"
+      },
+      {
+        "at": "2026-02-03T19:20:16.520944",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVULU -> OLCU_ALINDI"
+      },
+      {
+        "at": "2026-02-03T19:20:25.916632",
+        "action": "status.updated",
+        "note": "OLCU_ALINDI -> FIYATLANDIRMA"
+      },
+      {
+        "at": "2026-02-03T19:20:31.665760",
+        "action": "status.updated",
+        "note": "FIYATLANDIRMA -> FIYAT_VERILDI"
+      },
+      {
+        "at": "2026-02-03T19:20:33.095009",
+        "action": "status.updated",
+        "note": "FIYAT_VERILDI -> ANLASMA_YAPILIYOR"
+      },
+      {
+        "at": "2026-02-03T19:20:48.410724",
+        "action": "approval.started",
+        "note": null
+      },
+      {
+        "at": "2026-02-03T19:21:04.972601",
+        "action": "stock.updated",
+        "note": "ready=True, items=2, estimatedDate=None"
+      },
+      {
+        "at": "2026-02-03T19:37:41.860522",
+        "action": "status.updated",
+        "note": "URETIME_HAZIR -> URETIMDE"
+      },
+      {
+        "at": "2026-02-03T19:42:41.347848",
+        "action": "production.updated",
+        "note": "MONTAJA_HAZIR"
+      }
+    ],
+    "createdAt": "2026-02-03T19:20:02.108763",
+    "estimatedAssembly": {
+      "date": "2026-02-12",
+      "note": "",
+      "setAt": "2026-02-03T19:20:48.388Z"
+    }
+  },
+  {
+    "id": "JOB-2862CD42",
+    "title": "cam2",
+    "customerId": "CST-BE545023",
+    "customerName": "hüsnü bilgili",
+    "status": "MUSTERI_OLCUSU_BEKLENIYOR",
+    "startType": "MUSTERI_OLCUSU",
+    "roles": [
+      {
+        "id": "ROLE-734B59F5",
+        "name": "CAM",
+        "description": "SADECE CAM SİPARİŞİ",
+        "productionType": "external",
+        "requiresGlass": false,
+        "defaultGlassSupplier": null,
+        "defaultSupplier": null,
+        "estimatedDays": 15,
+        "active": true,
+        "createdAt": "2026-01-31T14:00:00.371790"
+      }
+    ],
+    "measure": {},
+    "offer": {},
+    "approval": {},
+    "stock": {},
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "service": {},
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-31T14:11:46.217419",
+        "action": "created",
+        "note": "startType=MUSTERI_OLCUSU"
+      }
+    ],
+    "createdAt": "2026-01-31T14:11:46.217419"
+  },
+  {
+    "id": "JOB-5752750E",
+    "title": "cam",
+    "customerId": "CST-BE545023",
+    "customerName": "hüsnü bilgili",
+    "status": "FIYATLANDIRMA",
+    "startType": "OLCU",
+    "roles": [
+      {
+        "id": "ROLE-734B59F5",
+        "name": "CAM",
+        "description": "SADECE CAM SİPARİŞİ",
+        "productionType": "external",
+        "requiresGlass": false,
+        "defaultGlassSupplier": null,
+        "defaultSupplier": null,
+        "estimatedDays": 15,
+        "active": true,
+        "createdAt": "2026-01-31T14:00:00.371790"
+      }
+    ],
+    "measure": {
+      "appointment": {
+        "date": "2026-02-04T11:00"
+      }
+    },
+    "offer": {},
+    "approval": {},
+    "stock": {},
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "service": {},
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-31T14:11:22.823038",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2026-02-03T21:14:59.931072",
+        "action": "measure.updated",
+        "note": null
+      },
+      {
+        "at": "2026-02-03T21:15:26.882170",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVU_BEKLIYOR -> OLCU_RANDEVULU"
+      },
+      {
+        "at": "2026-02-03T21:15:53.903968",
+        "action": "measure.updated",
+        "note": null
+      },
+      {
+        "at": "2026-02-03T21:16:05.163199",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVULU -> OLCU_RANDEVU_BEKLIYOR"
+      },
+      {
+        "at": "2026-02-03T21:19:05.778726",
+        "action": "measure.updated",
+        "note": null
+      },
+      {
+        "at": "2026-02-03T21:19:05.807246",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVU_BEKLIYOR -> OLCU_RANDEVU_BEKLIYOR"
+      },
+      {
+        "at": "2026-02-03T21:19:56.393189",
+        "action": "measure.updated",
+        "note": null
+      },
+      {
+        "at": "2026-02-03T21:19:56.424197",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVU_BEKLIYOR -> OLCU_RANDEVU_BEKLIYOR"
+      },
+      {
+        "at": "2026-02-03T21:20:08.968123",
+        "action": "measure.updated",
+        "note": null
+      },
+      {
+        "at": "2026-02-03T21:20:08.995638",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVU_BEKLIYOR -> OLCU_RANDEVU_BEKLIYOR"
+      },
+      {
+        "at": "2026-02-03T21:20:18.093436",
+        "action": "measure.updated",
+        "note": null
+      },
+      {
+        "at": "2026-02-03T21:20:18.138952",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVU_BEKLIYOR -> OLCU_RANDEVULU"
+      },
+      {
+        "at": "2026-02-03T21:20:29.791674",
+        "action": "measure.updated",
+        "note": null
+      },
+      {
+        "at": "2026-02-03T21:20:29.820193",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVULU -> OLCU_RANDEVULU"
+      },
+      {
+        "at": "2026-02-03T21:20:35.736690",
+        "action": "measure.updated",
+        "note": null
+      },
+      {
+        "at": "2026-02-03T21:20:35.762698",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVULU -> OLCU_RANDEVU_BEKLIYOR"
+      },
+      {
+        "at": "2026-02-03T21:20:41.420966",
+        "action": "measure.updated",
+        "note": null
+      },
+      {
+        "at": "2026-02-03T21:20:41.450488",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVU_BEKLIYOR -> OLCU_RANDEVU_BEKLIYOR"
+      },
+      {
+        "at": "2026-02-03T21:27:33.642514",
+        "action": "measure.updated",
+        "note": null
+      },
+      {
+        "at": "2026-02-03T21:27:33.670519",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVU_BEKLIYOR -> OLCU_RANDEVU_BEKLIYOR"
+      },
+      {
+        "at": "2026-02-03T21:27:47.555392",
+        "action": "measure.updated",
+        "note": null
+      },
+      {
+        "at": "2026-02-03T21:27:47.581402",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVU_BEKLIYOR -> OLCU_RANDEVULU"
+      },
+      {
+        "at": "2026-02-03T21:35:19.861579",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVULU -> OLCU_ALINDI"
+      },
+      {
+        "at": "2026-02-03T21:35:44.133053",
+        "action": "status.updated",
+        "note": "OLCU_ALINDI -> FIYATLANDIRMA"
+      }
+    ],
+    "createdAt": "2026-01-31T14:11:22.823038"
+  },
+  {
+    "id": "JOB-FBEEA660",
+    "title": "DIŞ ÜRETİM",
+    "customerId": "CST-BE545023",
+    "customerName": "hüsnü bilgili",
+    "status": "MONTAJ_TERMIN",
+    "startType": "OLCU",
+    "roles": [
+      {
+        "id": "ROLE-03",
+        "name": "Alüminyum Doğrama",
+        "description": "Alüminyum pencere, kapı, cephe sistemleri"
+      },
+      {
+        "id": "ROLE-06",
+        "name": "Panjur",
+        "description": "Panjur sistemleri, motorlu/manuel"
+      }
+    ],
+    "measure": {
+      "measurements": {
+        "note": ""
+      },
+      "appointment": {
+        "date": "2026-01-30T10:00"
+      }
+    },
+    "offer": {
+      "total": 2200,
+      "rolePrices": {
+        "ROLE-03": 200,
+        "ROLE-06": 2000
+      },
+      "notifiedDate": "2026-01-30",
+      "agreedDate": "2026-01-30T14:27:50.909Z"
+    },
+    "approval": {
+      "paymentPlan": {
+        "cash": {
+          "amount": 2200,
+          "date": "2026-01-30",
+          "status": "pending"
+        },
+        "card": {
+          "amount": 0,
+          "date": "2026-01-30",
+          "status": "pending"
+        },
+        "cheque": {
+          "total": 0,
+          "received": false,
+          "count": 0,
+          "items": [],
+          "status": "pending"
+        },
+        "afterDelivery": {
+          "amount": 0,
+          "note": "",
+          "status": "pending"
+        },
+        "total": 2200
+      },
+      "contractUrl": null,
+      "stockNeeds": []
+    },
+    "stock": {
+      "ready": true,
+      "purchaseNotes": "Üretime alındı",
+      "skipStock": false
+    },
+    "production": {
+      "status": "MONTAJA_HAZIR",
+      "note": null
+    },
+    "assembly": {
+      "schedule": {
+        "date": "2026-02-02T09:00",
+        "note": "",
+        "team": "TEAM-002"
+      }
+    },
+    "finance": {},
+    "service": {},
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-30T14:25:55.755337",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2026-01-30T14:26:04.213068",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVU_BEKLIYOR -> OLCU_RANDEVULU"
+      },
+      {
+        "at": "2026-01-30T14:26:05.833379",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVULU -> OLCU_ALINDI"
+      },
+      {
+        "at": "2026-01-30T14:26:59.825134",
+        "action": "status.updated",
+        "note": "OLCU_ALINDI -> FIYATLANDIRMA"
+      },
+      {
+        "at": "2026-01-30T14:27:08.473112",
+        "action": "status.updated",
+        "note": "FIYATLANDIRMA -> FIYAT_VERILDI"
+      },
+      {
+        "at": "2026-01-30T14:27:51.229674",
+        "action": "status.updated",
+        "note": "FIYAT_VERILDI -> ANLASMA_YAPILIYOR"
+      },
+      {
+        "at": "2026-01-30T14:28:07.084149",
+        "action": "approval.started",
+        "note": null
+      },
+      {
+        "at": "2026-01-30T14:28:10.463797",
+        "action": "stock.updated",
+        "note": "ready=True, items=0, estimatedDate=None"
+      },
+      {
+        "at": "2026-01-30T14:28:41.768880",
+        "action": "status.updated",
+        "note": "URETIME_HAZIR -> URETIMDE"
+      },
+      {
+        "at": "2026-01-30T14:29:22.771877",
+        "action": "production.updated",
+        "note": "MONTAJA_HAZIR"
+      },
+      {
+        "at": "2026-01-30T14:29:44.835194",
+        "action": "estimatedAssembly.updated",
+        "note": "2026-02-02"
+      },
+      {
+        "at": "2026-01-30T14:29:44.860687",
+        "action": "assembly.scheduled",
+        "note": null
+      }
+    ],
+    "createdAt": "2026-01-30T14:25:55.755337",
+    "estimatedAssembly": {
+      "date": "2026-02-02",
+      "note": "",
+      "setAt": "2026-01-30T14:29:44.835194"
+    },
+    "estimatedAssemblyHistory": [
+      {
+        "date": "2026-01-31",
+        "note": "",
+        "changedAt": "2026-01-30T14:29:44.835194"
+      }
+    ]
+  },
+  {
+    "id": "JOB-9853119E",
+    "title": "dış sipariş",
+    "customerId": "CST-BE545023",
+    "customerName": "hüsnü bilgili",
+    "status": "ANLASMA_TAMAMLANDI",
+    "startType": "OLCU",
+    "roles": [
+      {
+        "id": "ROLE-03",
+        "name": "Alüminyum Doğrama",
+        "description": "Alüminyum pencere, kapı, cephe sistemleri"
+      },
+      {
+        "id": "ROLE-06",
+        "name": "Panjur",
+        "description": "Panjur sistemleri, motorlu/manuel"
+      }
+    ],
+    "measure": {
+      "measurements": {
+        "note": ""
+      },
+      "appointment": {
+        "date": "2026-01-30T10:00"
+      }
+    },
+    "offer": {
+      "total": 333,
+      "rolePrices": {
+        "ROLE-03": 111,
+        "ROLE-06": 222
+      },
+      "notifiedDate": "2026-01-29",
+      "agreedDate": "2026-01-29T17:55:09.147Z"
+    },
+    "approval": {
+      "paymentPlan": {
+        "cash": {
+          "amount": 333,
+          "date": "2026-01-29",
+          "status": "pending"
+        },
+        "card": {
+          "amount": 0,
+          "date": "2026-01-29",
+          "status": "pending"
+        },
+        "cheque": {
+          "total": 0,
+          "received": false,
+          "count": 0,
+          "items": [],
+          "status": "pending"
+        },
+        "afterDelivery": {
+          "amount": 0,
+          "note": "",
+          "status": "pending"
+        },
+        "total": 333
+      },
+      "contractUrl": null,
+      "stockNeeds": []
+    },
+    "stock": {},
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "service": {},
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-29T17:54:32.240869",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2026-01-29T17:54:38.824290",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVU_BEKLIYOR -> OLCU_RANDEVULU"
+      },
+      {
+        "at": "2026-01-29T17:54:39.946932",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVULU -> OLCU_ALINDI"
+      },
+      {
+        "at": "2026-01-29T17:54:58.426393",
+        "action": "status.updated",
+        "note": "OLCU_ALINDI -> FIYATLANDIRMA"
+      },
+      {
+        "at": "2026-01-29T17:55:05.270111",
+        "action": "status.updated",
+        "note": "FIYATLANDIRMA -> FIYAT_VERILDI"
+      },
+      {
+        "at": "2026-01-29T17:55:09.163160",
+        "action": "status.updated",
+        "note": "FIYAT_VERILDI -> ANLASMA_YAPILIYOR"
+      },
+      {
+        "at": "2026-01-29T17:55:26.345761",
+        "action": "approval.started",
+        "note": null
+      }
+    ],
+    "createdAt": "2026-01-29T17:54:32.240869",
+    "estimatedAssembly": {
+      "date": "2026-02-03",
+      "note": "",
+      "setAt": "2026-01-29T17:55:26.329Z"
+    }
+  },
+  {
+    "id": "JOB-BB9738C7",
+    "title": "aa",
+    "customerId": "CST-BE545023",
+    "customerName": "hüsnü bilgili",
+    "status": "MONTAJ_TERMIN",
+    "startType": "OLCU",
+    "roles": [
+      {
+        "id": "ROLE-01",
+        "name": "PVC Doğrama",
+        "description": "PVC pencere, kapı sistemleri"
+      }
+    ],
+    "measure": {
+      "measurements": {
+        "note": ""
+      },
+      "appointment": {
+        "date": "2026-01-29T10:00"
+      }
+    },
+    "offer": {
+      "total": 200,
+      "rolePrices": {
+        "ROLE-01": 200
+      },
+      "notifiedDate": "2026-01-29",
+      "agreedDate": "2026-01-29T13:45:08.667Z"
+    },
+    "approval": {
+      "paymentPlan": {
+        "cash": {
+          "amount": 0,
+          "date": "2026-01-29",
+          "status": "pending"
+        },
+        "card": {
+          "amount": 200,
+          "date": "2026-01-29",
+          "status": "pending"
+        },
+        "cheque": {
+          "total": 0,
+          "received": false,
+          "count": 0,
+          "items": [],
+          "status": "pending"
+        },
+        "afterDelivery": {
+          "amount": 0,
+          "note": "",
+          "status": "pending"
+        },
+        "total": 200
+      },
+      "contractUrl": "DOC-21F9B3F4",
+      "stockNeeds": []
+    },
+    "stock": {
+      "ready": true,
+      "purchaseNotes": "Üretime alındı - Stoktan düşüldü",
+      "items": [
+        {
+          "id": "STK-CA1326B4",
+          "name": "CARİSMA KAPI",
+          "productCode": "18320",
+          "colorCode": "3",
+          "qty": 1,
+          "unit": "boy"
+        }
+      ]
+    },
+    "production": {
+      "status": "MONTAJA_HAZIR",
+      "note": null
+    },
+    "assembly": {
+      "schedule": {
+        "date": "2026-02-03T09:00",
+        "note": "",
+        "team": ""
+      }
+    },
+    "finance": {},
+    "service": {},
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-28T16:30:45.235412",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2026-01-29T13:44:32.473252",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVU_BEKLIYOR -> OLCU_RANDEVULU"
+      },
+      {
+        "at": "2026-01-29T13:44:34.016180",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVULU -> OLCU_ALINDI"
+      },
+      {
+        "at": "2026-01-29T13:44:55.293080",
+        "action": "status.updated",
+        "note": "OLCU_ALINDI -> FIYATLANDIRMA"
+      },
+      {
+        "at": "2026-01-29T13:45:02.732688",
+        "action": "status.updated",
+        "note": "FIYATLANDIRMA -> FIYAT_VERILDI"
+      },
+      {
+        "at": "2026-01-29T13:45:08.683997",
+        "action": "status.updated",
+        "note": "FIYAT_VERILDI -> ANLASMA_YAPILIYOR"
+      },
+      {
+        "at": "2026-01-29T13:45:51.792381",
+        "action": "approval.started",
+        "note": null
+      },
+      {
+        "at": "2026-01-29T13:46:03.731789",
+        "action": "stock.updated",
+        "note": "ready=True, items=1, estimatedDate=None"
+      },
+      {
+        "at": "2026-01-29T13:46:45.624854",
+        "action": "status.updated",
+        "note": "URETIME_HAZIR -> URETIMDE"
+      },
+      {
+        "at": "2026-01-29T13:47:08.287281",
+        "action": "production.updated",
+        "note": "MONTAJA_HAZIR"
+      },
+      {
+        "at": "2026-01-29T13:47:16.757275",
+        "action": "estimatedAssembly.updated",
+        "note": "2026-02-03"
+      },
+      {
+        "at": "2026-01-29T13:47:16.785816",
+        "action": "assembly.scheduled",
+        "note": null
+      }
+    ],
+    "createdAt": "2026-01-28T16:30:45.235412",
+    "estimatedAssembly": {
+      "date": "2026-02-03",
+      "note": "",
+      "setAt": "2026-01-29T13:47:16.757275"
+    },
+    "estimatedAssemblyHistory": [
+      {
+        "date": "2026-01-31",
+        "note": "",
+        "changedAt": "2026-01-29T13:47:16.757275"
+      }
+    ]
+  },
+  {
+    "id": "JOB-E43E3F42",
+    "title": "montaj tarihi",
+    "customerId": "CST-BE545023",
+    "customerName": "hüsnü bilgili",
+    "status": "KAPALI",
+    "startType": "OLCU",
+    "roles": [
+      {
+        "id": "ROLE-01",
+        "name": "PVC Doğrama",
+        "description": "PVC pencere, kapı sistemleri"
+      }
+    ],
+    "measure": {
+      "measurements": {
+        "note": ""
+      },
+      "appointment": {
+        "date": "2026-01-28T10:00"
+      }
+    },
+    "offer": {
+      "total": 222,
+      "rolePrices": {
+        "ROLE-01": 222
+      },
+      "notifiedDate": "2026-01-27",
+      "agreedDate": "2026-01-27T21:54:19.000Z"
+    },
+    "approval": {
+      "paymentPlan": {
+        "cash": {
+          "amount": 0,
+          "date": "2026-01-27",
+          "status": "pending"
+        },
+        "card": {
+          "amount": 0,
+          "date": "2026-01-27",
+          "status": "pending"
+        },
+        "cheque": {
+          "total": 0,
+          "received": false,
+          "count": 0,
+          "items": [],
+          "status": "pending"
+        },
+        "afterDelivery": {
+          "amount": 222,
+          "note": "",
+          "status": "pending"
+        },
+        "total": 222
+      },
+      "contractUrl": null,
+      "stockNeeds": []
+    },
+    "stock": {
+      "ready": true,
+      "purchaseNotes": "Üretime alındı - Stoktan düşüldü",
+      "items": [
+        {
+          "id": "STK-CA1326B4",
+          "name": "CARİSMA KAPI",
+          "productCode": "18320",
+          "colorCode": "3",
+          "qty": 1,
+          "unit": "boy"
+        }
+      ]
+    },
+    "production": {
+      "status": "MONTAJA_HAZIR",
+      "note": null
+    },
+    "assembly": {
+      "schedule": {
+        "date": "2026-02-01T09:00",
+        "note": "",
+        "team": ""
+      },
+      "complete": {
+        "at": "2026-01-27T22:05:49.741212",
+        "proof": null
+      }
+    },
+    "finance": {
+      "total": 222.0,
+      "prePayments": {
+        "cash": 0.0,
+        "card": 0.0,
+        "cheque": 0.0
+      },
+      "finalPayments": {
+        "cash": 222.0,
+        "card": 0.0,
+        "cheque": 0.0
+      },
+      "discount": null,
+      "closedAt": "2026-01-27T22:06:04.282571"
+    },
+    "service": {},
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-27T21:53:36.016811",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2026-01-27T21:53:43.826142",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVU_BEKLIYOR -> OLCU_RANDEVULU"
+      },
+      {
+        "at": "2026-01-27T21:53:45.842248",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVULU -> OLCU_ALINDI"
+      },
+      {
+        "at": "2026-01-27T21:53:59.876962",
+        "action": "status.updated",
+        "note": "OLCU_ALINDI -> FIYATLANDIRMA"
+      },
+      {
+        "at": "2026-01-27T21:54:08.558415",
+        "action": "status.updated",
+        "note": "FIYATLANDIRMA -> FIYAT_VERILDI"
+      },
+      {
+        "at": "2026-01-27T21:54:19.018457",
+        "action": "status.updated",
+        "note": "FIYAT_VERILDI -> ANLASMA_YAPILIYOR"
+      },
+      {
+        "at": "2026-01-27T21:54:47.560747",
+        "action": "approval.started",
+        "note": null
+      },
+      {
+        "at": "2026-01-27T21:55:08.408509",
+        "action": "stock.updated",
+        "note": "ready=True, items=1, estimatedDate=None"
+      },
+      {
+        "at": "2026-01-27T21:58:35.188735",
+        "action": "status.updated",
+        "note": "URETIME_HAZIR -> URETIMDE"
+      },
+      {
+        "at": "2026-01-27T22:00:13.050090",
+        "action": "production.updated",
+        "note": "MONTAJA_HAZIR"
+      },
+      {
+        "at": "2026-01-27T22:00:27.610362",
+        "action": "assembly.scheduled",
+        "note": null
+      },
+      {
+        "at": "2026-01-27T22:05:49.741212",
+        "action": "assembly.complete",
+        "note": "team="
+      },
+      {
+        "at": "2026-01-27T22:06:04.282571",
+        "action": "finance.closed",
+        "note": "balance=0.0"
+      }
+    ],
+    "createdAt": "2026-01-27T21:53:36.016811",
+    "estimatedAssembly": {
+      "date": "2026-01-31",
+      "note": "",
+      "setAt": "2026-01-27T21:54:47.231Z"
+    }
+  },
+  {
+    "id": "JOB-80D615D8",
+    "title": "a",
+    "customerId": "CST-BE545023",
+    "customerName": "hüsnü bilgili",
+    "status": "OLCU_RANDEVULU",
+    "startType": "OLCU",
+    "roles": [
+      {
+        "id": "ROLE-01",
+        "name": "PVC Doğrama",
+        "description": "PVC pencere, kapı sistemleri"
+      }
+    ],
+    "measure": {
+      "appointment": {
+        "date": "2026-02-05T10:00"
+      }
+    },
+    "offer": {},
+    "approval": {},
+    "stock": {},
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "service": {},
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-27T20:09:10.272907",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2026-02-03T21:19:31.387525",
+        "action": "measure.updated",
+        "note": null
+      },
+      {
+        "at": "2026-02-03T21:19:31.412532",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVU_BEKLIYOR -> OLCU_RANDEVULU"
+      },
+      {
+        "at": "2026-02-03T21:24:32.257694",
+        "action": "measure.updated",
+        "note": null
+      },
+      {
+        "at": "2026-02-03T21:24:59.609654",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVULU -> OLCU_RANDEVU_BEKLIYOR"
+      },
+      {
+        "at": "2026-02-03T21:24:59.680688",
+        "action": "measure.updated",
+        "note": null
+      },
+      {
+        "at": "2026-02-03T21:24:59.704203",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVU_BEKLIYOR -> OLCU_RANDEVULU"
+      },
+      {
+        "at": "2026-02-03T21:24:59.733722",
+        "action": "measure.updated",
+        "note": null
+      },
+      {
+        "at": "2026-02-03T21:24:59.757238",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVULU -> OLCU_RANDEVU_BEKLIYOR"
+      },
+      {
+        "at": "2026-02-03T21:27:38.982178",
+        "action": "measure.updated",
+        "note": null
+      },
+      {
+        "at": "2026-02-03T21:27:39.008702",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVU_BEKLIYOR -> OLCU_RANDEVULU"
+      }
+    ],
+    "createdAt": "2026-01-27T20:09:10.272907"
+  },
+  {
+    "id": "JOB-4C55C1EA",
+    "title": "eski iş 1",
+    "customerId": "CST-BE545023",
+    "customerName": "hüsnü bilgili",
+    "status": "KAPALI",
+    "startType": "ARSIV",
+    "roles": [
+      {
+        "id": "ROLE-01",
+        "name": "PVC Doğrama",
+        "description": "PVC pencere, kapı sistemleri"
+      },
+      {
+        "id": "ROLE-02",
+        "name": "Cam Balkon",
+        "description": "Cam balkon sistemleri, katlanır cam"
+      }
+    ],
+    "measure": {
+      "completed": true
+    },
+    "offer": {
+      "completed": true
+    },
+    "approval": {
+      "started": true,
+      "completed": true,
+      "totalAmount": 2000.0,
+      "paymentPlan": {
+        "type": "archive"
+      },
+      "archiveDate": "2026-01-01"
+    },
+    "stock": {
+      "ready": true,
+      "completed": true
+    },
+    "production": {
+      "status": "completed",
+      "completed": true
+    },
+    "assembly": {
+      "completed": true,
+      "date": "2026-01-05"
+    },
+    "finance": {
+      "closed": true,
+      "total": 2000.0
+    },
+    "service": {},
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-27T20:04:55.019725",
+        "action": "archive_created",
+        "note": "Arşiv kaydı oluşturuldu - Tutar: 2000.0"
+      }
+    ],
+    "notes": "eski iş1.",
+    "isArchive": true,
+    "archiveDate": "2026-01-01",
+    "archiveCompletedDate": "2026-01-05",
+    "createdAt": "2026-01-01"
+  },
+  {
+    "id": "JOB-DC847F83",
+    "title": "111",
+    "customerId": "CST-421EC49D",
+    "customerName": "Mustafa Dogruer",
+    "status": "KAPALI",
+    "startType": "OLCU",
+    "roles": [
+      {
+        "id": "ROLE-01",
+        "name": "PVC Doğrama",
+        "description": "PVC pencere, kapı sistemleri"
+      }
+    ],
+    "measure": {
+      "measurements": {
+        "note": ""
+      },
+      "appointment": {
+        "date": "2026-01-28T10:00"
+      }
+    },
+    "offer": {
+      "total": 1000,
+      "rolePrices": {
+        "ROLE-01": 1000
+      },
+      "notifiedDate": "2026-01-30",
+      "agreedDate": "2026-01-26T10:37:52.410Z"
+    },
+    "approval": {
+      "paymentPlan": {
+        "cash": {
+          "amount": 0,
+          "date": "2026-01-26",
+          "status": "pending"
+        },
+        "card": {
+          "amount": 0,
+          "date": "2026-01-26",
+          "status": "pending"
+        },
+        "cheque": {
+          "total": 0,
+          "received": false,
+          "count": 0,
+          "items": [],
+          "status": "pending"
+        },
+        "afterDelivery": {
+          "amount": 1000,
+          "note": "",
+          "status": "pending"
+        },
+        "total": 1000
+      },
+      "contractUrl": "DOC-6E830F30",
+      "stockNeeds": []
+    },
+    "stock": {
+      "ready": true,
+      "purchaseNotes": "Üretime alındı - Stoktan düşüldü",
+      "items": [
+        {
+          "id": "STK-CA29BA2B",
+          "name": "CARİSMA KASA BEYAZ",
+          "productCode": "18300",
+          "colorCode": "3",
+          "qty": 10,
+          "unit": "boy"
+        }
+      ]
+    },
+    "production": {
+      "status": "MONTAJA_HAZIR",
+      "note": null
+    },
+    "assembly": {
+      "schedule": {
+        "date": "2026-03-05T09:00"
+      },
+      "complete": {
+        "at": "2026-01-26T13:00:04.305576",
+        "proof": null
+      }
+    },
+    "finance": {
+      "total": 1000.0,
+      "prePayments": {
+        "cash": 0.0,
+        "card": 0.0,
+        "cheque": 0.0
+      },
+      "finalPayments": {
+        "cash": 1000.0,
+        "card": 0.0,
+        "cheque": 0.0
+      },
+      "discount": null,
+      "closedAt": "2026-01-26T13:23:01.005474"
+    },
+    "service": {},
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-26T10:35:41.865902",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2026-01-26T10:37:01.760146",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVU_BEKLIYOR -> OLCU_RANDEVULU"
+      },
+      {
+        "at": "2026-01-26T10:37:08.286835",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVULU -> OLCU_ALINDI"
+      },
+      {
+        "at": "2026-01-26T10:37:27.204114",
+        "action": "status.updated",
+        "note": "OLCU_ALINDI -> FIYATLANDIRMA"
+      },
+      {
+        "at": "2026-01-26T10:37:44.198262",
+        "action": "status.updated",
+        "note": "FIYATLANDIRMA -> FIYAT_VERILDI"
+      },
+      {
+        "at": "2026-01-26T10:37:52.425817",
+        "action": "status.updated",
+        "note": "FIYAT_VERILDI -> ANLASMA_YAPILIYOR"
+      },
+      {
+        "at": "2026-01-26T10:38:13.706689",
+        "action": "approval.started",
+        "note": null
+      },
+      {
+        "at": "2026-01-26T10:39:19.400722",
+        "action": "stock.updated",
+        "note": "ready=True, items=1, estimatedDate=None"
+      },
+      {
+        "at": "2026-01-26T12:44:30.452159",
+        "action": "status.updated",
+        "note": "URETIME_HAZIR -> URETIMDE"
+      },
+      {
+        "at": "2026-01-26T12:58:40.123836",
+        "action": "production.updated",
+        "note": "MONTAJA_HAZIR"
+      },
+      {
+        "at": "2026-01-26T13:00:04.305576",
+        "action": "assembly.complete",
+        "note": "team="
+      },
+      {
+        "at": "2026-01-26T13:23:01.005474",
+        "action": "finance.closed",
+        "note": "balance=0.0"
+      }
+    ],
+    "createdAt": "2026-01-26T10:35:41.865902"
+  },
+  {
+    "id": "JOB-9490003A",
+    "title": "PVC Dograma",
+    "customerId": "CST-421EC49D",
+    "customerName": "Mustafa Dogruer",
+    "status": "KAPALI",
+    "startType": "MUSTERI_OLCUSU",
+    "roles": [
+      {
+        "id": "ROLE-02",
+        "name": "Cam Balkon",
+        "description": "Cam balkon sistemleri, katlanır cam"
+      },
+      {
+        "id": "ROLE-03",
+        "name": "Alüminyum Doğrama",
+        "description": "Alüminyum pencere, kapı, cephe sistemleri"
+      },
+      {
+        "id": "ROLE-04",
+        "name": "Sineklik",
+        "description": "Sineklik sistemleri, menteşeli, sürgülü"
+      }
+    ],
+    "measure": {},
+    "offer": {
+      "total": 57000,
+      "rolePrices": {
+        "ROLE-02": 24000,
+        "ROLE-03": 25000,
+        "ROLE-04": 8000
+      },
+      "notifiedDate": "2026-01-18",
+      "negotiationHistory": [
+        {
+          "date": "2026-01-18T03:00:00.133Z",
+          "originalTotal": 65000,
+          "discountTotal": 8000,
+          "finalTotal": 57000,
+          "roleDiscounts": {
+            "ROLE-02": 1000,
+            "ROLE-03": 5000,
+            "ROLE-04": 2000
+          }
+        }
+      ],
+      "agreedDate": "2026-01-18T03:00:00.133Z"
+    },
+    "approval": {
+      "paymentPlan": {
+        "cash": {
+          "amount": 15700,
+          "date": "2026-01-24",
+          "status": "pending"
+        },
+        "card": {
+          "amount": 18300,
+          "date": "2026-03-27",
+          "status": "pending"
+        },
+        "cheque": {
+          "total": 0,
+          "received": false,
+          "count": 0,
+          "items": [],
+          "status": "pending"
+        },
+        "afterDelivery": {
+          "amount": 23000,
+          "note": "",
+          "status": "collected",
+          "collectedData": {
+            "collectedAt": "2026-01-26T13:26:40.863Z",
+            "originalAmount": 23000,
+            "collectedAmount": 23000,
+            "isPartial": false,
+            "discountAmount": 0,
+            "discountReason": "",
+            "note": ""
+          }
+        },
+        "total": 57000
+      },
+      "contractUrl": "DOC-C606C597",
+      "stockNeeds": []
+    },
+    "stock": {
+      "ready": true,
+      "purchaseNotes": "Üretime alındı - Stoktan düşüldü",
+      "items": [
+        {
+          "id": "STK-CA1326B4",
+          "name": "CARİSMA KAPI",
+          "productCode": "18320",
+          "colorCode": "3",
+          "qty": 3,
+          "unit": "boy"
+        },
+        {
+          "id": "STK-CA29BA2B",
+          "name": "CARİSMA KASA BEYAZ",
+          "productCode": "18300",
+          "colorCode": "3",
+          "qty": 3,
+          "unit": "boy"
+        }
+      ]
+    },
+    "production": {
+      "status": "MONTAJA_HAZIR",
+      "note": null
+    },
+    "assembly": {
+      "schedule": {
+        "date": "2026-01-24T09:00",
+        "note": "",
+        "team": ""
+      },
+      "complete": {
+        "at": "2026-01-18T03:07:11.661396",
+        "proof": null
+      }
+    },
+    "finance": {
+      "total": 57000.0,
+      "prePayments": {
+        "cash": 15700.0,
+        "card": 18300.0,
+        "cheque": 0.0
+      },
+      "finalPayments": {
+        "cash": 23000.0,
+        "card": 0.0,
+        "cheque": 0.0
+      },
+      "discount": null,
+      "closedAt": "2026-01-26T13:23:57.857099"
+    },
+    "service": {},
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-18T02:57:41.672523",
+        "action": "created",
+        "note": "startType=MUSTERI_OLCUSU"
+      },
+      {
+        "at": "2026-01-18T02:58:38.851540",
+        "action": "status.updated",
+        "note": "MUSTERI_OLCUSU_BEKLENIYOR -> FIYATLANDIRMA"
+      },
+      {
+        "at": "2026-01-18T02:59:12.443285",
+        "action": "status.updated",
+        "note": "FIYATLANDIRMA -> FIYAT_VERILDI"
+      },
+      {
+        "at": "2026-01-18T03:00:00.146430",
+        "action": "status.updated",
+        "note": "FIYAT_VERILDI -> ANLASMA_YAPILIYOR"
+      },
+      {
+        "at": "2026-01-18T03:01:45.517191",
+        "action": "approval.started",
+        "note": null
+      },
+      {
+        "at": "2026-01-18T03:04:31.306037",
+        "action": "stock.updated",
+        "note": "ready=True, items=2, estimatedDate=None"
+      },
+      {
+        "at": "2026-01-18T03:06:48.137221",
+        "action": "production.updated",
+        "note": "MONTAJA_HAZIR"
+      },
+      {
+        "at": "2026-01-18T03:06:51.556656",
+        "action": "assembly.scheduled",
+        "note": null
+      },
+      {
+        "at": "2026-01-18T03:07:04.873250",
+        "action": "assembly.scheduled",
+        "note": null
+      },
+      {
+        "at": "2026-01-18T03:07:11.661396",
+        "action": "assembly.complete",
+        "note": "team="
+      },
+      {
+        "at": "2026-01-26T13:23:57.857099",
+        "action": "finance.closed",
+        "note": "balance=0.0"
+      },
+      {
+        "at": "2026-01-26T13:26:40.867686",
+        "action": "payment.updated",
+        "note": null
+      }
+    ],
+    "createdAt": "2026-01-18T02:57:41.672523"
+  },
+  {
+    "id": "JOB-E708DCA7",
+    "title": "a",
+    "customerId": "CST-BE545023",
+    "customerName": "hüsnü bilgili",
+    "status": "MONTAJ_TERMIN",
+    "startType": "OLCU",
+    "roles": [
+      {
+        "id": "ROLE-01",
+        "name": "PVC Doğrama",
+        "description": "PVC pencere, kapı sistemleri",
+        "productionType": "internal",
+        "requiresGlass": true,
+        "defaultGlassSupplier": null,
+        "estimatedDays": 5,
+        "active": true
+      },
+      {
+        "id": "ROLE-02",
+        "name": "Cam Balkon",
+        "description": "Cam balkon sistemleri, katlanır cam",
+        "productionType": "internal",
+        "requiresGlass": true,
+        "defaultGlassSupplier": null,
+        "estimatedDays": 4,
+        "active": true
+      }
+    ],
+    "measure": {
+      "measurements": {
+        "note": ""
+      },
+      "appointment": {
+        "date": "2026-01-16T10:00"
+      }
+    },
+    "offer": {
+      "total": 550000,
+      "rolePrices": {
+        "ROLE-01": 540000,
+        "ROLE-02": 10000
+      },
+      "notifiedDate": "2026-01-16",
+      "agreedDate": "2026-01-16T16:59:45.495Z"
+    },
+    "approval": {
+      "paymentPlan": {
+        "cash": {
+          "amount": 550000,
+          "date": "2026-01-16",
+          "status": "pending"
+        },
+        "card": {
+          "amount": 0,
+          "date": "2026-01-16",
+          "status": "pending"
+        },
+        "cheque": {
+          "total": 0,
+          "received": false,
+          "count": 0,
+          "items": [],
+          "status": "pending"
+        },
+        "afterDelivery": {
+          "amount": 0,
+          "note": "",
+          "status": "pending"
+        },
+        "total": 550000
+      },
+      "contractUrl": "DOC-2EBE2DB9",
+      "stockNeeds": []
+    },
+    "stock": {
+      "ready": true,
+      "purchaseNotes": "Üretime alındı - Stoktan düşüldü",
+      "items": [
+        {
+          "id": "STK-CA1326B4",
+          "name": "CARİSMA KAPI",
+          "productCode": "18320",
+          "colorCode": "3",
+          "qty": 1,
+          "unit": "boy"
+        }
+      ]
+    },
+    "production": {
+      "status": "MONTAJA_HAZIR",
+      "note": null
+    },
+    "assembly": {
+      "schedule": {
+        "date": "2026-01-31T09:00",
+        "note": "",
+        "team": ""
+      }
+    },
+    "finance": {},
+    "service": {},
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-16T16:59:12.172077",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2026-01-16T16:59:19.245355",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVU_BEKLIYOR -> OLCU_RANDEVULU"
+      },
+      {
+        "at": "2026-01-16T16:59:20.193838",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVULU -> OLCU_ALINDI"
+      },
+      {
+        "at": "2026-01-16T16:59:34.812973",
+        "action": "status.updated",
+        "note": "OLCU_ALINDI -> FIYATLANDIRMA"
+      },
+      {
+        "at": "2026-01-16T16:59:42.658991",
+        "action": "status.updated",
+        "note": "FIYATLANDIRMA -> FIYAT_VERILDI"
+      },
+      {
+        "at": "2026-01-16T16:59:45.498400",
+        "action": "status.updated",
+        "note": "FIYAT_VERILDI -> ANLASMA_YAPILIYOR"
+      },
+      {
+        "at": "2026-01-16T16:59:57.390151",
+        "action": "approval.started",
+        "note": null
+      },
+      {
+        "at": "2026-01-16T17:00:37.018770",
+        "action": "stock.updated",
+        "note": "ready=True, items=1, estimatedDate=None"
+      },
+      {
+        "at": "2026-01-26T10:26:47.682261",
+        "action": "production.updated",
+        "note": "MONTAJA_HAZIR"
+      },
+      {
+        "at": "2026-01-29T13:50:20.385252",
+        "action": "estimatedAssembly.updated",
+        "note": "2026-01-31"
+      },
+      {
+        "at": "2026-01-29T13:50:20.439785",
+        "action": "assembly.scheduled",
+        "note": null
+      }
+    ],
+    "createdAt": "2026-01-16T16:59:12.172077",
+    "estimatedAssembly": {
+      "date": "2026-01-31",
+      "note": "",
+      "setAt": "2026-01-29T13:50:20.385252"
+    }
+  },
+  {
+    "id": "JOB-E0B764A4",
+    "title": "villa",
+    "customerId": "CST-7BF96166",
+    "customerName": "Evren",
+    "status": "ANLASMA_TAMAMLANDI",
+    "startType": "OLCU",
+    "roles": [
+      {
+        "id": "ROLE-01",
+        "name": "PVC Doğrama",
+        "description": "PVC pencere, kapı sistemleri",
+        "productionType": "internal",
+        "requiresGlass": true,
+        "defaultGlassSupplier": null,
+        "estimatedDays": 5,
+        "active": true
+      },
+      {
+        "id": "ROLE-02",
+        "name": "Cam Balkon",
+        "description": "Cam balkon sistemleri, katlanır cam",
+        "productionType": "internal",
+        "requiresGlass": true,
+        "defaultGlassSupplier": null,
+        "estimatedDays": 4,
+        "active": true
+      },
+      {
+        "id": "ROLE-03",
+        "name": "Sineklik",
+        "description": "Pencere ve kapı sineklikleri",
+        "productionType": "internal",
+        "requiresGlass": false,
+        "defaultGlassSupplier": null,
+        "estimatedDays": 2,
+        "active": true
+      },
+      {
+        "id": "ROLE-06",
+        "name": "Panjur",
+        "description": "Otomatik ve manuel panjur sistemleri",
+        "productionType": "external",
+        "requiresGlass": false,
+        "defaultSupplier": null,
+        "estimatedDays": 8,
+        "active": true
+      }
+    ],
+    "measure": {
+      "measurements": {
+        "note": ""
+      },
+      "appointment": {
+        "date": "2026-01-16T10:00"
+      }
+    },
+    "offer": {
+      "total": 215000,
+      "rolePrices": {
+        "ROLE-01": 95000,
+        "ROLE-02": 50000,
+        "ROLE-03": 10000,
+        "ROLE-06": 60000
+      },
+      "notifiedDate": "2026-01-16",
+      "negotiationHistory": [
+        {
+          "date": "2026-01-16T13:24:25.050Z",
+          "originalTotal": 220000,
+          "discountTotal": 5000,
+          "finalTotal": 215000,
+          "roleDiscounts": {
+            "ROLE-01": 5000
+          }
+        }
+      ],
+      "agreedDate": "2026-01-16T13:24:25.050Z"
+    },
+    "approval": {
+      "paymentPlan": {
+        "cash": {
+          "amount": 50000,
+          "date": "2026-01-16",
+          "status": "pending"
+        },
+        "card": {
+          "amount": 150000,
+          "date": "2026-01-16",
+          "status": "pending"
+        },
+        "cheque": {
+          "total": 0,
+          "received": false,
+          "count": 0,
+          "items": [],
+          "status": "pending"
+        },
+        "afterDelivery": {
+          "amount": 15000,
+          "note": "",
+          "status": "pending"
+        },
+        "total": 215000
+      },
+      "contractUrl": "DOC-3D6114CF",
+      "stockNeeds": []
+    },
+    "stock": {},
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "service": {},
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-16T13:21:21.413897",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2026-01-16T13:21:45.654613",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVU_BEKLIYOR -> OLCU_RANDEVULU"
+      },
+      {
+        "at": "2026-01-16T13:21:54.086329",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVULU -> OLCU_ALINDI"
+      },
+      {
+        "at": "2026-01-16T13:22:45.607285",
+        "action": "status.updated",
+        "note": "OLCU_ALINDI -> FIYATLANDIRMA"
+      },
+      {
+        "at": "2026-01-16T13:23:19.845913",
+        "action": "status.updated",
+        "note": "FIYATLANDIRMA -> FIYAT_VERILDI"
+      },
+      {
+        "at": "2026-01-16T13:24:25.359732",
+        "action": "status.updated",
+        "note": "FIYAT_VERILDI -> ANLASMA_YAPILIYOR"
+      },
+      {
+        "at": "2026-01-16T13:37:43.076322",
+        "action": "approval.started",
+        "note": null
+      }
+    ],
+    "createdAt": "2026-01-16T13:21:21.413897"
+  },
+  {
+    "id": "JOB-DA6656FF",
+    "title": "deneme",
+    "customerId": "CST-BE545023",
+    "customerName": "hüsnü bilgili",
+    "status": "ANLASMA_TAMAMLANDI",
+    "startType": "OLCU",
+    "roles": [
+      {
+        "id": "ROLE-01",
+        "name": "PVC Doğrama",
+        "description": "PVC pencere, kapı sistemleri"
+      }
+    ],
+    "measure": {
+      "measurements": {
+        "note": ""
+      },
+      "appointment": {
+        "date": "2026-01-15T10:00"
+      }
+    },
+    "offer": {
+      "total": 2000,
+      "rolePrices": {
+        "ROLE-01": 2000
+      },
+      "notifiedDate": "2026-01-15",
+      "negotiationHistory": [
+        {
+          "date": "2026-01-15T16:51:35.095Z",
+          "originalTotal": 10000,
+          "discountTotal": 8000,
+          "finalTotal": 2000,
+          "roleDiscounts": {
+            "ROLE-01": 8000
+          }
+        }
+      ],
+      "agreedDate": "2026-01-15T16:51:35.095Z"
+    },
+    "approval": {
+      "paymentPlan": {
+        "cash": {
+          "amount": 2000,
+          "date": "2026-01-15",
+          "status": "pending"
+        },
+        "card": {
+          "amount": 0,
+          "date": "2026-01-15",
+          "status": "pending"
+        },
+        "cheque": {
+          "total": 0,
+          "received": false,
+          "count": 0,
+          "items": [],
+          "status": "pending"
+        },
+        "afterDelivery": {
+          "amount": 0,
+          "note": "",
+          "status": "pending"
+        },
+        "total": 2000
+      },
+      "contractUrl": null,
+      "stockNeeds": []
+    },
+    "stock": {},
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "service": {},
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-15T16:51:07.072968",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2026-01-15T16:51:12.379584",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVU_BEKLIYOR -> OLCU_RANDEVULU"
+      },
+      {
+        "at": "2026-01-15T16:51:13.776453",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVULU -> OLCU_ALINDI"
+      },
+      {
+        "at": "2026-01-15T16:51:20.872874",
+        "action": "status.updated",
+        "note": "OLCU_ALINDI -> FIYATLANDIRMA"
+      },
+      {
+        "at": "2026-01-15T16:51:28.559814",
+        "action": "status.updated",
+        "note": "FIYATLANDIRMA -> FIYAT_VERILDI"
+      },
+      {
+        "at": "2026-01-15T16:51:35.098231",
+        "action": "status.updated",
+        "note": "FIYAT_VERILDI -> ANLASMA_YAPILIYOR"
+      },
+      {
+        "at": "2026-01-15T16:51:55.112927",
+        "action": "approval.started",
+        "note": null
+      }
+    ],
+    "createdAt": "2026-01-15T16:51:07.072968"
+  },
+  {
+    "id": "JOB-E4588AC1",
+    "title": "deneme",
+    "customerId": "CST-BE545023",
+    "customerName": "hüsnü bilgili",
+    "status": "URETIME_HAZIR",
+    "startType": "OLCU",
+    "roles": [
+      {
+        "id": "ROLE-01",
+        "name": "PVC Doğrama",
+        "description": "PVC pencere, kapı sistemleri"
+      },
+      {
+        "id": "ROLE-02",
+        "name": "Cam Balkon",
+        "description": "Cam balkon sistemleri, katlanır cam"
+      }
+    ],
+    "measure": {
+      "measurements": {
+        "note": ""
+      },
+      "appointment": {
+        "date": "2026-01-14T10:00"
+      }
+    },
+    "offer": {
+      "total": 170000,
+      "rolePrices": {
+        "ROLE-01": 95000,
+        "ROLE-02": 75000
+      },
+      "notifiedDate": "2026-01-14",
+      "negotiationHistory": [
+        {
+          "date": "2026-01-14T19:22:55.535Z",
+          "originalTotal": 180000,
+          "discountTotal": 10000,
+          "finalTotal": 170000,
+          "roleDiscounts": {
+            "ROLE-01": 5000,
+            "ROLE-02": 5000
+          }
+        }
+      ],
+      "agreedDate": "2026-01-14T19:22:55.535Z"
+    },
+    "approval": {
+      "paymentPlan": {
+        "cash": {
+          "amount": 70000,
+          "date": "2026-01-16",
+          "status": "pending"
+        },
+        "card": {
+          "amount": 100000,
+          "date": "2026-01-14",
+          "status": "collected",
+          "collectedData": {
+            "collectedAt": "2026-01-14T19:29:16.884Z",
+            "originalAmount": 100000,
+            "collectedAmount": 100000,
+            "isPartial": false,
+            "discountAmount": 0,
+            "discountReason": "",
+            "note": ""
+          }
+        },
+        "cheque": {
+          "total": 0,
+          "received": false,
+          "count": 0,
+          "items": [],
+          "status": "pending"
+        },
+        "afterDelivery": {
+          "amount": 0,
+          "note": "",
+          "status": "pending"
+        },
+        "total": 170000
+      },
+      "contractUrl": "DOC-22100279",
+      "stockNeeds": []
+    },
+    "stock": {
+      "ready": true,
+      "purchaseNotes": "Üretime alındı - Stoktan düşüldü",
+      "items": [
+        {
+          "id": "STK-CA1326B4",
+          "name": "CARİSMA KAPI",
+          "productCode": "18320",
+          "colorCode": "3",
+          "qty": 53,
+          "unit": "boy"
+        }
+      ]
+    },
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "service": {},
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-14T19:17:00.961331",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2026-01-14T19:18:13.482768",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVU_BEKLIYOR -> OLCU_RANDEVULU"
+      },
+      {
+        "at": "2026-01-14T19:18:48.352461",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVULU -> OLCU_ALINDI"
+      },
+      {
+        "at": "2026-01-14T19:19:26.452570",
+        "action": "status.updated",
+        "note": "OLCU_ALINDI -> FIYATLANDIRMA"
+      },
+      {
+        "at": "2026-01-14T19:20:43.961320",
+        "action": "status.updated",
+        "note": "FIYATLANDIRMA -> FIYAT_VERILDI"
+      },
+      {
+        "at": "2026-01-14T19:22:55.840951",
+        "action": "status.updated",
+        "note": "FIYAT_VERILDI -> ANLASMA_YAPILIYOR"
+      },
+      {
+        "at": "2026-01-14T19:25:52.483674",
+        "action": "approval.started",
+        "note": null
+      },
+      {
+        "at": "2026-01-14T19:27:53.511783",
+        "action": "stock.updated",
+        "note": "ready=True, items=1, estimatedDate=None"
+      },
+      {
+        "at": "2026-01-14T19:29:16.888347",
+        "action": "payment.updated",
+        "note": null
+      }
+    ],
+    "createdAt": "2026-01-14T19:17:00.961331"
+  },
+  {
+    "id": "JOB-DD707BC5",
+    "title": "çek kontrol",
+    "customerId": "CST-12",
+    "customerName": "Nova Yapı",
+    "status": "URETIME_HAZIR",
+    "startType": "OLCU",
+    "roles": [
+      {
+        "id": "ROLE-01",
+        "name": "PVC Doğrama",
+        "description": "PVC pencere, kapı sistemleri"
+      }
+    ],
+    "measure": {
+      "measurements": {
+        "note": ""
+      },
+      "appointment": {
+        "date": "2026-01-14T10:00"
+      }
+    },
+    "offer": {
+      "total": 100000,
+      "rolePrices": {
+        "ROLE-01": 100000
+      },
+      "notifiedDate": "2026-01-14",
+      "agreedDate": "2026-01-14T18:25:22.279Z"
+    },
+    "approval": {
+      "paymentPlan": {
+        "cash": {
+          "amount": 0,
+          "date": "2026-01-14",
+          "status": "pending"
+        },
+        "card": {
+          "amount": 0,
+          "date": "2026-01-14",
+          "status": "pending"
+        },
+        "cheque": {
+          "total": 100000,
+          "received": false,
+          "count": 4,
+          "items": [],
+          "status": "pending"
+        },
+        "afterDelivery": {
+          "amount": 0,
+          "note": "",
+          "status": "pending"
+        },
+        "total": 100000
+      },
+      "contractUrl": "DOC-FE1FE6A7",
+      "stockNeeds": []
+    },
+    "stock": {
+      "ready": true,
+      "purchaseNotes": "Üretime alındı - Stoktan düşüldü",
+      "items": [
+        {
+          "id": "STK-CA1326B4",
+          "name": "CARİSMA KAPI",
+          "productCode": "18320",
+          "colorCode": "3",
+          "qty": 10,
+          "unit": "boy"
+        }
+      ]
+    },
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "service": {},
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-14T18:25:00.675002",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2026-01-14T18:25:06.563668",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVU_BEKLIYOR -> OLCU_RANDEVULU"
+      },
+      {
+        "at": "2026-01-14T18:25:07.323932",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVULU -> OLCU_ALINDI"
+      },
+      {
+        "at": "2026-01-14T18:25:14.097619",
+        "action": "status.updated",
+        "note": "OLCU_ALINDI -> FIYATLANDIRMA"
+      },
+      {
+        "at": "2026-01-14T18:25:20.897948",
+        "action": "status.updated",
+        "note": "FIYATLANDIRMA -> FIYAT_VERILDI"
+      },
+      {
+        "at": "2026-01-14T18:25:22.281487",
+        "action": "status.updated",
+        "note": "FIYAT_VERILDI -> ANLASMA_YAPILIYOR"
+      },
+      {
+        "at": "2026-01-14T18:25:39.989721",
+        "action": "approval.started",
+        "note": null
+      },
+      {
+        "at": "2026-01-14T18:26:03.095935",
+        "action": "stock.updated",
+        "note": "ready=True, items=1, estimatedDate=None"
+      }
+    ],
+    "createdAt": "2026-01-14T18:25:00.675002"
+  },
+  {
+    "id": "JOB-13305BCF",
+    "title": "stok test",
+    "customerId": "CST-12",
+    "customerName": "Nova Yapı",
+    "status": "URETIME_HAZIR",
+    "startType": "OLCU",
+    "roles": [
+      {
+        "id": "ROLE-01",
+        "name": "PVC Doğrama",
+        "description": "PVC pencere, kapı sistemleri"
+      }
+    ],
+    "measure": {
+      "measurements": {
+        "note": ""
+      },
+      "appointment": {
+        "date": "2026-01-14T10:00"
+      }
+    },
+    "offer": {
+      "total": 1000,
+      "rolePrices": {
+        "ROLE-01": 1000
+      },
+      "notifiedDate": "2026-01-14",
+      "agreedDate": "2026-01-14T18:22:03.954Z"
+    },
+    "approval": {
+      "paymentPlan": {
+        "cash": {
+          "amount": 0,
+          "date": "2026-01-14",
+          "status": "pending"
+        },
+        "card": {
+          "amount": 1000,
+          "date": "2026-01-14",
+          "status": "pending"
+        },
+        "cheque": {
+          "total": 0,
+          "received": false,
+          "count": 0,
+          "items": [],
+          "status": "pending"
+        },
+        "afterDelivery": {
+          "amount": 0,
+          "note": "",
+          "status": "pending"
+        },
+        "total": 1000
+      },
+      "contractUrl": "DOC-DFACD3C0",
+      "stockNeeds": []
+    },
+    "stock": {
+      "ready": true,
+      "purchaseNotes": "Üretime alındı - Stoktan düşüldü",
+      "items": [
+        {
+          "id": "STK-CA29BA2B",
+          "name": "CARİSMA KASA BEYAZ",
+          "productCode": "18300",
+          "colorCode": "3",
+          "qty": 79,
+          "unit": "boy"
+        }
+      ]
+    },
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "service": {},
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-14T18:21:42.670974",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2026-01-14T18:21:49.039788",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVU_BEKLIYOR -> OLCU_RANDEVULU"
+      },
+      {
+        "at": "2026-01-14T18:21:49.837126",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVULU -> OLCU_ALINDI"
+      },
+      {
+        "at": "2026-01-14T18:21:56.965383",
+        "action": "status.updated",
+        "note": "OLCU_ALINDI -> FIYATLANDIRMA"
+      },
+      {
+        "at": "2026-01-14T18:22:02.851222",
+        "action": "status.updated",
+        "note": "FIYATLANDIRMA -> FIYAT_VERILDI"
+      },
+      {
+        "at": "2026-01-14T18:22:03.956713",
+        "action": "status.updated",
+        "note": "FIYAT_VERILDI -> ANLASMA_YAPILIYOR"
+      },
+      {
+        "at": "2026-01-14T18:22:17.974588",
+        "action": "approval.started",
+        "note": null
+      },
+      {
+        "at": "2026-01-14T18:22:58.675326",
+        "action": "stock.updated",
+        "note": "ready=True, items=1, estimatedDate=None"
+      }
+    ],
+    "createdAt": "2026-01-14T18:21:42.670974"
+  },
+  {
+    "id": "JOB-5E620785",
+    "title": "rezerv test üretim",
+    "customerId": "CST-12",
+    "customerName": "Nova Yapı",
+    "status": "URETIME_HAZIR",
+    "startType": "OLCU",
+    "roles": [
+      {
+        "id": "ROLE-01",
+        "name": "PVC Doğrama",
+        "description": "PVC pencere, kapı sistemleri"
+      }
+    ],
+    "measure": {
+      "measurements": {
+        "note": ""
+      },
+      "appointment": {
+        "date": "2026-01-14T10:00"
+      }
+    },
+    "offer": {
+      "total": 60000,
+      "rolePrices": {
+        "ROLE-01": 60000
+      },
+      "notifiedDate": "2026-01-14",
+      "agreedDate": "2026-01-14T18:15:53.757Z"
+    },
+    "approval": {
+      "paymentPlan": {
+        "cash": {
+          "amount": 0,
+          "date": "2026-01-14",
+          "status": "pending"
+        },
+        "card": {
+          "amount": 0,
+          "date": "2026-01-14",
+          "status": "pending"
+        },
+        "cheque": {
+          "total": 60000,
+          "received": false,
+          "count": 1,
+          "items": [],
+          "status": "pending"
+        },
+        "afterDelivery": {
+          "amount": 0,
+          "note": "",
+          "status": "pending"
+        },
+        "total": 60000
+      },
+      "contractUrl": "DOC-FE636EA2",
+      "stockNeeds": []
+    },
+    "stock": {
+      "ready": true,
+      "purchaseNotes": "Üretime alındı - Stoktan düşüldü",
+      "items": [
+        {
+          "id": "STK-CA29BA2B",
+          "name": "CARİSMA KASA BEYAZ",
+          "productCode": "18300",
+          "colorCode": "3",
+          "qty": 50,
+          "unit": "boy"
+        }
+      ]
+    },
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "service": {},
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-14T18:15:13.068778",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2026-01-14T18:15:20.703168",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVU_BEKLIYOR -> OLCU_RANDEVULU"
+      },
+      {
+        "at": "2026-01-14T18:15:21.690231",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVULU -> OLCU_ALINDI"
+      },
+      {
+        "at": "2026-01-14T18:15:30.401969",
+        "action": "status.updated",
+        "note": "OLCU_ALINDI -> FIYATLANDIRMA"
+      },
+      {
+        "at": "2026-01-14T18:15:51.760884",
+        "action": "status.updated",
+        "note": "FIYATLANDIRMA -> FIYAT_VERILDI"
+      },
+      {
+        "at": "2026-01-14T18:15:53.759747",
+        "action": "status.updated",
+        "note": "FIYAT_VERILDI -> ANLASMA_YAPILIYOR"
+      },
+      {
+        "at": "2026-01-14T18:16:08.726736",
+        "action": "approval.started",
+        "note": null
+      },
+      {
+        "at": "2026-01-14T18:16:52.567439",
+        "action": "stock.updated",
+        "note": "ready=True, items=1, estimatedDate=None"
+      }
+    ],
+    "createdAt": "2026-01-14T18:15:13.068778"
+  },
+  {
+    "id": "JOB-B3848683",
+    "title": "rezerv 1",
+    "customerId": "CST-12",
+    "customerName": "Nova Yapı",
+    "status": "SONRA_URETILECEK",
+    "startType": "OLCU",
+    "roles": [
+      {
+        "id": "ROLE-01",
+        "name": "PVC Doğrama",
+        "description": "PVC pencere, kapı sistemleri"
+      }
+    ],
+    "measure": {
+      "measurements": {
+        "note": ""
+      },
+      "appointment": {
+        "date": "2026-01-14T10:00"
+      }
+    },
+    "offer": {
+      "total": 50000,
+      "rolePrices": {
+        "ROLE-01": 50000
+      },
+      "notifiedDate": "2026-01-14",
+      "agreedDate": "2026-01-14T17:17:04.738Z"
+    },
+    "approval": {
+      "paymentPlan": {
+        "cash": {
+          "amount": 0,
+          "date": "2026-01-14",
+          "status": "pending"
+        },
+        "card": {
+          "amount": 0,
+          "date": "2026-01-14",
+          "status": "pending"
+        },
+        "cheque": {
+          "total": 0,
+          "received": false,
+          "count": 0,
+          "items": [],
+          "status": "pending"
+        },
+        "afterDelivery": {
+          "amount": 50000,
+          "note": "",
+          "status": "collected",
+          "collectedData": {
+            "collectedAt": "2026-01-14T18:27:01.354Z",
+            "originalAmount": 50000,
+            "collectedAmount": 40000,
+            "isPartial": false,
+            "discountAmount": 10000,
+            "discountReason": "indirim",
+            "note": ""
+          }
+        },
+        "total": 50000
+      },
+      "contractUrl": "DOC-857DCD33",
+      "stockNeeds": []
+    },
+    "stock": {
+      "ready": false,
+      "purchaseNotes": "Sonra üretilecek - Rezerve edildi",
+      "items": [
+        {
+          "id": "STK-CA29BA2B",
+          "name": "CARİSMA KASA BEYAZ",
+          "productCode": "18300",
+          "colorCode": "3",
+          "qty": 100,
+          "unit": "boy"
+        }
+      ],
+      "estimatedDate": "2026-06-12"
+    },
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "service": {},
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-14T17:15:27.299820",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2026-01-14T17:15:35.223447",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVU_BEKLIYOR -> OLCU_RANDEVULU"
+      },
+      {
+        "at": "2026-01-14T17:16:11.795630",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVULU -> OLCU_ALINDI"
+      },
+      {
+        "at": "2026-01-14T17:16:43.324890",
+        "action": "status.updated",
+        "note": "OLCU_ALINDI -> FIYATLANDIRMA"
+      },
+      {
+        "at": "2026-01-14T17:16:53.736731",
+        "action": "status.updated",
+        "note": "FIYATLANDIRMA -> FIYAT_VERILDI"
+      },
+      {
+        "at": "2026-01-14T17:17:04.740949",
+        "action": "status.updated",
+        "note": "FIYAT_VERILDI -> ANLASMA_YAPILIYOR"
+      },
+      {
+        "at": "2026-01-14T17:17:22.581213",
+        "action": "approval.started",
+        "note": null
+      },
+      {
+        "at": "2026-01-14T17:23:06.259259",
+        "action": "approval.started",
+        "note": null
+      },
+      {
+        "at": "2026-01-14T18:13:42.077198",
+        "action": "stock.updated",
+        "note": "ready=False, items=1, estimatedDate=2026-06-12"
+      },
+      {
+        "at": "2026-01-14T18:27:01.359690",
+        "action": "payment.updated",
+        "note": null
+      }
+    ],
+    "createdAt": "2026-01-14T17:15:27.299820"
+  },
+  {
+    "id": "JOB-2FF6806B",
+    "title": "ölçü d",
+    "customerId": "CST-BE545023",
+    "customerName": "hüsnü bilgili",
+    "status": "SONRA_URETILECEK",
+    "startType": "OLCU",
+    "roles": [
+      {
+        "id": "ROLE-01",
+        "name": "PVC Doğrama",
+        "description": "PVC pencere, kapı sistemleri"
+      }
+    ],
+    "measure": {
+      "measurements": {
+        "note": ""
+      },
+      "appointment": {
+        "date": "2026-01-13T10:00"
+      }
+    },
+    "offer": {
+      "total": 10000,
+      "rolePrices": {
+        "ROLE-01": 10000
+      },
+      "notifiedDate": "2026-01-12",
+      "agreedDate": "2026-01-12T21:31:01.893Z"
+    },
+    "approval": {
+      "paymentPlan": {
+        "cash": {
+          "amount": 0,
+          "date": "2026-01-12",
+          "status": "pending"
+        },
+        "card": {
+          "amount": 0,
+          "date": "2026-01-12",
+          "status": "pending"
+        },
+        "cheque": {
+          "total": 0,
+          "received": false,
+          "count": 0,
+          "items": [],
+          "status": "pending"
+        },
+        "afterDelivery": {
+          "amount": 10000,
+          "note": "",
+          "status": "pending"
+        },
+        "total": 10000
+      },
+      "contractUrl": "DOC-EE1F179E",
+      "stockNeeds": []
+    },
+    "stock": {
+      "ready": false,
+      "purchaseNotes": "Sonra üretilecek - Rezerve edildi",
+      "items": [
+        {
+          "id": "STK-CA1326B4",
+          "name": "CARİSMA KAPI",
+          "productCode": "18320",
+          "colorCode": "3",
+          "qty": 2,
+          "unit": "boy"
+        }
+      ]
+    },
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "service": {},
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-12T21:30:33.391616",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2026-01-12T21:30:40.103159",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVU_BEKLIYOR -> OLCU_RANDEVULU"
+      },
+      {
+        "at": "2026-01-12T21:30:41.066574",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVULU -> OLCU_ALINDI"
+      },
+      {
+        "at": "2026-01-12T21:30:51.159682",
+        "action": "status.updated",
+        "note": "OLCU_ALINDI -> FIYATLANDIRMA"
+      },
+      {
+        "at": "2026-01-12T21:30:58.384001",
+        "action": "status.updated",
+        "note": "FIYATLANDIRMA -> FIYAT_VERILDI"
+      },
+      {
+        "at": "2026-01-12T21:31:01.895696",
+        "action": "status.updated",
+        "note": "FIYAT_VERILDI -> ANLASMA_YAPILIYOR"
+      },
+      {
+        "at": "2026-01-12T21:31:17.270992",
+        "action": "approval.started",
+        "note": null
+      },
+      {
+        "at": "2026-01-12T21:35:33.458459",
+        "action": "stock.updated",
+        "note": "ready=False, items=1"
+      }
+    ],
+    "createdAt": "2026-01-12T21:30:33.391616"
+  },
+  {
+    "id": "JOB-E7BD79FA",
+    "title": "ölçü c",
+    "customerId": "CST-BE545023",
+    "customerName": "hüsnü bilgili",
+    "status": "URETIME_HAZIR",
+    "startType": "OLCU",
+    "roles": [
+      {
+        "id": "ROLE-01",
+        "name": "PVC Doğrama",
+        "description": "PVC pencere, kapı sistemleri"
+      }
+    ],
+    "measure": {
+      "measurements": {
+        "note": ""
+      },
+      "appointment": {
+        "date": "2026-01-13T10:00"
+      }
+    },
+    "offer": {
+      "total": 30000,
+      "rolePrices": {
+        "ROLE-01": 30000
+      },
+      "notifiedDate": "2026-01-12",
+      "agreedDate": "2026-01-12T21:20:53.479Z"
+    },
+    "approval": {
+      "paymentPlan": {
+        "cash": {
+          "amount": 30000,
+          "date": "2026-01-12",
+          "status": "pending"
+        },
+        "card": {
+          "amount": 0,
+          "date": "2026-01-12",
+          "status": "pending"
+        },
+        "cheque": {
+          "total": 0,
+          "received": false,
+          "count": 0,
+          "items": [],
+          "status": "pending"
+        },
+        "afterDelivery": {
+          "amount": 0,
+          "note": "",
+          "status": "pending"
+        },
+        "total": 30000
+      },
+      "contractUrl": "DOC-1AD2687C",
+      "stockNeeds": []
+    },
+    "stock": {
+      "ready": true,
+      "purchaseNotes": "Üretime alındı - Stoktan düşüldü",
+      "items": [
+        {
+          "id": "STK-CA1326B4",
+          "name": "CARİSMA KAPI",
+          "productCode": "18320",
+          "colorCode": "3",
+          "qty": 16,
+          "unit": "boy"
+        }
+      ]
+    },
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "service": {},
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-12T21:20:15.241491",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2026-01-12T21:20:22.907487",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVU_BEKLIYOR -> OLCU_RANDEVULU"
+      },
+      {
+        "at": "2026-01-12T21:20:31.354206",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVULU -> OLCU_ALINDI"
+      },
+      {
+        "at": "2026-01-12T21:20:45.391210",
+        "action": "status.updated",
+        "note": "OLCU_ALINDI -> FIYATLANDIRMA"
+      },
+      {
+        "at": "2026-01-12T21:20:51.098702",
+        "action": "status.updated",
+        "note": "FIYATLANDIRMA -> FIYAT_VERILDI"
+      },
+      {
+        "at": "2026-01-12T21:20:53.481584",
+        "action": "status.updated",
+        "note": "FIYAT_VERILDI -> ANLASMA_YAPILIYOR"
+      },
+      {
+        "at": "2026-01-12T21:21:05.965193",
+        "action": "approval.started",
+        "note": null
+      },
+      {
+        "at": "2026-01-12T21:26:26.073572",
+        "action": "stock.updated",
+        "note": "ready=True, items=1"
+      }
+    ],
+    "createdAt": "2026-01-12T21:20:15.241491"
+  },
+  {
+    "id": "JOB-9165692D",
+    "title": "ölçü b",
+    "customerId": "CST-BE545023",
+    "customerName": "hüsnü bilgili",
+    "status": "URETIME_HAZIR",
+    "startType": "OLCU",
+    "roles": [
+      {
+        "id": "ROLE-01",
+        "name": "PVC Doğrama",
+        "description": "PVC pencere, kapı sistemleri"
+      }
+    ],
+    "measure": {
+      "measurements": {
+        "note": ""
+      },
+      "appointment": {
+        "date": "2026-01-12T10:00"
+      }
+    },
+    "offer": {
+      "total": 200000,
+      "rolePrices": {
+        "ROLE-01": 200000
+      },
+      "notifiedDate": "2026-01-12",
+      "agreedDate": "2026-01-12T20:49:29.012Z"
+    },
+    "approval": {
+      "paymentPlan": {
+        "cash": {
+          "amount": 120000,
+          "date": "2026-01-12",
+          "status": "pending"
+        },
+        "card": {
+          "amount": 80000,
+          "date": "2026-01-12",
+          "status": "pending"
+        },
+        "cheque": {
+          "total": 0,
+          "received": false,
+          "count": 0,
+          "items": [],
+          "status": "pending"
+        },
+        "afterDelivery": {
+          "amount": 0,
+          "note": "",
+          "status": "pending"
+        },
+        "total": 200000
+      },
+      "contractUrl": "DOC-B8E560C3",
+      "stockNeeds": []
+    },
+    "stock": {
+      "ready": true,
+      "purchaseNotes": "Üretime alındı - Stoktan düşüldü"
+    },
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "service": {},
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-12T20:48:59.047277",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2026-01-12T20:49:08.772017",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVU_BEKLIYOR -> OLCU_RANDEVULU"
+      },
+      {
+        "at": "2026-01-12T20:49:11.276278",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVULU -> OLCU_ALINDI"
+      },
+      {
+        "at": "2026-01-12T20:49:18.841931",
+        "action": "status.updated",
+        "note": "OLCU_ALINDI -> FIYATLANDIRMA"
+      },
+      {
+        "at": "2026-01-12T20:49:26.465390",
+        "action": "status.updated",
+        "note": "FIYATLANDIRMA -> FIYAT_VERILDI"
+      },
+      {
+        "at": "2026-01-12T20:49:29.015199",
+        "action": "status.updated",
+        "note": "FIYAT_VERILDI -> ANLASMA_YAPILIYOR"
+      },
+      {
+        "at": "2026-01-12T20:49:45.436477",
+        "action": "approval.started",
+        "note": null
+      },
+      {
+        "at": "2026-01-12T20:53:03.373975",
+        "action": "stock.updated",
+        "note": "ready=True"
+      }
+    ],
+    "createdAt": "2026-01-12T20:48:59.047277"
+  },
+  {
+    "id": "JOB-FB062953",
+    "title": "ölçü a",
+    "customerId": "CST-BE545023",
+    "customerName": "hüsnü bilgili",
+    "status": "SONRA_URETILECEK",
+    "startType": "OLCU",
+    "roles": [
+      {
+        "id": "ROLE-01",
+        "name": "PVC Doğrama",
+        "description": "PVC pencere, kapı sistemleri"
+      }
+    ],
+    "measure": {
+      "measurements": {
+        "note": ""
+      },
+      "appointment": {
+        "date": "2026-01-12T10:00"
+      }
+    },
+    "offer": {
+      "total": 100000,
+      "rolePrices": {
+        "ROLE-01": 100000
+      },
+      "notifiedDate": "2026-01-12",
+      "agreedDate": "2026-01-12T20:45:14.664Z"
+    },
+    "approval": {
+      "paymentPlan": {
+        "cash": {
+          "amount": 100000,
+          "date": "2026-01-12",
+          "status": "pending"
+        },
+        "card": {
+          "amount": 0,
+          "date": "2026-01-12",
+          "status": "pending"
+        },
+        "cheque": {
+          "total": 0,
+          "received": false,
+          "count": 0,
+          "items": [],
+          "status": "pending"
+        },
+        "afterDelivery": {
+          "amount": 0,
+          "note": "",
+          "status": "pending"
+        },
+        "total": 100000
+      },
+      "contractUrl": "DOC-4A170118",
+      "stockNeeds": []
+    },
+    "stock": {
+      "ready": false,
+      "purchaseNotes": "Sonra üretilecek - Rezerve edildi",
+      "items": [
+        {
+          "id": "STK-CA1326B4",
+          "name": "CARİSMA KAPI",
+          "productCode": "18320",
+          "colorCode": "3",
+          "qty": 18,
+          "unit": "boy"
+        },
+        {
+          "id": "STK-CA29BA2B",
+          "name": "CARİSMA KASA BEYAZ",
+          "productCode": "18300",
+          "colorCode": "3",
+          "qty": 10,
+          "unit": "boy"
+        }
+      ]
+    },
+    "production": {},
+    "assembly": {},
+    "finance": {},
+    "service": {},
+    "roleFiles": {},
+    "rolePrices": {},
+    "logs": [
+      {
+        "at": "2026-01-12T20:44:25.682080",
+        "action": "created",
+        "note": "startType=OLCU"
+      },
+      {
+        "at": "2026-01-12T20:44:33.753020",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVU_BEKLIYOR -> OLCU_RANDEVULU"
+      },
+      {
+        "at": "2026-01-12T20:44:35.485127",
+        "action": "status.updated",
+        "note": "OLCU_RANDEVULU -> OLCU_ALINDI"
+      },
+      {
+        "at": "2026-01-12T20:44:44.366164",
+        "action": "status.updated",
+        "note": "OLCU_ALINDI -> FIYATLANDIRMA"
+      },
+      {
+        "at": "2026-01-12T20:45:11.683266",
+        "action": "status.updated",
+        "note": "FIYATLANDIRMA -> FIYAT_VERILDI"
+      },
+      {
+        "at": "2026-01-12T20:45:14.668006",
+        "action": "status.updated",
+        "note": "FIYAT_VERILDI -> ANLASMA_YAPILIYOR"
+      },
+      {
+        "at": "2026-01-12T20:45:29.694311",
+        "action": "approval.started",
+        "note": null
+      },
+      {
+        "at": "2026-01-12T20:47:40.642886",
+        "action": "stock.updated",
+        "note": "ready=False, items=2"
+      }
+    ],
+    "createdAt": "2026-01-12T20:44:25.682080"
+  }
+]

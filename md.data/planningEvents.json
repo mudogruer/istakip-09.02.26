@@ -1,0 +1,6 @@
+[
+  { "id": "PLN-01", "title": "Keşif - Nova Yapı", "date": "2025-12-28", "type": "Keşif", "owner": "Burak Aksu", "location": "Ataşehir" },
+  { "id": "PLN-02", "title": "Montaj - Mert İç Mimarlık", "date": "2025-12-29", "type": "Montaj", "owner": "Serkan Yıldız", "location": "Çekmeköy" },
+  { "id": "PLN-03", "title": "Teslim - Luna Home", "date": "2025-12-30", "type": "Teslim", "owner": "Ece Korkmaz", "location": "Bornova" }
+]
+
