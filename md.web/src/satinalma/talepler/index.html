@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Malzeme Talepleri - İş Takip Paneli</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <div id="app"></div>
+
+  <script type="module" src="/assets/app.js"></script>
+  <script type="module">
+    document.addEventListener('DOMContentLoaded', () => {
+      const pageContent = document.getElementById('pageContent');
+      if (pageContent) {
+        pageContent.innerHTML = `
+          <div class="page-header">
+            <div class="page-header-top">
+              <h2 class="page-title">Malzeme Talepleri</h2>
+              <div class="page-actions">
+                <button class="btn btn-primary">
+                  <span>+</span>
+                  <span>Yeni Talep</span>
+                </button>
+              </div>
+            </div>
+            <p class="page-subtitle">Ekipten gelen malzeme taleplerini yönetin</p>
+          </div>
+
+          <div class="stats-grid">
+            <div class="stat-card">
+              <div class="stat-icon danger">⚠️</div>
+              <div class="stat-content">
+                <div class="stat-label">Acil</div>
+                <div class="stat-value">4</div>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon primary">📋</div>
+              <div class="stat-content">
+                <div class="stat-label">Bekleyen</div>
+                <div class="stat-value">8</div>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon success">✓</div>
+              <div class="stat-content">
+                <div class="stat-label">Onaylanan</div>
+                <div class="stat-value">15</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="filter-bar">
+            <div class="filter-group">
+              <label class="filter-label">Durum</label>
+              <select class="filter-select">
+                <option value="">Tümü</option>
+                <option value="pending">Bekliyor</option>
+                <option value="approved">Onaylandı</option>
+                <option value="rejected">Reddedildi</option>
+                <option value="ordered">Sipariş Verildi</option>
+              </select>
+            </div>
+
+            <div class="filter-group">
+              <label class="filter-label">Öncelik</label>
+              <select class="filter-select">
+                <option value="">Tümü</option>
+                <option value="urgent">Acil</option>
+                <option value="high">Yüksek</option>
+                <option value="normal">Normal</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="table-container">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Talep No</th>
+                  <th>İlgili İş</th>
+                  <th>Talep Eden</th>
+                  <th>Malzemeler</th>
+                  <th>Öncelik</th>
+                  <th>Talep Tarihi</th>
+                  <th>Durum</th>
+                  <th>İşlemler</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>MT-156</strong></td>
+                  <td>#2024-156 - Yatak Odası</td>
+                  <td>Mehmet Kaya</td>
+                  <td>Meşe Suntalam, Menteşe</td>
+                  <td><span class="badge badge-danger">Acil</span></td>
+                  <td>24 Ara 2025</td>
+                  <td><span class="badge badge-primary">Bekliyor</span></td>
+                  <td>
+                    <button class="btn btn-primary btn-icon" title="Onayla">✓</button>
+                    <button class="btn btn-secondary btn-icon" title="Detay">👁</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td><strong>MT-155</strong></td>
+                  <td>#2024-150 - TV Ünitesi</td>
+                  <td>Can Özkan</td>
+                  <td>Vernik Mat 5L</td>
+                  <td><span class="badge badge-warning">Yüksek</span></td>
+                  <td>23 Ara 2025</td>
+                  <td><span class="badge badge-success">Onaylandı</span></td>
+                  <td>
+                    <button class="btn btn-primary btn-icon" title="Onayla">✓</button>
+                    <button class="btn btn-secondary btn-icon" title="Detay">👁</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td><strong>MT-154</strong></td>
+                  <td>#2024-149 - Ofis Mobilyası</td>
+                  <td>Ahmet Yılmaz</td>
+                  <td>Beyaz Laminat, Ray</td>
+                  <td><span class="badge badge-secondary">Normal</span></td>
+                  <td>22 Ara 2025</td>
+                  <td><span class="badge badge-primary">Bekliyor</span></td>
+                  <td>
+                    <button class="btn btn-primary btn-icon" title="Onayla">✓</button>
+                    <button class="btn btn-secondary btn-icon" title="Detay">👁</button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        `;
+      }
+    });
+  </script>
+</body>
+</html>
+

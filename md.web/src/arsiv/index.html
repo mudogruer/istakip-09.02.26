@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dijital Arşiv - İş Takip Paneli</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <div id="app"></div>
+
+  <script type="module" src="/assets/app.js"></script>
+  <script type="module">
+    document.addEventListener('DOMContentLoaded', () => {
+      const pageContent = document.getElementById('pageContent');
+      if (pageContent) {
+        pageContent.innerHTML = `
+          <div class="page-header">
+            <div class="page-header-top">
+              <h2 class="page-title">Dijital Arşiv</h2>
+              <div class="page-actions">
+                <button class="btn btn-secondary">
+                  <span>📂</span>
+                  <span>Klasör Oluştur</span>
+                </button>
+                <button class="btn btn-primary">
+                  <span>⬆️</span>
+                  <span>Dosya Yükle</span>
+                </button>
+              </div>
+            </div>
+            <p class="page-subtitle">Tüm belgelerinizi dijital ortamda saklayın</p>
+          </div>
+
+          <div class="stats-grid">
+            <div class="stat-card">
+              <div class="stat-icon primary">📁</div>
+              <div class="stat-content">
+                <div class="stat-label">Toplam Dosya</div>
+                <div class="stat-value">1,247</div>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon success">💾</div>
+              <div class="stat-content">
+                <div class="stat-label">Kullanılan Alan</div>
+                <div class="stat-value">4.2 GB</div>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon warning">⬆️</div>
+              <div class="stat-content">
+                <div class="stat-label">Bu Hafta Eklenen</div>
+                <div class="stat-value">24</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="filter-bar">
+            <div class="filter-group">
+              <label class="filter-label">Ara</label>
+              <input type="text" class="filter-input" placeholder="Dosya adı..." />
+            </div>
+
+            <div class="filter-group">
+              <label class="filter-label">Dosya Tipi</label>
+              <select class="filter-select">
+                <option value="">Tümü</option>
+                <option value="pdf">PDF</option>
+                <option value="image">Resim</option>
+                <option value="doc">Döküman</option>
+                <option value="excel">Excel</option>
+              </select>
+            </div>
+
+            <div class="filter-group">
+              <label class="filter-label">Kategori</label>
+              <select class="filter-select">
+                <option value="">Tümü</option>
+                <option value="project">Proje Dosyaları</option>
+                <option value="invoice">Faturalar</option>
+                <option value="contract">Sözleşmeler</option>
+                <option value="photo">Fotoğraflar</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="grid grid-2">
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">📂 Klasörler</h3>
+              </div>
+              <div class="card-body">
+                <div style="display: flex; flex-direction: column; gap: 12px;">
+                  <div style="display: flex; align-items: center; justify-content: space-between; padding: 12px; background: var(--color-bg); border-radius: 8px; cursor: pointer;">
+                    <div style="display: flex; align-items: center; gap: 12px;">
+                      <span style="font-size: 24px;">📁</span>
+                      <div>
+                        <div style="font-weight: 500;">Proje Dosyaları</div>
+                        <div style="font-size: 12px; color: var(--color-text-light);">328 dosya</div>
+                      </div>
+                    </div>
+                    <button class="btn btn-secondary btn-icon">→</button>
+                  </div>
+
+                  <div style="display: flex; align-items: center; justify-content: space-between; padding: 12px; background: var(--color-bg); border-radius: 8px; cursor: pointer;">
+                    <div style="display: flex; align-items: center; gap: 12px;">
+                      <span style="font-size: 24px;">📁</span>
+                      <div>
+                        <div style="font-weight: 500;">Faturalar</div>
+                        <div style="font-size: 12px; color: var(--color-text-light);">156 dosya</div>
+                      </div>
+                    </div>
+                    <button class="btn btn-secondary btn-icon">→</button>
+                  </div>
+
+                  <div style="display: flex; align-items: center; justify-content: space-between; padding: 12px; background: var(--color-bg); border-radius: 8px; cursor: pointer;">
+                    <div style="display: flex; align-items: center; gap: 12px;">
+                      <span style="font-size: 24px;">📁</span>
+                      <div>
+                        <div style="font-weight: 500;">Sözleşmeler</div>
+                        <div style="font-size: 12px; color: var(--color-text-light);">89 dosya</div>
+                      </div>
+                    </div>
+                    <button class="btn btn-secondary btn-icon">→</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">📄 Son Dosyalar</h3>
+              </div>
+              <div class="card-body">
+                <div style="display: flex; flex-direction: column; gap: 12px;">
+                  <div style="display: flex; align-items: center; justify-content: space-between; padding: 12px; background: var(--color-bg); border-radius: 8px;">
+                    <div style="display: flex; align-items: center; gap: 12px;">
+                      <span style="font-size: 24px;">📄</span>
+                      <div>
+                        <div style="font-weight: 500;">Teklif-2024-156.pdf</div>
+                        <div style="font-size: 12px; color: var(--color-text-light);">Bugün, 14:30</div>
+                      </div>
+                    </div>
+                    <button class="btn btn-secondary btn-icon">⬇️</button>
+                  </div>
+
+                  <div style="display: flex; align-items: center; justify-content: space-between; padding: 12px; background: var(--color-bg); border-radius: 8px;">
+                    <div style="display: flex; align-items: center; gap: 12px;">
+                      <span style="font-size: 24px;">🖼️</span>
+                      <div>
+                        <div style="font-weight: 500;">Montaj-Foto-1.jpg</div>
+                        <div style="font-size: 12px; color: var(--color-text-light);">Bugün, 11:20</div>
+                      </div>
+                    </div>
+                    <button class="btn btn-secondary btn-icon">⬇️</button>
+                  </div>
+
+                  <div style="display: flex; align-items: center; justify-content: space-between; padding: 12px; background: var(--color-bg); border-radius: 8px;">
+                    <div style="display: flex; align-items: center; gap: 12px;">
+                      <span style="font-size: 24px;">📊</span>
+                      <div>
+                        <div style="font-weight: 500;">Maliyet-Analiz.xlsx</div>
+                        <div style="font-size: 12px; color: var(--color-text-light);">Dün, 16:45</div>
+                      </div>
+                    </div>
+                    <button class="btn btn-secondary btn-icon">⬇️</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        `;
+      }
+    });
+  </script>
+</body>
+</html>
+

@@ -1,0 +1,138 @@
+{
+  "stats": [
+    { "id": "activeJobs", "label": "Aktif İşler", "value": 24, "change": "↑ 3 bu hafta", "trend": "positive", "icon": "💼", "tone": "primary" },
+    { "id": "completedJobs", "label": "Tamamlanan İşler", "value": 156, "change": "↑ 12 bu ay", "trend": "positive", "icon": "✓", "tone": "success" },
+    { "id": "pendingTasks", "label": "Bekleyen Görevler", "value": 47, "change": "↑ 5 yeni", "trend": "negative", "icon": "⏰", "tone": "warning" },
+    { "id": "criticalStock", "label": "Kritik Stok", "value": 8, "change": "⚠ Dikkat", "trend": "negative", "icon": "📦", "tone": "danger" }
+  ],
+  "activities": [
+    { "id": "act-1", "action": "Yeni iş başlatıldı: \"PVC Pencere Değişimi\"", "user": "Ahmet Yılmaz", "time": "Bugün, 14:30" },
+    { "id": "act-2", "action": "Stok hareketi: PVC profil eklendi", "user": "Ayşe Demir", "time": "Bugün, 13:15" },
+    { "id": "act-3", "action": "İş tamamlandı: \"Cam Balkon Montajı\"", "user": "Mehmet Kaya", "time": "Bugün, 11:45" },
+    { "id": "act-4", "action": "Satınalma siparişi oluşturuldu", "user": "Fatma Şahin", "time": "Dün, 16:20" },
+    { "id": "act-5", "action": "Yeni müşteri eklendi", "user": "Can Özkan", "time": "Dün, 15:10" }
+  ],
+  "priorityJobs": [
+    { "id": "JOB-1024", "name": "Villa PVC Doğrama", "status": "Üretimde", "badge": "warning", "dueDate": "25 Ara 2025" },
+    { "id": "JOB-1040", "name": "Cam Balkon Kapatma", "status": "Keşif", "badge": "primary", "dueDate": "28 Ara 2025" },
+    { "id": "JOB-1031", "name": "Alüminyum Cephe", "status": "Gecikmiş", "badge": "danger", "dueDate": "20 Ara 2025" },
+    { "id": "JOB-1055", "name": "Sineklik Montajı", "status": "Montaj", "badge": "success", "dueDate": "30 Ara 2025" },
+    { "id": "JOB-1062", "name": "Panjur Sistemleri", "status": "Üretimde", "badge": "warning", "dueDate": "02 Oca 2026" }
+  ],
+  "weekOverview": [
+    { "label": "Yeni İşler", "value": 3 },
+    { "label": "Tamamlanan", "value": 7 },
+    { "label": "Devam Eden", "value": 14 }
+  ],
+  "paymentStatus": {
+    "pending": "₺45,000",
+    "collected": "₺128,500",
+    "paid": "₺67,200"
+  },
+  "teamStatus": {
+    "workshop": 5,
+    "assembly": 3,
+    "office": 4
+  },
+  "planningEvents": [
+    { "id": "PLN-01", "title": "Keşif - Nova Yapı", "date": "2025-12-28", "type": "Keşif", "owner": "Burak Aksu", "location": "Ataşehir" },
+    { "id": "PLN-02", "title": "Montaj - Mert İç Mimarlık", "date": "2025-12-29", "type": "Montaj", "owner": "Serkan Yıldız", "location": "Çekmeköy" },
+    { "id": "PLN-03", "title": "Teslim - Luna Home", "date": "2025-12-30", "type": "Teslim", "owner": "Ece Korkmaz", "location": "Bornova" }
+  ],
+  "stockItems": [
+    { "id": "STK-101", "name": "PVC Profil 70mm", "sku": "PVC-70", "unit": "metre", "color": "Beyaz", "onHand": 500, "reserved": 150, "critical": 200, "supplier": "Egepen" },
+    { "id": "STK-102", "name": "PVC Profil 70mm", "sku": "PVC-70", "unit": "metre", "color": "Antrasit", "onHand": 300, "reserved": 80, "critical": 150, "supplier": "Egepen" },
+    { "id": "STK-103", "name": "Cam 4mm Temperli", "sku": "CAM-4T", "unit": "m²", "color": "Şeffaf", "onHand": 200, "reserved": 60, "critical": 100, "supplier": "Şişecam" },
+    { "id": "STK-104", "name": "Cam Balkon Rayı", "sku": "CB-RAY", "unit": "metre", "color": "Eloksal", "onHand": 150, "reserved": 40, "critical": 80, "supplier": "Albert Genau" },
+    { "id": "STK-105", "name": "Sineklik Tülü", "sku": "SNK-TUL", "unit": "m²", "color": "Gri", "onHand": 400, "reserved": 100, "critical": 150, "supplier": "Plise Market" },
+    { "id": "STK-106", "name": "Panjur Lameli", "sku": "PNJ-LAM", "unit": "metre", "color": "Beyaz", "onHand": 250, "reserved": 70, "critical": 120, "supplier": "Panjur San." },
+    { "id": "STK-107", "name": "Alüminyum Profil", "sku": "ALU-PRF", "unit": "metre", "color": "Eloksal", "onHand": 350, "reserved": 90, "critical": 180, "supplier": "Alumin" }
+  ],
+  "stockMovements": [
+    { "id": "MOV-501", "date": "2025-12-22", "item": "MDF 18mm", "change": -30, "reason": "Kesim", "operator": "Ali Kurtuluş" },
+    { "id": "MOV-502", "date": "2025-12-22", "item": "Menteşe Soft-Close", "change": 150, "reason": "Satınalma PO-7781", "operator": "Seda Kurt" },
+    { "id": "MOV-503", "date": "2025-12-21", "item": "Ray Takımı 45cm", "change": -40, "reason": "Montaj sevkiyatı", "operator": "Serkan Yıldız" },
+    { "id": "MOV-504", "date": "2025-12-21", "item": "Lake Boya (Beyaz)", "change": -8, "reason": "Boya hattı", "operator": "Deniz Yılmaz" }
+  ],
+  "reservations": [
+    { "id": "RSV-01", "job": "JOB-1024", "item": "MDF 18mm", "qty": 40, "dueDate": "2025-12-25", "status": "Ayrıldı" },
+    { "id": "RSV-02", "job": "JOB-1055", "item": "Ray Takımı 45cm", "qty": 30, "dueDate": "2025-12-27", "status": "Ayrıldı" },
+    { "id": "RSV-03", "job": "JOB-1040", "item": "Menteşe Soft-Close", "qty": 60, "dueDate": "2025-12-28", "status": "Beklemede" }
+  ],
+  "purchaseOrders": [
+    { "id": "PO-7781", "supplier": "HingePro", "total": "₺48,600", "status": "Teslim edildi", "expectedDate": "2025-12-22" },
+    { "id": "PO-7782", "supplier": "SlideTech", "total": "₺36,200", "status": "Yolda", "expectedDate": "2025-12-24" },
+    { "id": "PO-7783", "supplier": "Nova Orman", "total": "₺82,000", "status": "Onay bekliyor", "expectedDate": "2025-12-26" }
+  ],
+  "suppliers": [
+    { "id": "SUP-01", "name": "Egepen", "category": "PVC Profil", "contact": "satis@egepen.com", "rating": 4.8 },
+    { "id": "SUP-02", "name": "Şişecam", "category": "Cam", "contact": "kurumsal@sisecam.com", "rating": 4.9 },
+    { "id": "SUP-03", "name": "Albert Genau", "category": "Cam Balkon Sistemleri", "contact": "info@albertgenau.com", "rating": 4.7 },
+    { "id": "SUP-04", "name": "Plise Market", "category": "Sineklik/Plise", "contact": "siparis@plisemarket.com", "rating": 4.5 },
+    { "id": "SUP-05", "name": "Panjur San.", "category": "Panjur Sistemleri", "contact": "satis@panjursan.com", "rating": 4.4 },
+    { "id": "SUP-06", "name": "Alumin", "category": "Alüminyum Profil", "contact": "info@alumin.com.tr", "rating": 4.6 }
+  ],
+  "requests": [
+    { "id": "REQ-901", "requester": "Atölye", "item": "Lake Boya (Beyaz)", "qty": 15, "status": "Onay bekliyor", "neededDate": "2025-12-27" },
+    { "id": "REQ-902", "requester": "Montaj", "item": "Menteşe Soft-Close", "qty": 80, "status": "Onaylandı", "neededDate": "2025-12-25" },
+    { "id": "REQ-903", "requester": "Üretim", "item": "MDF 18mm", "qty": 60, "status": "Reddedildi", "neededDate": "2025-12-24" }
+  ],
+  "invoices": [
+    { "id": "INV-5501", "customer": "Mert İç Mimarlık", "type": "Fatura", "amount": "₺240,000", "date": "2025-12-22", "status": "Taslak" },
+    { "id": "INV-5502", "customer": "Luna Home", "type": "İrsaliye", "amount": "₺120,000", "date": "2025-12-21", "status": "Kesildi" },
+    { "id": "INV-5503", "customer": "Nova Yapı", "type": "Fatura", "amount": "₺95,000", "date": "2025-12-20", "status": "Gönderildi" }
+  ],
+  "payments": [
+    { "id": "PAY-701", "kind": "Tahsilat", "description": "Nova Yapı avans", "amount": "₺50,000", "date": "2025-12-22", "method": "Havale" },
+    { "id": "PAY-702", "kind": "Ödeme", "description": "HingePro aksesuar", "amount": "₺28,600", "date": "2025-12-21", "method": "Kredi Kartı" },
+    { "id": "PAY-703", "kind": "Tahsilat", "description": "Luna Home ara ödeme", "amount": "₺40,000", "date": "2025-12-20", "method": "Nakit" }
+  ],
+  "archiveFiles": [
+    { "id": "AR-01", "name": "Teklif - Ofis Bölme Duvarı.pdf", "category": "Teklif", "date": "2025-12-20", "owner": "Burak Aksu" },
+    { "id": "AR-02", "name": "Sözleşme - Luna Home.pdf", "category": "Sözleşme", "date": "2025-12-18", "owner": "Ece Korkmaz" },
+    { "id": "AR-03", "name": "Kesim Listesi - JOB-1024.xlsx", "category": "Üretim", "date": "2025-12-19", "owner": "Ali Kurtuluş" }
+  ],
+  "reports": [
+    { "id": "RPT-01", "title": "Aylık Üretim Özeti", "period": "Aralık 2025", "status": "Hazır", "owner": "Planlama" },
+    { "id": "RPT-02", "title": "Satınalma Harcamaları", "period": "Q4 2025", "status": "Hazır", "owner": "Satınalma" },
+    { "id": "RPT-03", "title": "Stok Devir Hızı", "period": "2025", "status": "Devam ediyor", "owner": "Stok" }
+  ],
+  "settings": [
+    { "id": "SET-01", "label": "E-posta bildirimleri", "value": true, "description": "İş ve satınalma hareketlerinde e-posta gönder" },
+    { "id": "SET-02", "label": "SMS bildirimleri", "value": false, "description": "Kritik stok ve gecikmelerde SMS gönder" },
+    { "id": "SET-03", "label": "Otomatik yedekleme", "value": true, "description": "Günlük veri yedeği oluştur" }
+  ],
+  "jobRoles": [
+    { "id": "ROLE-01", "name": "PVC Doğrama", "description": "PVC pencere, kapı sistemleri" },
+    { "id": "ROLE-02", "name": "Cam Balkon", "description": "Cam balkon sistemleri, katlanır cam" },
+    { "id": "ROLE-03", "name": "Alüminyum Doğrama", "description": "Alüminyum pencere, kapı, cephe sistemleri" },
+    { "id": "ROLE-04", "name": "Sineklik", "description": "Sineklik sistemleri, menteşeli, sürgülü" },
+    { "id": "ROLE-05", "name": "Plise Perde", "description": "Plise perde sistemleri" },
+    { "id": "ROLE-06", "name": "Panjur", "description": "Panjur sistemleri, motorlu/manuel" },
+    { "id": "ROLE-07", "name": "Jaluzi Sistemleri", "description": "Jaluzi perde ve güneşlik sistemleri" }
+  ],
+  "jobLogs": [],
+  "jobs": [
+    { "id": "JOB-1024", "name": "Villa PVC Doğrama", "customer": "Mert İç Mimarlık", "owner": "Ayşe Demir", "status": "Üretimde", "dueDate": "2025-12-25", "budget": "₺240,000" },
+    { "id": "JOB-1040", "name": "Cam Balkon Kapatma", "customer": "Nova Yapı", "owner": "Burak Aksu", "status": "Keşif", "dueDate": "2025-12-28", "budget": "₺95,000" },
+    { "id": "JOB-1031", "name": "Alüminyum Cephe Sistemi", "customer": "Atlas İnşaat", "owner": "Elif Tan", "status": "Gecikmiş", "dueDate": "2025-12-20", "budget": "₺155,000" },
+    { "id": "JOB-1055", "name": "Sineklik Montajı", "customer": "Ada İnşaat", "owner": "Serkan Kılıç", "status": "Montaj", "dueDate": "2025-12-30", "budget": "₺18,000" },
+    { "id": "JOB-1062", "name": "Panjur Sistemleri", "customer": "Luna Home", "owner": "Ece Korkmaz", "status": "Üretimde", "dueDate": "2026-01-02", "budget": "₺45,000" },
+    { "id": "JOB-1071", "name": "Plise Perde Montajı", "customer": "Aria Teknoloji", "owner": "Cem Güneş", "status": "Keşif", "dueDate": "2026-01-10", "budget": "₺28,000" },
+    { "id": "JOB-1078", "name": "Jaluzi Sistemleri", "customer": "Mira Mimarlık", "owner": "Deniz Yılmaz", "status": "Üretimde", "dueDate": "2026-01-06", "budget": "₺35,000" }
+  ],
+  "tasks": [
+    { "id": "TSK-204", "title": "Atölye kesim listesi", "owner": "Serkan Yıldız", "status": "Devam ediyor", "dueDate": "2025-12-22" },
+    { "id": "TSK-205", "title": "Montaj ekibi planı", "owner": "Seda Kurt", "status": "Planlandı", "dueDate": "2025-12-23" },
+    { "id": "TSK-206", "title": "Stok kontrolü - menteşe", "owner": "Ali Kurtuluş", "status": "Beklemede", "dueDate": "2025-12-24" },
+    { "id": "TSK-207", "title": "Müşteri onayı al", "owner": "Ebru Ak", "status": "Tamamlandı", "dueDate": "2025-12-21" }
+  ],
+  "customers": [
+    { "id": "CST-11", "name": "Mert İç Mimarlık", "segment": "B2B", "location": "İstanbul", "jobs": 12, "contact": "mert@mimarlik.com" },
+    { "id": "CST-12", "name": "Nova Yapı", "segment": "B2B", "location": "Ankara", "jobs": 8, "contact": "info@novayapi.com" },
+    { "id": "CST-13", "name": "Luna Home", "segment": "B2C", "location": "İzmir", "jobs": 5, "contact": "destek@lunahome.com" },
+    { "id": "CST-14", "name": "Aria Teknoloji", "segment": "B2B", "location": "Kocaeli", "jobs": 6, "contact": "proje@ariatek.com" },
+    { "id": "CST-15", "name": "Mira Mimarlık", "segment": "B2B", "location": "Bursa", "jobs": 4, "contact": "hello@miramimarlik.com" }
+  ]
+}
+

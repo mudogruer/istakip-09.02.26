@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keşif/Ölçü Takvimi - İş Takip Paneli</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <div id="app"></div>
+
+  <script type="module" src="/assets/app.js"></script>
+  <script type="module">
+    document.addEventListener('DOMContentLoaded', () => {
+      const pageContent = document.getElementById('pageContent');
+      if (pageContent) {
+        pageContent.innerHTML = `
+          <div class="page-header">
+            <div class="page-header-top">
+              <h2 class="page-title">Keşif/Ölçü Takvimi</h2>
+              <div class="page-actions">
+                <button class="btn btn-secondary">
+                  <span>📅</span>
+                  <span>Bugün</span>
+                </button>
+                <button class="btn btn-primary">
+                  <span>+</span>
+                  <span>Randevu Ekle</span>
+                </button>
+              </div>
+            </div>
+            <p class="page-subtitle">Keşif ve ölçüm randevularınızı planlayın</p>
+          </div>
+
+          <div class="filter-bar">
+            <div class="filter-group">
+              <label class="filter-label">Görünüm</label>
+              <select class="filter-select">
+                <option value="month">Ay</option>
+                <option value="week">Hafta</option>
+                <option value="day">Gün</option>
+              </select>
+            </div>
+
+            <div class="filter-group">
+              <label class="filter-label">Durum</label>
+              <select class="filter-select">
+                <option value="">Tümü</option>
+                <option value="planned">Planlandı</option>
+                <option value="completed">Tamamlandı</option>
+                <option value="cancelled">İptal</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="table-container">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Tarih & Saat</th>
+                  <th>İş</th>
+                  <th>Müşteri</th>
+                  <th>Adres</th>
+                  <th>Sorumlu</th>
+                  <th>Durum</th>
+                  <th>İşlemler</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>24 Ara 2025, 10:00</td>
+                  <td>Ofis Bölme Duvarı</td>
+                  <td>ABC Şirketi</td>
+                  <td>Bahçelievler, İstanbul</td>
+                  <td>Ahmet Yılmaz</td>
+                  <td><span class="badge badge-primary">Planlandı</span></td>
+                  <td>
+                    <button class="btn btn-secondary btn-icon">👁</button>
+                    <button class="btn btn-secondary btn-icon">✏️</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>25 Ara 2025, 14:30</td>
+                  <td>Mutfak Dolabı</td>
+                  <td>Ayşe Demir</td>
+                  <td>Kadıköy, İstanbul</td>
+                  <td>Mehmet Kaya</td>
+                  <td><span class="badge badge-primary">Planlandı</span></td>
+                  <td>
+                    <button class="btn btn-secondary btn-icon">👁</button>
+                    <button class="btn btn-secondary btn-icon">✏️</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>23 Ara 2025, 11:00</td>
+                  <td>Yatak Odası</td>
+                  <td>Can Özkan</td>
+                  <td>Beşiktaş, İstanbul</td>
+                  <td>Ahmet Yılmaz</td>
+                  <td><span class="badge badge-success">Tamamlandı</span></td>
+                  <td>
+                    <button class="btn btn-secondary btn-icon">👁</button>
+                    <button class="btn btn-secondary btn-icon">✏️</button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        `;
+      }
+    });
+  </script>
+</body>
+</html>
+

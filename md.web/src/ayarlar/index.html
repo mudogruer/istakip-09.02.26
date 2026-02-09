@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayarlar - İş Takip Paneli</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <div id="app"></div>
+
+  <script type="module" src="/assets/app.js"></script>
+  <script type="module">
+    document.addEventListener('DOMContentLoaded', () => {
+      const pageContent = document.getElementById('pageContent');
+      if (pageContent) {
+        pageContent.innerHTML = `
+          <div class="page-header">
+            <div class="page-header-top">
+              <h2 class="page-title">Ayarlar</h2>
+            </div>
+            <p class="page-subtitle">Sistem ayarlarını yönetin</p>
+          </div>
+
+          <div class="grid grid-2">
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">Firma Bilgileri</h3>
+              </div>
+              <div class="card-body">
+                <form>
+                  <div class="form-group">
+                    <label class="form-label">Firma Adı</label>
+                    <input type="text" class="form-input" value="İş Takip A.Ş." />
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label">Vergi No</label>
+                    <input type="text" class="form-input" value="1234567890" />
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label">Telefon</label>
+                    <input type="tel" class="form-input" value="0212 555 1234" />
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label">E-posta</label>
+                    <input type="email" class="form-input" value="info@istakip.com" />
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label">Adres</label>
+                    <textarea class="form-textarea">İstanbul, Türkiye</textarea>
+                  </div>
+
+                  <button type="submit" class="btn btn-primary">Kaydet</button>
+                </form>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">Kullanıcı Ayarları</h3>
+              </div>
+              <div class="card-body">
+                <form>
+                  <div class="form-group">
+                    <label class="form-label">Ad Soyad</label>
+                    <input type="text" class="form-input" value="Batuhan" />
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label">E-posta</label>
+                    <input type="email" class="form-input" value="batuhan@istakip.com" />
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label">Rol</label>
+                    <select class="form-select">
+                      <option value="admin" selected>Yönetici</option>
+                      <option value="user">Kullanıcı</option>
+                      <option value="viewer">İzleyici</option>
+                    </select>
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label">Bildirimler</label>
+                    <div style="display: flex; align-items: center; gap: 8px;">
+                      <input type="checkbox" id="notif1" checked />
+                      <label for="notif1" style="margin: 0;">E-posta bildirimleri</label>
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 8px; margin-top: 8px;">
+                      <input type="checkbox" id="notif2" checked />
+                      <label for="notif2" style="margin: 0;">Sistem bildirimleri</label>
+                    </div>
+                  </div>
+
+                  <button type="submit" class="btn btn-primary">Güncelle</button>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid grid-3" style="margin-top: 24px;">
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">⚙️ Sistem</h3>
+              </div>
+              <div class="card-body">
+                <div style="display: flex; flex-direction: column; gap: 12px;">
+                  <button class="btn btn-secondary" style="justify-content: flex-start;">
+                    <span>👥</span>
+                    <span>Kullanıcı Yönetimi</span>
+                  </button>
+                  <button class="btn btn-secondary" style="justify-content: flex-start;">
+                    <span>🔐</span>
+                    <span>Yetki Ayarları</span>
+                  </button>
+                  <button class="btn btn-secondary" style="justify-content: flex-start;">
+                    <span>📊</span>
+                    <span>Log Kayıtları</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">💾 Yedekleme</h3>
+              </div>
+              <div class="card-body">
+                <div style="display: flex; flex-direction: column; gap: 12px;">
+                  <button class="btn btn-secondary" style="justify-content: flex-start;">
+                    <span>⬇️</span>
+                    <span>Veri Yedekle</span>
+                  </button>
+                  <button class="btn btn-secondary" style="justify-content: flex-start;">
+                    <span>⬆️</span>
+                    <span>Yedek Yükle</span>
+                  </button>
+                  <button class="btn btn-secondary" style="justify-content: flex-start;">
+                    <span>📅</span>
+                    <span>Otomatik Yedekleme</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">ℹ️ Bilgi</h3>
+              </div>
+              <div class="card-body">
+                <div style="display: flex; flex-direction: column; gap: 12px; color: var(--color-text-light);">
+                  <div>
+                    <strong>Versiyon:</strong> 1.0.0
+                  </div>
+                  <div>
+                    <strong>Son Güncelleme:</strong><br/>24 Ara 2025
+                  </div>
+                  <div>
+                    <strong>Lisans:</strong> Tam
+                  </div>
+                  <button class="btn btn-secondary" style="justify-content: flex-start; margin-top: 8px;">
+                    <span>📖</span>
+                    <span>Kullanım Kılavuzu</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        `;
+      }
+    });
+  </script>
+</body>
+</html>
+

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Üretim Planı - İş Takip Paneli</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <div id="app"></div>
+
+  <script type="module" src="/assets/app.js"></script>
+  <script type="module">
+    document.addEventListener('DOMContentLoaded', () => {
+      const pageContent = document.getElementById('pageContent');
+      if (pageContent) {
+        pageContent.innerHTML = `
+          <div class="page-header">
+            <div class="page-header-top">
+              <h2 class="page-title">Üretim Planı</h2>
+              <div class="page-actions">
+                <button class="btn btn-secondary">
+                  <span>📊</span>
+                  <span>Kapasite Raporu</span>
+                </button>
+                <button class="btn btn-primary">
+                  <span>+</span>
+                  <span>Üretime Al</span>
+                </button>
+              </div>
+            </div>
+            <p class="page-subtitle">Üretim süreçlerini planlayın ve takip edin</p>
+          </div>
+
+          <div class="stats-grid">
+            <div class="stat-card">
+              <div class="stat-icon warning">⚙️</div>
+              <div class="stat-content">
+                <div class="stat-label">Üretimde</div>
+                <div class="stat-value">12</div>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon primary">📋</div>
+              <div class="stat-content">
+                <div class="stat-label">Bekleyen</div>
+                <div class="stat-value">5</div>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon success">✓</div>
+              <div class="stat-content">
+                <div class="stat-label">Bu Hafta Tamamlanan</div>
+                <div class="stat-value">7</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="table-container">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>İş No</th>
+                  <th>İş Adı</th>
+                  <th>Aşama</th>
+                  <th>İlerleme</th>
+                  <th>Başlangıç</th>
+                  <th>Tahmini Bitiş</th>
+                  <th>Sorumlu</th>
+                  <th>İşlemler</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>#2024-156</strong></td>
+                  <td>Yatak Odası Takımı</td>
+                  <td><span class="badge badge-warning">Kesim</span></td>
+                  <td>
+                    <div style="background: var(--color-bg-secondary); border-radius: 4px; height: 8px; overflow: hidden;">
+                      <div style="background: var(--color-primary); width: 60%; height: 100%;"></div>
+                    </div>
+                  </td>
+                  <td>15 Ara</td>
+                  <td>24 Ara</td>
+                  <td>Atölye Ekip 1</td>
+                  <td>
+                    <button class="btn btn-secondary btn-icon">👁</button>
+                    <button class="btn btn-secondary btn-icon">✏️</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td><strong>#2024-152</strong></td>
+                  <td>Banyo Dolapları</td>
+                  <td><span class="badge badge-warning">Montaj</span></td>
+                  <td>
+                    <div style="background: var(--color-bg-secondary); border-radius: 4px; height: 8px; overflow: hidden;">
+                      <div style="background: var(--color-primary); width: 85%; height: 100%;"></div>
+                    </div>
+                  </td>
+                  <td>12 Ara</td>
+                  <td>26 Ara</td>
+                  <td>Atölye Ekip 2</td>
+                  <td>
+                    <button class="btn btn-secondary btn-icon">👁</button>
+                    <button class="btn btn-secondary btn-icon">✏️</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td><strong>#2024-150</strong></td>
+                  <td>TV Ünitesi</td>
+                  <td><span class="badge badge-warning">Cila</span></td>
+                  <td>
+                    <div style="background: var(--color-bg-secondary); border-radius: 4px; height: 8px; overflow: hidden;">
+                      <div style="background: var(--color-primary); width: 40%; height: 100%;"></div>
+                    </div>
+                  </td>
+                  <td>14 Ara</td>
+                  <td>27 Ara</td>
+                  <td>Atölye Ekip 1</td>
+                  <td>
+                    <button class="btn btn-secondary btn-icon">👁</button>
+                    <button class="btn btn-secondary btn-icon">✏️</button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        `;
+      }
+    });
+  </script>
+</body>
+</html>
+

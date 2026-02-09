@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Görevler - İş Takip Paneli</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <div id="app"></div>
+
+  <script type="module" src="/assets/app.js"></script>
+  <script type="module">
+    document.addEventListener('DOMContentLoaded', () => {
+      const pageContent = document.getElementById('pageContent');
+      if (pageContent) {
+        pageContent.innerHTML = `
+          <div class="page-header">
+            <div class="page-header-top">
+              <h2 class="page-title">Görevler</h2>
+              <div class="page-actions">
+                <button class="btn btn-secondary">
+                  <span>🔍</span>
+                  <span>Filtrele</span>
+                </button>
+                <button class="btn btn-primary">
+                  <span>+</span>
+                  <span>Yeni Görev</span>
+                </button>
+              </div>
+            </div>
+            <p class="page-subtitle">Ekip görevlerini yönetin ve takip edin</p>
+          </div>
+
+          <div class="stats-grid">
+            <div class="stat-card">
+              <div class="stat-icon danger">⚠️</div>
+              <div class="stat-content">
+                <div class="stat-label">Acil</div>
+                <div class="stat-value">6</div>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon warning">⏰</div>
+              <div class="stat-content">
+                <div class="stat-label">Bugün</div>
+                <div class="stat-value">15</div>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon primary">📋</div>
+              <div class="stat-content">
+                <div class="stat-label">Bu Hafta</div>
+                <div class="stat-value">32</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="filter-bar">
+            <div class="filter-group">
+              <label class="filter-label">Durum</label>
+              <select class="filter-select">
+                <option value="">Tümü</option>
+                <option value="pending">Bekliyor</option>
+                <option value="progress">Devam Ediyor</option>
+                <option value="completed">Tamamlandı</option>
+              </select>
+            </div>
+
+            <div class="filter-group">
+              <label class="filter-label">Atanan Kişi</label>
+              <select class="filter-select">
+                <option value="">Tümü</option>
+                <option value="1">Ahmet Yılmaz</option>
+                <option value="2">Ayşe Demir</option>
+                <option value="3">Mehmet Kaya</option>
+              </select>
+            </div>
+
+            <div class="filter-group">
+              <label class="filter-label">Öncelik</label>
+              <select class="filter-select">
+                <option value="">Tümü</option>
+                <option value="high">Yüksek</option>
+                <option value="normal">Normal</option>
+                <option value="low">Düşük</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="table-container">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Görev</th>
+                  <th>İlgili İş</th>
+                  <th>Atanan</th>
+                  <th>Öncelik</th>
+                  <th>Termin</th>
+                  <th>Durum</th>
+                  <th>İşlemler</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Malzeme siparişi ver</td>
+                  <td>#2024-156 - Yatak Odası</td>
+                  <td>Ayşe Demir</td>
+                  <td><span class="badge badge-danger">Acil</span></td>
+                  <td>Bugün</td>
+                  <td><span class="badge badge-warning">Devam Ediyor</span></td>
+                  <td>
+                    <button class="btn btn-secondary btn-icon">👁</button>
+                    <button class="btn btn-secondary btn-icon">✏️</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Keşif randevusu ayarla</td>
+                  <td>#2024-155 - Ofis Bölme</td>
+                  <td>Ahmet Yılmaz</td>
+                  <td><span class="badge badge-warning">Yüksek</span></td>
+                  <td>25 Ara</td>
+                  <td><span class="badge badge-primary">Bekliyor</span></td>
+                  <td>
+                    <button class="btn btn-secondary btn-icon">👁</button>
+                    <button class="btn btn-secondary btn-icon">✏️</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Teklif hazırla</td>
+                  <td>#2024-149 - Ofis Mobilyası</td>
+                  <td>Mehmet Kaya</td>
+                  <td><span class="badge badge-secondary">Normal</span></td>
+                  <td>27 Ara</td>
+                  <td><span class="badge badge-primary">Bekliyor</span></td>
+                  <td>
+                    <button class="btn btn-secondary btn-icon">👁</button>
+                    <button class="btn btn-secondary btn-icon">✏️</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Montaj ekibini bilgilendir</td>
+                  <td>#2024-153 - Mutfak Tezgahı</td>
+                  <td>Can Özkan</td>
+                  <td><span class="badge badge-warning">Yüksek</span></td>
+                  <td>Bugün</td>
+                  <td><span class="badge badge-success">Tamamlandı</span></td>
+                  <td>
+                    <button class="btn btn-secondary btn-icon">👁</button>
+                    <button class="btn btn-secondary btn-icon">✏️</button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        `;
+      }
+    });
+  </script>
+</body>
+</html>
+

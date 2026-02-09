@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kritik Stok - İş Takip Paneli</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <div id="app"></div>
+
+  <script type="module" src="/assets/app.js"></script>
+  <script type="module">
+    document.addEventListener('DOMContentLoaded', () => {
+      const pageContent = document.getElementById('pageContent');
+      if (pageContent) {
+        pageContent.innerHTML = `
+          <div class="page-header">
+            <div class="page-header-top">
+              <h2 class="page-title">Kritik Stok</h2>
+              <div class="page-actions">
+                <button class="btn btn-primary">
+                  <span>📧</span>
+                  <span>Otomatik Sipariş Oluştur</span>
+                </button>
+              </div>
+            </div>
+            <p class="page-subtitle">Minimum seviyenin altındaki stoklarınız</p>
+          </div>
+
+          <div class="card" style="margin-bottom: 24px; background: rgba(220, 38, 38, 0.05); border-color: var(--color-danger);">
+            <div class="card-body">
+              <div style="display: flex; align-items: center; gap: 16px;">
+                <div style="font-size: 32px;">⚠️</div>
+                <div>
+                  <div style="font-weight: 600; margin-bottom: 4px;">8 ürün kritik seviyede!</div>
+                  <div style="color: var(--color-text-light);">Acil sipariş vermeniz önerilir.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="table-container">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Stok Kodu</th>
+                  <th>Ürün Adı</th>
+                  <th>Kategori</th>
+                  <th>Mevcut Miktar</th>
+                  <th>Min. Stok</th>
+                  <th>Eksik</th>
+                  <th>Son Kullanım</th>
+                  <th>İşlemler</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr style="background: rgba(220, 38, 38, 0.03);">
+                  <td><strong>AHS-012</strong></td>
+                  <td>Meşe Suntalam 18mm</td>
+                  <td>Ahşap</td>
+                  <td><strong style="color: var(--color-danger);">12 Adet</strong></td>
+                  <td>15 Adet</td>
+                  <td><span class="badge badge-danger">-3</span></td>
+                  <td>2 gün önce</td>
+                  <td>
+                    <button class="btn btn-primary btn-icon" title="Sipariş Ver">🛒</button>
+                    <button class="btn btn-secondary btn-icon" title="Detay">👁</button>
+                  </td>
+                </tr>
+                <tr style="background: rgba(220, 38, 38, 0.03);">
+                  <td><strong>BOY-003</strong></td>
+                  <td>Vernik Mat 5L</td>
+                  <td>Boya & Cila</td>
+                  <td><strong style="color: var(--color-danger);">8 Adet</strong></td>
+                  <td>10 Adet</td>
+                  <td><span class="badge badge-danger">-2</span></td>
+                  <td>1 gün önce</td>
+                  <td>
+                    <button class="btn btn-primary btn-icon" title="Sipariş Ver">🛒</button>
+                    <button class="btn btn-secondary btn-icon" title="Detay">👁</button>
+                  </td>
+                </tr>
+                <tr style="background: rgba(220, 38, 38, 0.03);">
+                  <td><strong>AKS-023</strong></td>
+                  <td>Ray 50cm</td>
+                  <td>Aksesuarlar</td>
+                  <td><strong style="color: var(--color-danger);">18 Adet</strong></td>
+                  <td>25 Adet</td>
+                  <td><span class="badge badge-danger">-7</span></td>
+                  <td>Bugün</td>
+                  <td>
+                    <button class="btn btn-primary btn-icon" title="Sipariş Ver">🛒</button>
+                    <button class="btn btn-secondary btn-icon" title="Detay">👁</button>
+                  </td>
+                </tr>
+                <tr style="background: rgba(220, 38, 38, 0.03);">
+                  <td><strong>LAM-015</strong></td>
+                  <td>Siyah Laminat 18mm</td>
+                  <td>Laminat</td>
+                  <td><strong style="color: var(--color-danger);">6 Adet</strong></td>
+                  <td>10 Adet</td>
+                  <td><span class="badge badge-danger">-4</span></td>
+                  <td>3 gün önce</td>
+                  <td>
+                    <button class="btn btn-primary btn-icon" title="Sipariş Ver">🛒</button>
+                    <button class="btn btn-secondary btn-icon" title="Detay">👁</button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        `;
+      }
+    });
+  </script>
+</body>
+</html>
+

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ödemeler/Kasa - İş Takip Paneli</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <div id="app"></div>
+
+  <script type="module" src="/assets/app.js"></script>
+  <script type="module">
+    document.addEventListener('DOMContentLoaded', () => {
+      const pageContent = document.getElementById('pageContent');
+      if (pageContent) {
+        pageContent.innerHTML = `
+          <div class="page-header">
+            <div class="page-header-top">
+              <h2 class="page-title">Ödemeler/Kasa</h2>
+              <div class="page-actions">
+                <button class="btn btn-secondary">
+                  <span>📊</span>
+                  <span>Finansal Rapor</span>
+                </button>
+                <button class="btn btn-primary">
+                  <span>+</span>
+                  <span>Yeni İşlem</span>
+                </button>
+              </div>
+            </div>
+            <p class="page-subtitle">Ödeme ve kasa işlemlerini yönetin</p>
+          </div>
+
+          <div class="stats-grid">
+            <div class="stat-card">
+              <div class="stat-icon success">💰</div>
+              <div class="stat-content">
+                <div class="stat-label">Kasa Bakiyesi</div>
+                <div class="stat-value">₺156,000</div>
+                <div class="stat-change positive">↑ Bu ay +₺45,000</div>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon primary">📥</div>
+              <div class="stat-content">
+                <div class="stat-label">Bu Ay Tahsilat</div>
+                <div class="stat-value">₺128,500</div>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon danger">📤</div>
+              <div class="stat-content">
+                <div class="stat-label">Bu Ay Ödeme</div>
+                <div class="stat-value">₺67,200</div>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon warning">⏰</div>
+              <div class="stat-content">
+                <div class="stat-label">Bekleyen Tahsilat</div>
+                <div class="stat-value">₺45,000</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="filter-bar">
+            <div class="filter-group">
+              <label class="filter-label">İşlem Tipi</label>
+              <select class="filter-select">
+                <option value="">Tümü</option>
+                <option value="income">Tahsilat</option>
+                <option value="expense">Ödeme</option>
+              </select>
+            </div>
+
+            <div class="filter-group">
+              <label class="filter-label">Kategori</label>
+              <select class="filter-select">
+                <option value="">Tümü</option>
+                <option value="job">İş Ödemesi</option>
+                <option value="supplier">Tedarikçi</option>
+                <option value="salary">Maaş</option>
+                <option value="other">Diğer</option>
+              </select>
+            </div>
+
+            <div class="filter-group">
+              <label class="filter-label">Tarih</label>
+              <input type="date" class="filter-input" />
+            </div>
+          </div>
+
+          <div class="table-container">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Tarih</th>
+                  <th>İşlem Tipi</th>
+                  <th>Açıklama</th>
+                  <th>Kategori</th>
+                  <th>Tutar</th>
+                  <th>Ödeme Yöntemi</th>
+                  <th>İşlemler</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>24 Ara 2025</td>
+                  <td><span class="badge badge-success">Tahsilat</span></td>
+                  <td>#2024-151 - Can Özkan</td>
+                  <td>İş Ödemesi</td>
+                  <td style="color: var(--color-success); font-weight: 600;">+₺32,000</td>
+                  <td>Banka Transferi</td>
+                  <td>
+                    <button class="btn btn-secondary btn-icon">👁</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>23 Ara 2025</td>
+                  <td><span class="badge badge-danger">Ödeme</span></td>
+                  <td>PO-2025-040 - Ahşap Dünyası</td>
+                  <td>Tedarikçi</td>
+                  <td style="color: var(--color-danger); font-weight: 600;">-₺8,750</td>
+                  <td>Banka Transferi</td>
+                  <td>
+                    <button class="btn btn-secondary btn-icon">👁</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>22 Ara 2025</td>
+                  <td><span class="badge badge-success">Tahsilat</span></td>
+                  <td>#2024-148 - ABC Şirketi</td>
+                  <td>İş Ödemesi</td>
+                  <td style="color: var(--color-success); font-weight: 600;">+₺78,500</td>
+                  <td>Nakit</td>
+                  <td>
+                    <button class="btn btn-secondary btn-icon">👁</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>20 Ara 2025</td>
+                  <td><span class="badge badge-danger">Ödeme</span></td>
+                  <td>Personel Maaşları</td>
+                  <td>Maaş</td>
+                  <td style="color: var(--color-danger); font-weight: 600;">-₺45,000</td>
+                  <td>Banka Transferi</td>
+                  <td>
+                    <button class="btn btn-secondary btn-icon">👁</button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        `;
+      }
+    });
+  </script>
+</body>
+</html>
+

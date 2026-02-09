@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontrol Paneli - İş Takip Paneli</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <div id="app"></div>
+
+  <script type="module" src="/assets/app.js"></script>
+  <script type="module">
+    // Wait for layout to be injected
+    document.addEventListener('DOMContentLoaded', () => {
+      const pageContent = document.getElementById('pageContent');
+      if (pageContent) {
+        pageContent.innerHTML = `
+          <div class="page-header">
+            <div class="page-header-top">
+              <h2 class="page-title">Kontrol Paneli</h2>
+            </div>
+            <p class="page-subtitle">İş süreçlerinizin genel durumunu görüntüleyin</p>
+          </div>
+
+          <div class="stats-grid">
+            <div class="stat-card">
+              <div class="stat-icon primary">💼</div>
+              <div class="stat-content">
+                <div class="stat-label">Aktif İşler</div>
+                <div class="stat-value">24</div>
+                <div class="stat-change positive">↑ 3 bu hafta</div>
+              </div>
+            </div>
+
+            <div class="stat-card">
+              <div class="stat-icon success">✓</div>
+              <div class="stat-content">
+                <div class="stat-label">Tamamlanan İşler</div>
+                <div class="stat-value">156</div>
+                <div class="stat-change positive">↑ 12 bu ay</div>
+              </div>
+            </div>
+
+            <div class="stat-card">
+              <div class="stat-icon warning">⏰</div>
+              <div class="stat-content">
+                <div class="stat-label">Bekleyen Görevler</div>
+                <div class="stat-value">47</div>
+                <div class="stat-change negative">↑ 5 yeni</div>
+              </div>
+            </div>
+
+            <div class="stat-card">
+              <div class="stat-icon danger">📦</div>
+              <div class="stat-content">
+                <div class="stat-label">Kritik Stok</div>
+                <div class="stat-value">8</div>
+                <div class="stat-change negative">⚠ Dikkat</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid grid-2">
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">Son Aktiviteler</h3>
+                <button class="btn btn-secondary btn-icon">⋯</button>
+              </div>
+              <div class="card-body">
+                <div class="table-container">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th>İşlem</th>
+                        <th>Kullanıcı</th>
+                        <th>Tarih</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Yeni iş başlatıldı: "Ofis Mobilyası"</td>
+                        <td>Ahmet Yılmaz</td>
+                        <td>Bugün, 14:30</td>
+                      </tr>
+                      <tr>
+                        <td>Stok hareketi: Laminat eklendi</td>
+                        <td>Ayşe Demir</td>
+                        <td>Bugün, 13:15</td>
+                      </tr>
+                      <tr>
+                        <td>İş tamamlandı: "Mutfak Dolabı"</td>
+                        <td>Mehmet Kaya</td>
+                        <td>Bugün, 11:45</td>
+                      </tr>
+                      <tr>
+                        <td>Satınalma siparişi oluşturuldu</td>
+                        <td>Fatma Şahin</td>
+                        <td>Dün, 16:20</td>
+                      </tr>
+                      <tr>
+                        <td>Yeni müşteri eklendi</td>
+                        <td>Can Özkan</td>
+                        <td>Dün, 15:10</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">Öncelikli İşler</h3>
+                <a href="/isler/list" class="btn btn-secondary">Tümünü Gör</a>
+              </div>
+              <div class="card-body">
+                <div class="table-container">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th>İş Adı</th>
+                        <th>Durum</th>
+                        <th>Termin</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Yatak Odası Takımı</td>
+                        <td><span class="badge badge-warning">Üretimde</span></td>
+                        <td>25 Ara 2025</td>
+                      </tr>
+                      <tr>
+                        <td>Ofis Bölme Duvarı</td>
+                        <td><span class="badge badge-primary">Keşif</span></td>
+                        <td>28 Ara 2025</td>
+                      </tr>
+                      <tr>
+                        <td>Vestiyer Dolabı</td>
+                        <td><span class="badge badge-danger">Gecikmiş</span></td>
+                        <td>20 Ara 2025</td>
+                      </tr>
+                      <tr>
+                        <td>Mutfak Tezgahı</td>
+                        <td><span class="badge badge-success">Montaj</span></td>
+                        <td>30 Ara 2025</td>
+                      </tr>
+                      <tr>
+                        <td>Banyo Dolapları</td>
+                        <td><span class="badge badge-warning">Üretimde</span></td>
+                        <td>02 Oca 2026</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid grid-3" style="margin-top: 24px;">
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">Bu Hafta</h3>
+              </div>
+              <div class="card-body">
+                <div style="display: flex; flex-direction: column; gap: 16px;">
+                  <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <span style="color: var(--color-text-light);">Yeni İşler</span>
+                    <span style="font-weight: 600; font-size: 18px;">3</span>
+                  </div>
+                  <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <span style="color: var(--color-text-light);">Tamamlanan</span>
+                    <span style="font-weight: 600; font-size: 18px;">7</span>
+                  </div>
+                  <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <span style="color: var(--color-text-light);">Devam Eden</span>
+                    <span style="font-weight: 600; font-size: 18px;">14</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">Ödeme Durumu</h3>
+              </div>
+              <div class="card-body">
+                <div style="display: flex; flex-direction: column; gap: 16px;">
+                  <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <span style="color: var(--color-text-light);">Bekleyen</span>
+                    <span style="font-weight: 600; font-size: 18px; color: var(--color-warning);">₺45,000</span>
+                  </div>
+                  <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <span style="color: var(--color-text-light);">Bu Ay Tahsilat</span>
+                    <span style="font-weight: 600; font-size: 18px; color: var(--color-success);">₺128,500</span>
+                  </div>
+                  <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <span style="color: var(--color-text-light);">Bu Ay Ödeme</span>
+                    <span style="font-weight: 600; font-size: 18px; color: var(--color-danger);">₺67,200</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">Ekip Durumu</h3>
+              </div>
+              <div class="card-body">
+                <div style="display: flex; flex-direction: column; gap: 16px;">
+                  <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <span style="color: var(--color-text-light);">Atölye</span>
+                    <span style="font-weight: 600; font-size: 18px;">5 kişi</span>
+                  </div>
+                  <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <span style="color: var(--color-text-light);">Montaj</span>
+                    <span style="font-weight: 600; font-size: 18px;">3 kişi</span>
+                  </div>
+                  <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <span style="color: var(--color-text-light);">Ofis</span>
+                    <span style="font-weight: 600; font-size: 18px;">4 kişi</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        `;
+      }
+    });
+  </script>
+</body>
+</html>
+

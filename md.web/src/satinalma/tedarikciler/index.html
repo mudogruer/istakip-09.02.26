@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tedarikçiler - İş Takip Paneli</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <div id="app"></div>
+
+  <script type="module" src="/assets/app.js"></script>
+  <script type="module">
+    document.addEventListener('DOMContentLoaded', () => {
+      const pageContent = document.getElementById('pageContent');
+      if (pageContent) {
+        pageContent.innerHTML = `
+          <div class="page-header">
+            <div class="page-header-top">
+              <h2 class="page-title">Tedarikçiler</h2>
+              <div class="page-actions">
+                <button class="btn btn-primary">
+                  <span>+</span>
+                  <span>Yeni Tedarikçi</span>
+                </button>
+              </div>
+            </div>
+            <p class="page-subtitle">Tedarikçi bilgilerini yönetin</p>
+          </div>
+
+          <div class="filter-bar">
+            <div class="filter-group">
+              <label class="filter-label">Ara</label>
+              <input type="text" class="filter-input" placeholder="Firma adı, yetkili..." />
+            </div>
+
+            <div class="filter-group">
+              <label class="filter-label">Kategori</label>
+              <select class="filter-select">
+                <option value="">Tümü</option>
+                <option value="ahsap">Ahşap</option>
+                <option value="aksesuar">Aksesuar</option>
+                <option value="boya">Boya</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="table-container">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Firma Adı</th>
+                  <th>Yetkili</th>
+                  <th>Telefon</th>
+                  <th>Email</th>
+                  <th>Kategori</th>
+                  <th>Toplam Sipariş</th>
+                  <th>Değerlendirme</th>
+                  <th>İşlemler</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Mobilya A.Ş.</strong></td>
+                  <td>Ali Veli</td>
+                  <td>0212 555 1234</td>
+                  <td>info@mobilya.com</td>
+                  <td><span class="badge badge-primary">Ahşap</span></td>
+                  <td>48</td>
+                  <td>⭐⭐⭐⭐⭐</td>
+                  <td>
+                    <button class="btn btn-secondary btn-icon">👁</button>
+                    <button class="btn btn-secondary btn-icon">✏️</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td><strong>Aksesuar Ltd.</strong></td>
+                  <td>Ayşe Demir</td>
+                  <td>0216 444 5678</td>
+                  <td>satis@aksesuar.com</td>
+                  <td><span class="badge badge-success">Aksesuar</span></td>
+                  <td>32</td>
+                  <td>⭐⭐⭐⭐</td>
+                  <td>
+                    <button class="btn btn-secondary btn-icon">👁</button>
+                    <button class="btn btn-secondary btn-icon">✏️</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td><strong>Ahşap Dünyası</strong></td>
+                  <td>Mehmet Kaya</td>
+                  <td>0312 333 9876</td>
+                  <td>m.kaya@ahsap.com</td>
+                  <td><span class="badge badge-primary">Ahşap</span></td>
+                  <td>27</td>
+                  <td>⭐⭐⭐⭐</td>
+                  <td>
+                    <button class="btn btn-secondary btn-icon">👁</button>
+                    <button class="btn btn-secondary btn-icon">✏️</button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        `;
+      }
+    });
+  </script>
+</body>
+</html>
+

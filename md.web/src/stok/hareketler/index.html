@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stok Hareketleri - İş Takip Paneli</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <div id="app"></div>
+
+  <script type="module" src="/assets/app.js"></script>
+  <script type="module">
+    document.addEventListener('DOMContentLoaded', () => {
+      const pageContent = document.getElementById('pageContent');
+      if (pageContent) {
+        pageContent.innerHTML = `
+          <div class="page-header">
+            <div class="page-header-top">
+              <h2 class="page-title">Stok Hareketleri</h2>
+              <div class="page-actions">
+                <button class="btn btn-secondary">
+                  <span>📊</span>
+                  <span>Rapor Al</span>
+                </button>
+                <button class="btn btn-primary">
+                  <span>+</span>
+                  <span>Hareket Ekle</span>
+                </button>
+              </div>
+            </div>
+            <p class="page-subtitle">Stok giriş ve çıkış hareketlerini takip edin</p>
+          </div>
+
+          <div class="filter-bar">
+            <div class="filter-group">
+              <label class="filter-label">Hareket Tipi</label>
+              <select class="filter-select">
+                <option value="">Tümü</option>
+                <option value="in">Giriş</option>
+                <option value="out">Çıkış</option>
+                <option value="transfer">Transfer</option>
+              </select>
+            </div>
+
+            <div class="filter-group">
+              <label class="filter-label">Başlangıç Tarihi</label>
+              <input type="date" class="filter-input" />
+            </div>
+
+            <div class="filter-group">
+              <label class="filter-label">Bitiş Tarihi</label>
+              <input type="date" class="filter-input" />
+            </div>
+          </div>
+
+          <div class="table-container">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Tarih & Saat</th>
+                  <th>Hareket Tipi</th>
+                  <th>Ürün</th>
+                  <th>Miktar</th>
+                  <th>İlgili İş</th>
+                  <th>Kullanıcı</th>
+                  <th>Not</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>24 Ara 2025, 14:30</td>
+                  <td><span class="badge badge-success">Giriş</span></td>
+                  <td>Beyaz Laminat 18mm</td>
+                  <td>+20 Adet</td>
+                  <td>-</td>
+                  <td>Ayşe Demir</td>
+                  <td>Tedarikçiden alım</td>
+                </tr>
+                <tr>
+                  <td>24 Ara 2025, 11:15</td>
+                  <td><span class="badge badge-danger">Çıkış</span></td>
+                  <td>Meşe Suntalam 18mm</td>
+                  <td>-8 Adet</td>
+                  <td>#2024-156</td>
+                  <td>Mehmet Kaya</td>
+                  <td>Üretim için</td>
+                </tr>
+                <tr>
+                  <td>23 Ara 2025, 16:45</td>
+                  <td><span class="badge badge-success">Giriş</span></td>
+                  <td>Menteşe Paslanmaz</td>
+                  <td>+100 Adet</td>
+                  <td>-</td>
+                  <td>Fatma Şahin</td>
+                  <td>Satınalma siparişi</td>
+                </tr>
+                <tr>
+                  <td>23 Ara 2025, 10:20</td>
+                  <td><span class="badge badge-danger">Çıkış</span></td>
+                  <td>Vernik Mat 5L</td>
+                  <td>-2 Adet</td>
+                  <td>#2024-150</td>
+                  <td>Can Özkan</td>
+                  <td>Cila işlemi</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        `;
+      }
+    });
+  </script>
+</body>
+</html>
+

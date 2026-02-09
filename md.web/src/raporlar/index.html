@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raporlar - İş Takip Paneli</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <div id="app"></div>
+
+  <script type="module" src="/assets/app.js"></script>
+  <script type="module">
+    document.addEventListener('DOMContentLoaded', () => {
+      const pageContent = document.getElementById('pageContent');
+      if (pageContent) {
+        pageContent.innerHTML = `
+          <div class="page-header">
+            <div class="page-header-top">
+              <h2 class="page-title">Raporlar</h2>
+              <div class="page-actions">
+                <button class="btn btn-primary">
+                  <span>📊</span>
+                  <span>Özel Rapor Oluştur</span>
+                </button>
+              </div>
+            </div>
+            <p class="page-subtitle">İşletme raporlarını görüntüleyin ve indirin</p>
+          </div>
+
+          <div class="grid grid-3">
+            <div class="card">
+              <div style="text-align: center; padding: 20px 0;">
+                <div style="font-size: 48px; margin-bottom: 16px;">💼</div>
+                <h3 style="font-size: 16px; font-weight: 600; margin-bottom: 8px;">İş Raporu</h3>
+                <p style="font-size: 13px; color: var(--color-text-light); margin-bottom: 20px;">
+                  Tüm işlerin özet raporu
+                </p>
+                <button class="btn btn-primary">Rapor Al</button>
+              </div>
+            </div>
+
+            <div class="card">
+              <div style="text-align: center; padding: 20px 0;">
+                <div style="font-size: 48px; margin-bottom: 16px;">💰</div>
+                <h3 style="font-size: 16px; font-weight: 600; margin-bottom: 8px;">Finansal Rapor</h3>
+                <p style="font-size: 13px; color: var(--color-text-light); margin-bottom: 20px;">
+                  Gelir-gider analizi
+                </p>
+                <button class="btn btn-primary">Rapor Al</button>
+              </div>
+            </div>
+
+            <div class="card">
+              <div style="text-align: center; padding: 20px 0;">
+                <div style="font-size: 48px; margin-bottom: 16px;">📦</div>
+                <h3 style="font-size: 16px; font-weight: 600; margin-bottom: 8px;">Stok Raporu</h3>
+                <p style="font-size: 13px; color: var(--color-text-light); margin-bottom: 20px;">
+                  Stok durum ve hareketler
+                </p>
+                <button class="btn btn-primary">Rapor Al</button>
+              </div>
+            </div>
+
+            <div class="card">
+              <div style="text-align: center; padding: 20px 0;">
+                <div style="font-size: 48px; margin-bottom: 16px;">👥</div>
+                <h3 style="font-size: 16px; font-weight: 600; margin-bottom: 8px;">Müşteri Raporu</h3>
+                <p style="font-size: 13px; color: var(--color-text-light); margin-bottom: 20px;">
+                  Müşteri analizi ve ciro
+                </p>
+                <button class="btn btn-primary">Rapor Al</button>
+              </div>
+            </div>
+
+            <div class="card">
+              <div style="text-align: center; padding: 20px 0;">
+                <div style="font-size: 48px; margin-bottom: 16px;">🛒</div>
+                <h3 style="font-size: 16px; font-weight: 600; margin-bottom: 8px;">Satınalma Raporu</h3>
+                <p style="font-size: 13px; color: var(--color-text-light); margin-bottom: 20px;">
+                  Tedarikçi ve sipariş analizi
+                </p>
+                <button class="btn btn-primary">Rapor Al</button>
+              </div>
+            </div>
+
+            <div class="card">
+              <div style="text-align: center; padding: 20px 0;">
+                <div style="font-size: 48px; margin-bottom: 16px;">⚙️</div>
+                <h3 style="font-size: 16px; font-weight: 600; margin-bottom: 8px;">Üretim Raporu</h3>
+                <p style="font-size: 13px; color: var(--color-text-light); margin-bottom: 20px;">
+                  Üretim performans analizi
+                </p>
+                <button class="btn btn-primary">Rapor Al</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="margin-top: 32px;">
+            <div class="card-header">
+              <h3 class="card-title">Son Oluşturulan Raporlar</h3>
+            </div>
+            <div class="card-body">
+              <div class="table-container">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>Rapor Adı</th>
+                      <th>Tür</th>
+                      <th>Dönem</th>
+                      <th>Oluşturulma</th>
+                      <th>İşlemler</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Aralık 2025 İş Raporu</td>
+                      <td><span class="badge badge-primary">İş</span></td>
+                      <td>01-31 Ara 2025</td>
+                      <td>24 Ara 2025, 10:30</td>
+                      <td>
+                        <button class="btn btn-primary btn-icon">⬇️</button>
+                        <button class="btn btn-secondary btn-icon">👁</button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Kasım 2025 Finansal Özet</td>
+                      <td><span class="badge badge-success">Finans</span></td>
+                      <td>01-30 Kas 2025</td>
+                      <td>01 Ara 2025, 09:15</td>
+                      <td>
+                        <button class="btn btn-primary btn-icon">⬇️</button>
+                        <button class="btn btn-secondary btn-icon">👁</button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Q4 2025 Satınalma Analizi</td>
+                      <td><span class="badge badge-warning">Satınalma</span></td>
+                      <td>Eki-Kas-Ara 2025</td>
+                      <td>15 Ara 2025, 14:45</td>
+                      <td>
+                        <button class="btn btn-primary btn-icon">⬇️</button>
+                        <button class="btn btn-secondary btn-icon">👁</button>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        `;
+      }
+    });
+  </script>
+</body>
+</html>
+
