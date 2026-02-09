@@ -1,1 +1,2 @@
-# istakip-09.02.26
+# pvcWebProject
+backend restart = py -m uvicorn app.main:app --reload --port 8000

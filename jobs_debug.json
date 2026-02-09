@@ -1,0 +1,451 @@
+﻿{
+    "value":  [
+                  {
+                      "id":  "JOB-2FF6806B",
+                      "title":  "Ã¶lÃ§Ã¼ d",
+                      "customerId":  "CST-BE545023",
+                      "customerName":  "hÃ¼snÃ¼ bilgili",
+                      "status":  "SONRA_URETILECEK",
+                      "startType":  "OLCU",
+                      "roles":  [
+                                    {
+                                        "id":  "ROLE-01",
+                                        "name":  "PVC DoÄrama",
+                                        "description":  "PVC pencere, kapÄ± sistemleri"
+                                    }
+                                ],
+                      "measure":  {
+                                      "measurements":  {
+                                                           "note":  ""
+                                                       },
+                                      "appointment":  {
+                                                          "date":  "2026-01-13T10:00"
+                                                      }
+                                  },
+                      "offer":  {
+                                    "total":  10000,
+                                    "rolePrices":  {
+                                                       "ROLE-01":  10000
+                                                   },
+                                    "notifiedDate":  "2026-01-12",
+                                    "agreedDate":  "2026-01-12T21:31:01.893Z"
+                                },
+                      "approval":  {
+                                       "paymentPlan":  {
+                                                           "cash":  "@{amount=0; date=2026-01-12; status=pending}",
+                                                           "card":  "@{amount=0; date=2026-01-12; status=pending}",
+                                                           "cheque":  "@{total=0; received=False; count=0; items=System.Object[]; status=pending}",
+                                                           "afterDelivery":  "@{amount=10000; note=; status=pending}",
+                                                           "total":  10000
+                                                       },
+                                       "contractUrl":  "DOC-EE1F179E",
+                                       "stockNeeds":  [
+
+                                                      ]
+                                   },
+                      "stock":  {
+                                    "ready":  false,
+                                    "purchaseNotes":  "Sonra Ã¼retilecek - Rezerve edildi",
+                                    "items":  [
+                                                  "@{id=STK-CA1326B4; name=CARÄ°SMA KAPI; productCode=18320; colorCode=3; qty=2; unit=boy}"
+                                              ]
+                                },
+                      "production":  {
+
+                                     },
+                      "assembly":  {
+
+                                   },
+                      "finance":  {
+
+                                  },
+                      "service":  {
+
+                                  },
+                      "roleFiles":  {
+
+                                    },
+                      "rolePrices":  {
+
+                                     },
+                      "logs":  [
+                                   {
+                                       "at":  "2026-01-12T21:30:33.391616",
+                                       "action":  "created",
+                                       "note":  "startType=OLCU"
+                                   },
+                                   {
+                                       "at":  "2026-01-12T21:30:40.103159",
+                                       "action":  "status.updated",
+                                       "note":  "OLCU_RANDEVU_BEKLIYOR -\u003e OLCU_RANDEVULU"
+                                   },
+                                   {
+                                       "at":  "2026-01-12T21:30:41.066574",
+                                       "action":  "status.updated",
+                                       "note":  "OLCU_RANDEVULU -\u003e OLCU_ALINDI"
+                                   },
+                                   {
+                                       "at":  "2026-01-12T21:30:51.159682",
+                                       "action":  "status.updated",
+                                       "note":  "OLCU_ALINDI -\u003e FIYATLANDIRMA"
+                                   },
+                                   {
+                                       "at":  "2026-01-12T21:30:58.384001",
+                                       "action":  "status.updated",
+                                       "note":  "FIYATLANDIRMA -\u003e FIYAT_VERILDI"
+                                   },
+                                   {
+                                       "at":  "2026-01-12T21:31:01.895696",
+                                       "action":  "status.updated",
+                                       "note":  "FIYAT_VERILDI -\u003e ANLASMA_YAPILIYOR"
+                                   },
+                                   {
+                                       "at":  "2026-01-12T21:31:17.270992",
+                                       "action":  "approval.started",
+                                       "note":  null
+                                   },
+                                   {
+                                       "at":  "2026-01-12T21:35:33.458459",
+                                       "action":  "stock.updated",
+                                       "note":  "ready=False, items=1"
+                                   }
+                               ],
+                      "createdAt":  "2026-01-12T21:30:33.391616"
+                  },
+                  {
+                      "id":  "JOB-E7BD79FA",
+                      "title":  "Ã¶lÃ§Ã¼ c",
+                      "customerId":  "CST-BE545023",
+                      "customerName":  "hÃ¼snÃ¼ bilgili",
+                      "status":  "URETIME_HAZIR",
+                      "startType":  "OLCU",
+                      "roles":  [
+                                    {
+                                        "id":  "ROLE-01",
+                                        "name":  "PVC DoÄrama",
+                                        "description":  "PVC pencere, kapÄ± sistemleri"
+                                    }
+                                ],
+                      "measure":  {
+                                      "measurements":  {
+                                                           "note":  ""
+                                                       },
+                                      "appointment":  {
+                                                          "date":  "2026-01-13T10:00"
+                                                      }
+                                  },
+                      "offer":  {
+                                    "total":  30000,
+                                    "rolePrices":  {
+                                                       "ROLE-01":  30000
+                                                   },
+                                    "notifiedDate":  "2026-01-12",
+                                    "agreedDate":  "2026-01-12T21:20:53.479Z"
+                                },
+                      "approval":  {
+                                       "paymentPlan":  {
+                                                           "cash":  "@{amount=30000; date=2026-01-12; status=pending}",
+                                                           "card":  "@{amount=0; date=2026-01-12; status=pending}",
+                                                           "cheque":  "@{total=0; received=False; count=0; items=System.Object[]; status=pending}",
+                                                           "afterDelivery":  "@{amount=0; note=; status=pending}",
+                                                           "total":  30000
+                                                       },
+                                       "contractUrl":  "DOC-1AD2687C",
+                                       "stockNeeds":  [
+
+                                                      ]
+                                   },
+                      "stock":  {
+                                    "ready":  true,
+                                    "purchaseNotes":  "Ãretime alÄ±ndÄ± - Stoktan dÃ¼ÅÃ¼ldÃ¼",
+                                    "items":  [
+                                                  "@{id=STK-CA1326B4; name=CARÄ°SMA KAPI; productCode=18320; colorCode=3; qty=16; unit=boy}"
+                                              ]
+                                },
+                      "production":  {
+
+                                     },
+                      "assembly":  {
+
+                                   },
+                      "finance":  {
+
+                                  },
+                      "service":  {
+
+                                  },
+                      "roleFiles":  {
+
+                                    },
+                      "rolePrices":  {
+
+                                     },
+                      "logs":  [
+                                   {
+                                       "at":  "2026-01-12T21:20:15.241491",
+                                       "action":  "created",
+                                       "note":  "startType=OLCU"
+                                   },
+                                   {
+                                       "at":  "2026-01-12T21:20:22.907487",
+                                       "action":  "status.updated",
+                                       "note":  "OLCU_RANDEVU_BEKLIYOR -\u003e OLCU_RANDEVULU"
+                                   },
+                                   {
+                                       "at":  "2026-01-12T21:20:31.354206",
+                                       "action":  "status.updated",
+                                       "note":  "OLCU_RANDEVULU -\u003e OLCU_ALINDI"
+                                   },
+                                   {
+                                       "at":  "2026-01-12T21:20:45.391210",
+                                       "action":  "status.updated",
+                                       "note":  "OLCU_ALINDI -\u003e FIYATLANDIRMA"
+                                   },
+                                   {
+                                       "at":  "2026-01-12T21:20:51.098702",
+                                       "action":  "status.updated",
+                                       "note":  "FIYATLANDIRMA -\u003e FIYAT_VERILDI"
+                                   },
+                                   {
+                                       "at":  "2026-01-12T21:20:53.481584",
+                                       "action":  "status.updated",
+                                       "note":  "FIYAT_VERILDI -\u003e ANLASMA_YAPILIYOR"
+                                   },
+                                   {
+                                       "at":  "2026-01-12T21:21:05.965193",
+                                       "action":  "approval.started",
+                                       "note":  null
+                                   },
+                                   {
+                                       "at":  "2026-01-12T21:26:26.073572",
+                                       "action":  "stock.updated",
+                                       "note":  "ready=True, items=1"
+                                   }
+                               ],
+                      "createdAt":  "2026-01-12T21:20:15.241491"
+                  },
+                  {
+                      "id":  "JOB-9165692D",
+                      "title":  "Ã¶lÃ§Ã¼ b",
+                      "customerId":  "CST-BE545023",
+                      "customerName":  "hÃ¼snÃ¼ bilgili",
+                      "status":  "URETIME_HAZIR",
+                      "startType":  "OLCU",
+                      "roles":  [
+                                    {
+                                        "id":  "ROLE-01",
+                                        "name":  "PVC DoÄrama",
+                                        "description":  "PVC pencere, kapÄ± sistemleri"
+                                    }
+                                ],
+                      "measure":  {
+                                      "measurements":  {
+                                                           "note":  ""
+                                                       },
+                                      "appointment":  {
+                                                          "date":  "2026-01-12T10:00"
+                                                      }
+                                  },
+                      "offer":  {
+                                    "total":  200000,
+                                    "rolePrices":  {
+                                                       "ROLE-01":  200000
+                                                   },
+                                    "notifiedDate":  "2026-01-12",
+                                    "agreedDate":  "2026-01-12T20:49:29.012Z"
+                                },
+                      "approval":  {
+                                       "paymentPlan":  {
+                                                           "cash":  "@{amount=120000; date=2026-01-12; status=pending}",
+                                                           "card":  "@{amount=80000; date=2026-01-12; status=pending}",
+                                                           "cheque":  "@{total=0; received=False; count=0; items=System.Object[]; status=pending}",
+                                                           "afterDelivery":  "@{amount=0; note=; status=pending}",
+                                                           "total":  200000
+                                                       },
+                                       "contractUrl":  "DOC-B8E560C3",
+                                       "stockNeeds":  [
+
+                                                      ]
+                                   },
+                      "stock":  {
+                                    "ready":  true,
+                                    "purchaseNotes":  "Ãretime alÄ±ndÄ± - Stoktan dÃ¼ÅÃ¼ldÃ¼"
+                                },
+                      "production":  {
+
+                                     },
+                      "assembly":  {
+
+                                   },
+                      "finance":  {
+
+                                  },
+                      "service":  {
+
+                                  },
+                      "roleFiles":  {
+
+                                    },
+                      "rolePrices":  {
+
+                                     },
+                      "logs":  [
+                                   {
+                                       "at":  "2026-01-12T20:48:59.047277",
+                                       "action":  "created",
+                                       "note":  "startType=OLCU"
+                                   },
+                                   {
+                                       "at":  "2026-01-12T20:49:08.772017",
+                                       "action":  "status.updated",
+                                       "note":  "OLCU_RANDEVU_BEKLIYOR -\u003e OLCU_RANDEVULU"
+                                   },
+                                   {
+                                       "at":  "2026-01-12T20:49:11.276278",
+                                       "action":  "status.updated",
+                                       "note":  "OLCU_RANDEVULU -\u003e OLCU_ALINDI"
+                                   },
+                                   {
+                                       "at":  "2026-01-12T20:49:18.841931",
+                                       "action":  "status.updated",
+                                       "note":  "OLCU_ALINDI -\u003e FIYATLANDIRMA"
+                                   },
+                                   {
+                                       "at":  "2026-01-12T20:49:26.465390",
+                                       "action":  "status.updated",
+                                       "note":  "FIYATLANDIRMA -\u003e FIYAT_VERILDI"
+                                   },
+                                   {
+                                       "at":  "2026-01-12T20:49:29.015199",
+                                       "action":  "status.updated",
+                                       "note":  "FIYAT_VERILDI -\u003e ANLASMA_YAPILIYOR"
+                                   },
+                                   {
+                                       "at":  "2026-01-12T20:49:45.436477",
+                                       "action":  "approval.started",
+                                       "note":  null
+                                   },
+                                   {
+                                       "at":  "2026-01-12T20:53:03.373975",
+                                       "action":  "stock.updated",
+                                       "note":  "ready=True"
+                                   }
+                               ],
+                      "createdAt":  "2026-01-12T20:48:59.047277"
+                  },
+                  {
+                      "id":  "JOB-FB062953",
+                      "title":  "Ã¶lÃ§Ã¼ a",
+                      "customerId":  "CST-BE545023",
+                      "customerName":  "hÃ¼snÃ¼ bilgili",
+                      "status":  "SONRA_URETILECEK",
+                      "startType":  "OLCU",
+                      "roles":  [
+                                    {
+                                        "id":  "ROLE-01",
+                                        "name":  "PVC DoÄrama",
+                                        "description":  "PVC pencere, kapÄ± sistemleri"
+                                    }
+                                ],
+                      "measure":  {
+                                      "measurements":  {
+                                                           "note":  ""
+                                                       },
+                                      "appointment":  {
+                                                          "date":  "2026-01-12T10:00"
+                                                      }
+                                  },
+                      "offer":  {
+                                    "total":  100000,
+                                    "rolePrices":  {
+                                                       "ROLE-01":  100000
+                                                   },
+                                    "notifiedDate":  "2026-01-12",
+                                    "agreedDate":  "2026-01-12T20:45:14.664Z"
+                                },
+                      "approval":  {
+                                       "paymentPlan":  {
+                                                           "cash":  "@{amount=100000; date=2026-01-12; status=pending}",
+                                                           "card":  "@{amount=0; date=2026-01-12; status=pending}",
+                                                           "cheque":  "@{total=0; received=False; count=0; items=System.Object[]; status=pending}",
+                                                           "afterDelivery":  "@{amount=0; note=; status=pending}",
+                                                           "total":  100000
+                                                       },
+                                       "contractUrl":  "DOC-4A170118",
+                                       "stockNeeds":  [
+
+                                                      ]
+                                   },
+                      "stock":  {
+                                    "ready":  false,
+                                    "purchaseNotes":  "Sonra Ã¼retilecek - Rezerve edildi",
+                                    "items":  [
+                                                  "@{id=STK-CA1326B4; name=CARÄ°SMA KAPI; productCode=18320; colorCode=3; qty=18; unit=boy}",
+                                                  "@{id=STK-CA29BA2B; name=CARÄ°SMA KASA BEYAZ; productCode=18300; colorCode=3; qty=10; unit=boy}"
+                                              ]
+                                },
+                      "production":  {
+
+                                     },
+                      "assembly":  {
+
+                                   },
+                      "finance":  {
+
+                                  },
+                      "service":  {
+
+                                  },
+                      "roleFiles":  {
+
+                                    },
+                      "rolePrices":  {
+
+                                     },
+                      "logs":  [
+                                   {
+                                       "at":  "2026-01-12T20:44:25.682080",
+                                       "action":  "created",
+                                       "note":  "startType=OLCU"
+                                   },
+                                   {
+                                       "at":  "2026-01-12T20:44:33.753020",
+                                       "action":  "status.updated",
+                                       "note":  "OLCU_RANDEVU_BEKLIYOR -\u003e OLCU_RANDEVULU"
+                                   },
+                                   {
+                                       "at":  "2026-01-12T20:44:35.485127",
+                                       "action":  "status.updated",
+                                       "note":  "OLCU_RANDEVULU -\u003e OLCU_ALINDI"
+                                   },
+                                   {
+                                       "at":  "2026-01-12T20:44:44.366164",
+                                       "action":  "status.updated",
+                                       "note":  "OLCU_ALINDI -\u003e FIYATLANDIRMA"
+                                   },
+                                   {
+                                       "at":  "2026-01-12T20:45:11.683266",
+                                       "action":  "status.updated",
+                                       "note":  "FIYATLANDIRMA -\u003e FIYAT_VERILDI"
+                                   },
+                                   {
+                                       "at":  "2026-01-12T20:45:14.668006",
+                                       "action":  "status.updated",
+                                       "note":  "FIYAT_VERILDI -\u003e ANLASMA_YAPILIYOR"
+                                   },
+                                   {
+                                       "at":  "2026-01-12T20:45:29.694311",
+                                       "action":  "approval.started",
+                                       "note":  null
+                                   },
+                                   {
+                                       "at":  "2026-01-12T20:47:40.642886",
+                                       "action":  "stock.updated",
+                                       "note":  "ready=False, items=2"
+                                   }
+                               ],
+                      "createdAt":  "2026-01-12T20:44:25.682080"
+                  }
+              ],
+    "Count":  4
+}
